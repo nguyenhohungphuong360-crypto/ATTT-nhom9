@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đo hiệu quả nhận diện lừa đảo do AI tạo - Đề tài 09 ATTT</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body { background-color: #f4f6f9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d3748; }
+    .header-bar { background: linear-gradient(135deg, #1e3a8a 0%, #0d9488 100%); color: white; padding: 25px 0; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .card-box { background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 30px; margin-bottom: 25px; border: 1px solid #e2e8f0; }
+    .mail-container { background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .mail-header { border-bottom: 1px solid #e2e8f0; padding-bottom: 15px; margin-bottom: 15px; }
+    .mail-meta { font-size: 0.95rem; margin-bottom: 6px; }
+    .mail-meta strong { color: #475569; width: 85px; display: inline-block; }
+    .mail-subject { font-size: 1.25rem; font-weight: 700; color: #0f172a; margin-top: 5px; }
+    .mail-body { white-space: pre-wrap; font-size: 1rem; line-height: 1.6; color: #334155; margin-bottom: 20px; }
+    .mail-link-box { background: #f8fafc; border-left: 4px solid #0284c7; padding: 12px; border-radius: 4px; font-family: monospace; font-size: 0.92rem; word-break: break-all; }
+    .btn-decision { padding: 14px 20px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; width: 100%; transition: all 0.2s; }
+    .btn-legit { background-color: #059669; color: white; border: none; }
+    .btn-legit:hover { background-color: #047857; color: white; }
+    .btn-phish { background-color: #dc2626; color: white; border: none; }
+    .btn-phish:hover { background-color: #b91c1c; color: white; }
+    .step-badge { background: #e0e7ff; color: #4338ca; padding: 4px 10px; border-radius: 20px; font-weight: 600; font-size: 0.85rem; }
+    .rule-card { border-left: 4px solid #3b82f6; background: #eff6ff; padding: 15px; border-radius: 6px; margin-bottom: 15px; }
+    .rule-title { font-weight: 700; color: #1e40af; margin-bottom: 5px; }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header-bar text-center">
+    <div class="container">
+      <span class="badge bg-warning text-dark mb-2 px-3 py-2 fw-bold">HỌC PHẦN AN TOÀN THÔNG TIN - GV: TS. LÊ QUỐC TUẤN</span>
+      <h2 class="fw-bold mb-1">Đề tài 09: Đo hiệu quả nhận diện nội dung lừa đảo được tạo bởi AI</h2>
+      <p class="mb-0 opacity-75">Nghiên cứu thực nghiệm so sánh Pre-test vs Post-test có can thiệp nhận thức kỹ thuật</p>
+    </div>
+  </div>
+
+  <div class="container pb-5" style="max-width: 900px;">
+
+    <!-- SCREEN 1: WELCOME & CONSENT -->
+    <div id="screen-welcome" class="card-box">
+      <div class="text-center mb-4">
+        <i class="fa-solid fa-shield-halved fa-4x text-primary mb-3"></i>
+        <h3 class="fw-bold">Phiếu Khảo sát Thực nghiệm An toàn Thông tin</h3>
+        <p class="text-muted">Đánh giá khả năng phòng vệ trước các cuộc tấn công Spear-Phishing thế hệ mới</p>
+      </div>
+
+      <div class="alert alert-info">
+        <h5 class="fw-bold"><i class="fa-solid fa-circle-info me-2"></i>Quy trình thực nghiệm (15 - 20 phút):</h5>
+        <ol class="mb-0 ps-3">
+          <li><strong>Giai đoạn 1 (Pre-test):</strong> Đánh giá 30 thông điệp mẫu ban đầu để ghi nhận năng lực baseline.</li>
+          <li><strong>Giai đoạn 2 (Can thiệp):</strong> Tiếp cận bộ Quy tắc Kỹ thuật 4 bước (Checklist & Out-of-Band Verification).</li>
+          <li><strong>Giai đoạn 3 (Post-test):</strong> Làm bài kiểm tra thứ hai trên bộ thông điệp tương đương để đo lường mức độ tiến bộ.</li>
+        </ol>
+      </div>
+
+      <div class="card bg-light p-3 mb-4">
+        <h6 class="fw-bold text-dark"><i class="fa-solid fa-user-shield me-2"></i>Cam kết Bảo mật & Ẩn danh:</h6>
+        <p class="small text-muted mb-2">
+          - Thử nghiệm 100% trong môi trường Lab. Không gửi thư giả mạo đến hộp thư thật của bạn.<br>
+          - Không thu thập mật khẩu thật, OTP hay dữ liệu cá nhân nhạy cảm.<br>
+          - Toàn bộ kết quả đều được ẩn danh hóa bằng mã ngẫu nhiên phục vụ nghiên cứu môn học.
+        </p>
+        <div class="form-check mt-2">
+          <input class="form-check-input" type="checkbox" id="chk-consent">
+          <label class="form-check-label fw-bold" for="chk-consent">
+            Tôi đồng ý tham gia nghiên cứu một cách tự nguyện theo các điều khoản trên.
+          </label>
+        </div>
+      </div>
+
+      <div class="row g-3 mb-4">
+        <div class="col-md-6">
+          <label class="form-label fw-bold">Mã Người tham gia (Ẩn danh):</label>
+          <input type="text" id="inp-pid" class="form-control" readonly>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label fw-bold">Nhóm chuyên ngành:</label>
+          <select id="sel-group" class="form-select">
+            <option value="IT_Student">Sinh viên Công nghệ Thông tin / An toàn Thông tin</option>
+            <option value="Non_IT_Student">Sinh viên Ngoài ngành CNTT (Kinh tế, Xã hội, Ngôn ngữ...)</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="btn-start" class="btn btn-primary btn-lg w-100 fw-bold py-3" disabled>
+        <i class="fa-solid fa-play me-2"></i>BẮT ĐẦU GIAI ĐOẠN 1 (PRE-TEST)
+      </button>
+    </div>
+
+    <!-- SCREEN 2: TESTING INTERFACE (PRE & POST) -->
+    <div id="screen-test" class="card-box d-none">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <div>
+          <span id="test-phase-badge" class="step-badge">Giai đoạn: Pre-test</span>
+          <span class="ms-2 text-muted fw-bold" id="test-counter">Câu 1 / 30</span>
+        </div>
+        <div class="text-muted small">
+          <i class="fa-regular fa-clock me-1"></i>Thời gian: <span id="timer-display" class="fw-bold text-primary">0s</span>
+        </div>
+      </div>
+
+      <div class="progress mb-4" style="height: 8px;">
+        <div id="test-progress-bar" class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 3%;"></div>
+      </div>
+
+      <!-- MAIL SIMULATOR -->
+      <div class="mail-container mb-4">
+        <div class="mail-header">
+          <div class="mail-meta">
+            <strong>Người gửi:</strong> <span id="m-sender-name" class="fw-bold"></span> &lt;<span id="m-sender-email" class="text-primary"></span>&gt;
+          </div>
+          <div class="mail-meta">
+            <strong>Tiêu đề:</strong> <span id="m-subject" class="mail-subject"></span>
+          </div>
+        </div>
+
+        <div class="mail-body" id="m-body"></div>
+
+        <div id="m-action-box" class="mail-link-box d-none">
+          <span class="text-secondary small fw-bold">LIÊN KẾT / NÚT HÀNH ĐỘNG ĐÍNH KÈM:</span><br>
+          <a href="javascript:void(0)" id="m-action-url" class="text-decoration-none text-danger fw-bold"></a>
+        </div>
+      </div>
+
+      <!-- CONFIDENCE RATING -->
+      <div class="mb-4 text-center">
+        <label class="form-label fw-bold small text-muted text-uppercase mb-2">Độ tự tin vào phán đoán của bạn:</label>
+        <div class="btn-group w-100" role="group">
+          <input type="radio" class="btn-check" name="conf-rating" id="conf1" value="1">
+          <label class="btn btn-outline-secondary" for="conf1">1 - Đoán mò</label>
+          <input type="radio" class="btn-check" name="conf-rating" id="conf2" value="2">
+          <label class="btn btn-outline-secondary" for="conf2">2 - Không chắc</label>
+          <input type="radio" class="btn-check" name="conf-rating" id="conf3" value="3" checked>
+          <label class="btn btn-outline-secondary" for="conf3">3 - Bình thường</label>
+          <input type="radio" class="btn-check" name="conf-rating" id="conf4" value="4">
+          <label class="btn btn-outline-secondary" for="conf4">4 - Khá chắc chắn</label>
+          <input type="radio" class="btn-check" name="conf-rating" id="conf5" value="5">
+          <label class="btn btn-outline-secondary" for="conf5">5 - Rất tự tin</label>
+        </div>
+      </div>
+
+      <!-- DECISION BUTTONS -->
+      <div class="row g-3">
+        <div class="col-6">
+          <button class="btn btn-decision btn-legit" onclick="submitDecision('Legitimate')">
+            <i class="fa-solid fa-circle-check me-2"></i>HỢP LỆ (LEGITIMATE)
+          </button>
+        </div>
+        <div class="col-6">
+          <button class="btn btn-decision btn-phish" onclick="submitDecision('Phishing')">
+            <i class="fa-solid fa-triangle-exclamation me-2"></i>LỪA ĐẢO (PHISHING)
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCREEN 3: INTERVENTION TRAINING (CAN THIỆP NHẬN THỨC) -->
+    <div id="screen-intervention" class="card-box d-none">
+      <div class="text-center mb-4">
+        <span class="badge bg-success px-3 py-2 fs-6 mb-2">HOÀN THÀNH GIAI ĐOẠN 1</span>
+        <h3 class="fw-bold text-primary">TÀI LIỆU CAN THIỆP KỸ THUẬT: QUY TẮC NHẬN DIỆN 4 BƯỚC</h3>
+        <p class="text-muted">Dành 3 phút đọc kỹ để nhận diện các thủ đoạn tinh vi của Spear-Phishing do AI tạo</p>
+      </div>
+
+      <div class="rule-card">
+        <div class="rule-title"><i class="fa-solid fa-1 me-2"></i>BƯỚC 1: KIỂM TRA ĐỊA CHỈ THỰC TẾ (FQDN), KHÔNG TIN TÊN HIỂN THỊ</div>
+        <p class="mb-1 text-dark">
+          AI có thể đặt tên hiển thị rất uy tín như "Phòng Đào Tạo" hay "Bộ phận CNTT". Luôn nhìn vào tên miền sau dấu <strong>@</strong> trong địa chỉ thực tế.
+        </p>
+        <span class="badge bg-danger">Bẫy thường gặp:</span> <code>support@university.edu.vn.portal-auth.cloud</code> &rarr; Domain thực là <strong>portal-auth.cloud</strong> (Lừa đảo!).
+      </div>
+
+      <div class="rule-card" style="border-left-color: #10b981; background: #ecfdf5;">
+        <div class="rule-title" style="color: #065f46;"><i class="fa-solid fa-2 me-2"></i>BƯỚC 2: RÊ CHUỘT (HOVER) ĐỂ XÁC ĐỊNH TÊN MIỀN GỐC CỦA LIÊN KẾT</div>
+        <p class="mb-1 text-dark">
+          Không bấm trực tiếp. Đọc ngược từ dấu gạch chéo <code>/</code> đầu tiên sang bên trái để tìm Root Domain.
+        </p>
+        <span class="badge bg-danger">Bẫy ngụy trang:</span> <code>https://vietcombank.com.vn.online-ekyc247.com/auth</code> &rarr; Root domain là <strong>online-ekyc247.com</strong>.
+      </div>
+
+      <div class="rule-card" style="border-left-color: #f59e0b; background: #fffbeb;">
+        <div class="rule-title" style="color: #92400e;"><i class="fa-solid fa-3 me-2"></i>BƯỚC 3: CẢNH GIÁC TRƯỚC SỰ CẤP BÁCH VÀ MỒI NHỬ LỢI ÍCH</div>
+        <p class="mb-1 text-dark">
+          Nội dung do AI tạo thường dùng giọng điệu rất thuyết phục, viện dẫn quy chế, hối thúc giải quyết trong 2 - 12 giờ (đe dọa cấm thi, khóa mail, nhận học bổng). Hãy dừng lại nếu thấy yếu tố khẩn cấp bất thường!
+        </p>
+      </div>
+
+      <div class="rule-card" style="border-left-color: #8b5cf6; background: #f5f3ff;">
+        <div class="rule-title" style="color: #5b21b6;"><i class="fa-solid fa-4 me-2"></i>BƯỚC 4: KÍCH HOẠT XÁC MINH NGOÀI BĂNG (OUT-OF-BAND)</div>
+        <p class="mb-0 text-dark">
+          Đối với bất kỳ yêu cầu nhạy cảm nào, không reply trực tiếp email đó. Gọi điện đến số hotline chính thức niêm yết trên cổng thông tin trường hoặc gặp trực tiếp thầy cô để xác minh.
+        </p>
+      </div>
+
+      <button id="btn-start-post" class="btn btn-success btn-lg w-100 fw-bold py-3 mt-3">
+        <i class="fa-solid fa-forward me-2"></i>TIẾP TỤC VÀO GIAI ĐOẠN 2 (POST-TEST: BỘ ĐỀ B)
+      </button>
+    </div>
+
+    <!-- SCREEN 4: RESULTS DASHBOARD -->
+    <div id="screen-results" class="card-box d-none">
+      <div class="text-center mb-4">
+        <i class="fa-solid fa-square-poll-vertical fa-4x text-success mb-2"></i>
+        <h3 class="fw-bold">BÁO CÁO KẾT QUẢ THỰC NGHIỆM ĐO LƯỜNG</h3>
+        <p class="text-muted">Đóng góp của bạn đã được ghi nhận vào bộ dữ liệu khoa học của đề tài</p>
+      </div>
+
+      <!-- SCORE COMPARISON CARDS -->
+      <div class="row g-3 mb-4 text-center">
+        <div class="col-md-6">
+          <div class="p-3 bg-light rounded border">
+            <span class="text-muted fw-bold">Điểm số Trước can thiệp (Pre-test)</span>
+            <h2 id="res-score-pre" class="fw-bold text-danger my-2">0%</h2>
+            <span id="res-detail-pre" class="small text-muted">0 / 30 câu đúng</span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="p-3 bg-light rounded border">
+            <span class="text-muted fw-bold">Điểm số Sau can thiệp (Post-test)</span>
+            <h2 id="res-score-post" class="fw-bold text-success my-2">0%</h2>
+            <span id="res-detail-post" class="small text-muted">0 / 30 câu đúng</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="alert alert-success text-center">
+        <h5 class="fw-bold mb-1"><i class="fa-solid fa-arrow-trend-up me-2"></i>Mức độ cải thiện năng lực: <span id="res-improvement" class="text-primary">+0%</span></h5>
+        <p class="mb-0 small">Sau khi áp dụng Checklist kỹ thuật, bạn đã loại bỏ được điểm mù trước các mẫu lừa đảo AI trau chuốt!</p>
+      </div>
+
+      <!-- CHART GALLERY EMBEDDED -->
+      <h5 class="fw-bold text-dark mt-4 mb-3"><i class="fa-solid fa-chart-column me-2"></i>Biểu đồ Thống kê Khoa học từ Nghiên cứu:</h5>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="/static/charts/fig1_pre_post_metrics.png" class="card-img-top p-2" alt="Biểu đồ 1">
+            <div class="card-body p-2 text-center small text-muted">Hình 1: So sánh Hiệu năng Nhận diện Tổng thể</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="/static/charts/fig2_ai_vs_traditional_accuracy.png" class="card-img-top p-2" alt="Biểu đồ 2">
+            <div class="card-body p-2 text-center small text-muted">Hình 2: So sánh Nhận diện AI vs Truyền thống</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="/static/charts/fig3_confusion_matrices.png" class="card-img-top p-2" alt="Biểu đồ 3">
+            <div class="card-body p-2 text-center small text-muted">Hình 3: Ma trận Nhầm lẫn (Confusion Matrix)</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <img src="/static/charts/fig4_error_breakdown_by_indicators.png" class="card-img-top p-2" alt="Biểu đồ 4">
+            <div class="card-body p-2 text-center small text-muted">Hình 4: Biểu đồ Lỗi theo Đòn bẩy Tâm lý</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <button class="btn btn-outline-primary" onclick="window.location.reload()">
+          <i class="fa-solid fa-rotate-right me-2"></i>Làm lại khảo sát từ đầu
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    let participantId = "PART_" + Math.floor(100 + Math.random() * 900);
+    document.getElementById("inp-pid").value = participantId;
+
+    let currentPhase = "pre";
+    let messageList = [];
+    let currentIndex = 0;
+    let answersPre = [];
+    let answersPost = [];
+    let questionStartTime = 0;
+    let timerInterval = null;
+
+    let scorePre = 0;
+    let scorePost = 0;
+
+    // Consent Check
+    document.getElementById("chk-consent").addEventListener("change", function(e) {
+      document.getElementById("btn-start").disabled = !e.target.checked;
+    });
+
+    // Start Pre-test
+    document.getElementById("btn-start").addEventListener("click", async function() {
+      document.getElementById("screen-welcome").classList.add("d-none");
+      document.getElementById("screen-test").classList.remove("d-none");
+      await loadPhase("pre");
+    });
+
+    // Start Post-test
+    document.getElementById("btn-start-post").addEventListener("click", async function() {
+      document.getElementById("screen-intervention").classList.add("d-none");
+      document.getElementById("screen-test").classList.remove("d-none");
+      await loadPhase("post");
+    });
+
+    async function loadPhase(phase) {
+      currentPhase = phase;
+      currentIndex = 0;
+      document.getElementById("test-phase-badge").innerText = phase === "pre" ? "Giai đoạn 1: Pre-test" : "Giai đoạn 2: Post-test";
+      const res = await fetch(`/api/messages/${phase}`);
+      messageList = await res.json();
+      renderQuestion();
+    }
+
+    function renderQuestion() {
+      if (currentIndex >= messageList.length) {
+        finishPhase();
+        return;
+      }
+
+      const msg = messageList[currentIndex];
+      document.getElementById("test-counter").innerText = `Câu ${currentIndex + 1} / ${messageList.length}`;
+      const pct = Math.round(((currentIndex + 1) / messageList.length) * 100);
+      document.getElementById("test-progress-bar").style.width = pct + "%";
+
+      document.getElementById("m-sender-name").innerText = msg.sender_name;
+      document.getElementById("m-sender-email").innerText = msg.sender_email;
+      document.getElementById("m-subject").innerText = msg.subject;
+      document.getElementById("m-body").innerText = msg.content;
+
+      const actionBox = document.getElementById("m-action-box");
+      const actionUrl = document.getElementById("m-action-url");
+      if (msg.action_url) {
+        actionBox.classList.remove("d-none");
+        actionUrl.innerText = msg.action_url;
+      } else {
+        actionBox.classList.add("d-none");
+      }
+
+      // Reset Confidence to 3
+      document.getElementById("conf3").checked = true;
+
+      // Start timer
+      questionStartTime = Date.now();
+      if (timerInterval) clearInterval(timerInterval);
+      timerInterval = setInterval(() => {
+        const sec = Math.floor((Date.now() - questionStartTime) / 1000);
+        document.getElementById("timer-display").innerText = sec + "s";
+      }, 500);
+    }
+
+    function submitDecision(prediction) {
+      clearInterval(timerInterval);
+      const elapsedSec = Math.round(((Date.now() - questionStartTime) / 1000) * 10) / 10;
+      const conf = parseInt(document.querySelector('input[name="conf-rating"]:checked').value);
+      const msg = messageList[currentIndex];
+
+      const record = {
+        message_id: msg.id,
+        prediction: prediction,
+        confidence: conf,
+        time_sec: elapsedSec
+      };
+
+      if (currentPhase === "pre") {
+        answersPre.push(record);
+      } else {
+        answersPost.push(record);
+      }
+
+      currentIndex++;
+      renderQuestion();
+    }
+
+    async function finishPhase() {
+      if (timerInterval) clearInterval(timerInterval);
+      const userGroup = document.getElementById("sel-group").value;
+      const answers = currentPhase === "pre" ? answersPre : answersPost;
+
+      const res = await fetch("/api/submit_phase", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          participant_id: participantId,
+          user_group: userGroup,
+          phase: currentPhase === "pre" ? "Pre-test" : "Post-test",
+          answers: answers
+        })
+      });
+      const data = await res.json();
+
+      if (currentPhase === "pre") {
+        scorePre = data.score_pct;
+        document.getElementById("res-score-pre").innerText = data.score_pct + "%";
+        document.getElementById("res-detail-pre").innerText = `${data.correct_count} / ${data.total_count} câu đúng`;
+        document.getElementById("screen-test").classList.add("d-none");
+        document.getElementById("screen-intervention").classList.remove("d-none");
+      } else {
+        scorePost = data.score_pct;
+        document.getElementById("res-score-post").innerText = data.score_pct + "%";
+        document.getElementById("res-detail-post").innerText = `${data.correct_count} / ${data.total_count} câu đúng`;
+        const diff = Math.round((scorePost - scorePre) * 10) / 10;
+        const sign = diff >= 0 ? "+" : "";
+        document.getElementById("res-improvement").innerText = `${sign}${diff}%`;
+        document.getElementById("screen-test").classList.add("d-none");
+        document.getElementById("screen-results").classList.remove("d-none");
+      }
+    }
+  </script>
+</body>
+</html>
+

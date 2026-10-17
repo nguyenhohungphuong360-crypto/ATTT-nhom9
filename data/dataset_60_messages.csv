@@ -1,0 +1,461 @@
+﻿id,set,type,ground_truth,sender_name,sender_email,subject,content,action_url,technical_indicators,psychological_trigger,difficulty
+MSG_A01,Pre-test,AI_Phishing,Phishing,Phòng Công nghệ Thông tin - Đại học,security-support@vn-edu.vn.portal-auth.cloud,Khẩn cấp: Yêu cầu đồng bộ hóa chữ ký số và tài khoản Office 365 học kỳ mới,"Kính gửi quý Cán bộ và Sinh viên,
+
+Nhằm nâng cấp hệ thống an ninh mạng theo quy chuẩn xác thực tập trung năm học mới, Trung tâm Công nghệ Thông tin đang tiến hành di chuyển và đồng bộ hóa chữ ký số cho toàn bộ tài khoản Office 365.
+
+Vui lòng truy cập cổng xác thực nội bộ bên dưới và hoàn tất xác nhận trong vòng 12 giờ kể từ khi nhận thông báo này để tránh việc tài khoản bị gián đoạn truy cập vào hòm thư và hệ thống học tập LMS.
+
+Trân trọng cảm ơn sự phối hợp của quý Thầy Cô và các bạn Sinh viên.",https://auth-session.vn-edu.vn.portal-auth.cloud/sync?uid=user,"Tên miền gửi (FQDN) là 'portal-auth.cloud', không phải tên miền chính thức của trường | Sử dụng subdomain giả mạo 'vn-edu.vn' để đánh lừa người dùng đọc lướt | Tạo áp lực thời gian (12 giờ) để ép nạn nhân hành động theo bản năng",Thẩm quyền (Authority) & Áp lực thời gian (Urgency),Hard
+MSG_A02,Pre-test,Legitimate,Legitimate,Phòng Đào tạo,daotao@university.edu.vn,Thông báo v/v Đăng ký học phần bổ sung Học kỳ I,"Kính gửi sinh viên toàn trường,
+
+Phòng Đào tạo thông báo thời gian mở cổng đăng ký học phần bổ sung cho học kỳ I sẽ diễn ra từ 08:00 ngày 15/10 đến 17:00 ngày 18/10 trên trang portal chính thức: https://portal.university.edu.vn.
+
+Sinh viên vui lòng tra cứu thời khóa biểu và kiểm tra điều kiện môn học trước khi đăng ký. Mọi thắc mắc vui lòng liên hệ bàn tiếp sinh viên tại Phòng A.102 trong giờ hành chính.",https://portal.university.edu.vn/dkmh,Tên miền người gửi chuẩn xác (@university.edu.vn) | Liên kết trỏ đúng FQDN cổng đào tạo của nhà trường | Hướng dẫn liên hệ trực tiếp tại địa điểm thực tế của trường (Phòng A.102),Không có,Easy
+MSG_A03,Pre-test,Traditional_Phishing,Phishing,Ban Quan Tri Mail,admin_system992@gmail.com,CANH BAO HOP THU CUA BAN DA DAY 99% - DANG NHAP DE XAC MINH,"Kinh gui nguoi dung,
+
+Hop thu cua ban da vuot qua dung luong 99.8%. Ban se khong the nhan hoac gui email moi sau 24 gio nua neu khong nang cap.
+
+Nhan vao lien ket ben duoi de xac minh tai khoan va nang cap dung luong mien phi:
+http://bit.ly/nang-cap-mail-sv2026
+
+Neu ban khong xac minh, tai khoan cua ban se bi khoa vinh vien.
+Ban Quan Tri he thong.",http://bit.ly/nang-cap-mail-sv2026,"Địa chỉ gửi là hòm thư miễn phí cá nhân (@gmail.com) | Văn bản viết tiếng Việt không dấu, định dạng cẩu thả, tiêu đề in hoa | Sử dụng rút gọn link không rõ đích đến (bit.ly) | Giao thức HTTP không bảo mật",Sự sợ hãi (Fear) & Thiệt hại tài nguyên,Easy
+MSG_A04,Pre-test,Legitimate,Legitimate,Thư viện Trường,library@university.edu.vn,Nhắc nhở: Sách mượn sắp đến hạn trả,"Chào bạn,
+
+Hệ thống quản lý thư viện ghi nhận bạn đang mượn cuốn giáo trình 'Giáo trình Mạng Máy Tính' (Mã vạch: LIB-2024-8841). Hạn trả sách là ngày 12/10.
+
+Nếu bạn có nhu cầu gia hạn mượn, vui lòng đăng nhập vào tài khoản độc giả tại website thư viện: https://lib.university.edu.vn hoặc mang sách đến quầy mượn trả tại Tầng 2 Thư viện trung tâm.
+
+Chúc bạn học tập tốt!",https://lib.university.edu.vn/renew,"Tên miền hợp lệ trực thuộc trường (@university.edu.vn) | Nội dung cung cấp mã mượn sách thực tế, không yêu cầu nhập mật khẩu khẩn cấp | URL chuẩn xác theo cấu trúc tên miền tổ chức",Không có,Easy
+MSG_A05,Pre-test,AI_Phishing,Phishing,Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam,notification@vietcombank-security.com,Thông báo: Cập nhật thông tin sinh trắc học theo Quyết định 2345/QĐ-NHNN,"Kính gửi Quý khách hàng,
+
+Căn cứ Quyết định 2345/QĐ-NHNN của Ngân hàng Nhà nước về triển khai giải pháp an toàn trong thanh toán trực tuyến, Vietcombank trân trọng thông báo Quý khách cần hoàn thiện xác thực dữ liệu sinh trắc học (khuôn mặt và CCCD gắn chip).
+
+Để giao dịch chuyển khoản trên 10.000.000 VND không bị gián đoạn trong 24 giờ tới, Quý khách vui lòng kích hoạt quy trình đồng bộ trực tuyến tại cổng hỗ trợ số hóa:
+https://vietcombank.com.vn.online-ekyc247.com/auth
+
+Cảm ơn Quý khách đã luôn tin tưởng và đồng hành cùng Vietcombank.",https://vietcombank.com.vn.online-ekyc247.com/auth,"Tên miền thực sự (Root domain) là 'online-ekyc247.com', không phải 'vietcombank.com.vn' | Kẻ tấn công lạm dụng tiền tố 'vietcombank.com.vn.' làm subdomain để đánh lừa thị giác | Tên miền người gửi là 'vietcombank-security.com' mới đăng ký, không thuộc hạ tầng VCB chính thức | Lợi dụng chính sách pháp lý có thật (QĐ 2345) để tạo tính đáng tin cậy cao",Tuân thủ quy định pháp luật & Gián đoạn dịch vụ tài chính,Hard
+MSG_A06,Pre-test,Traditional_Phishing,Phishing,Co quan Thue Viet Nam,tongcuc_thue_vn2026@outlook.com,QUYET DINH HOAN TRA TIEN THUE THU NHAP CA NHAN NAM 2025,"Chao cong dan,
+
+Co quan thue thong bao ban duoc hoan so tien thue 4.250.000 VND do tinh sai ma so thue trong nam vua qua. De nhan lai tien ve tai khoan ngan hang cua ban, hay bam vao duong dan duoi day va dien day du so tai khoan, mat khau internet banking va ma OTP xac thuc:
+http://hoanthue-nhanuoc2026.freehost.io/nhantien
+
+Neu khong xac nhan trong 3 ngay so tien se bi sung cong quy nha nuoc.",http://hoanthue-nhanuoc2026.freehost.io/nhantien,Địa chỉ gửi từ @outlook.com thay vì tên miền cơ quan nhà nước (.gov.vn) | Yêu cầu trực tiếp mật khẩu Internet Banking và mã OTP (vi phạm nguyên tắc an toàn cơ bản) | Tên miền lưu trữ miễn phí 'freehost.io' | Giao thức HTTP không mã hóa,Lòng tham (Greed) & Phần thưởng tài chính bất ngờ,Easy
+MSG_A07,Pre-test,Legitimate,Legitimate,Microsoft 365 Security Team,account-security-noreply@accountprotection.microsoft.com,Mã bảo mật tài khoản Microsoft: 492817,"Xin chào,
+
+Chúng tôi đã nhận được yêu cầu cấp mã dùng một lần cho tài khoản Microsoft của bạn.
+
+Mã bảo mật của bạn là: 492817
+
+Nếu bạn không yêu cầu mã này, bạn có thể yên tâm bỏ qua email này. Ai đó có thể đã nhập nhầm địa chỉ email của bạn.
+
+Cảm ơn bạn,
+Nhóm bảo mật tài khoản Microsoft.",https://account.microsoft.com,"Địa chỉ gửi chuẩn xác của Microsoft (@accountprotection.microsoft.com) | Chữ ký số DKIM và SPF đều PASS từ dải IP máy chủ Microsoft | Email thuần thông báo mã OTP, không kèm đường link yêu cầu nhập thông tin nhạy cảm",Không có,Medium
+MSG_A08,Pre-test,AI_Phishing,Phishing,Ban Giám hiệu - Phòng Công tác Sinh viên,ctsv@university-scholarship2026.edu.vn,Quyết định phê duyệt học bổng Doanh nghiệp tài trợ đợt 1 - Xác nhận hồ sơ,"Kính gửi bạn sinh viên,
+
+Hội đồng Thi đua và Học bổng Nhà trường xin chúc mừng bạn đã được bình chọn vào danh sách nhận Học bổng Tài năng Trẻ từ Quỹ đối tác Doanh nghiệp công nghệ với trị giá 15.000.000 VNĐ.
+
+Để đảm bảo thủ tục giải ngân học bổng đúng kỳ hạn trước ngày 20/10, bạn vui lòng hoàn tất việc xác nhận thông tin định danh và tải bản quét CCCD tại biểu mẫu số của Nhà trường theo đường dẫn:
+https://forms.university-scholarship2026.edu.vn/xac-nhan-hoc-bong
+
+Mọi thông tin được bảo mật theo quy định của Trường.",https://forms.university-scholarship2026.edu.vn/xac-nhan-hoc-bong,"Tên miền 'university-scholarship2026.edu.vn' là tên miền mạo danh (Lookalike domain), không phải 'university.edu.vn' | Kẻ tấn công sử dụng tên miền phụ cấp 2 (.edu.vn) đăng ký mới để ngụy trang tính học thuật | Lợi dụng tâm lý hào hứng nhận học bổng để thu thập dữ liệu cá nhân (CCCD, tài khoản ngân hàng)",Phần thưởng (Reward) & Cơ hội có hạn (Scarcity),Hard
+MSG_A09,Pre-test,Legitimate,Legitimate,Phòng Kế hoạch Tài chính,khtc@university.edu.vn,Thông báo v/v Kê khai và nộp học phí Học kỳ I,"Kính gửi sinh viên,
+
+Phòng Kế hoạch Tài chính thông báo lịch nộp học phí học kỳ I từ ngày 01/10 đến 25/10. Sinh viên thực hiện thanh toán học phí qua các kênh chính thức sau:
+1. Cổng thanh toán trực tuyến trên trang cá nhân sinh viên: https://portal.university.edu.vn
+2. Chuyển khoản qua số tài khoản chuyên thu học phí của trường tại Vietcombank: 0071000123456 (Nội dung: MSSV - Họ tên - HocPhiHK1).
+
+Nhà trường không thu học phí qua bất kỳ tài khoản cá nhân hay đường link lạ nào.",https://portal.university.edu.vn/payment,"Email người gửi chuẩn @university.edu.vn | Cung cấp kênh thanh toán chính thức và đưa ra lời cảnh báo phòng chống lừa đảo cụ thể | Không hối thúc bất thường, thời gian nộp rộng (gần 1 tháng)",Không có,Easy
+MSG_A10,Pre-test,Traditional_Phishing,Phishing,Dich Vu Facebook Security,case_verify_appeal_29841@meta-helpcenter-appeals.com,Trang ca nhan cua ban se bi vo hieu hoa vi vi pham ban quyen,"Xin chao,
+
+Trang va tai khoan cua ban da bi bao cao nhieu lan vi vi pham chinh sach ban quyen thuong hieu. Neu ban cho rang day la nham lan, ban co 24 gio de khang nghi.
+
+Neu khong co phan hoi, tai khoan cua ban se bi vo hieu hoa vinh vien theo dieu khoan dich vu.
+
+Khang nghi ngay tai day:
+https://meta-support-ticket8829.weebly.com/login",https://meta-support-ticket8829.weebly.com/login,"Sử dụng nền tảng tạo website miễn phí Weebly (weebly.com) để đặt trang login giả | Tên miền người gửi 'meta-helpcenter-appeals.com' là domain lừa đảo | Tiếng Việt không dấu pha trộn, ngữ pháp dịch thô",Đe dọa khóa tài khoản & Áp lực 24 giờ,Easy
+MSG_A11,Pre-test,Legitimate,Legitimate,Google Security Alert,no-reply@accounts.google.com,Cảnh báo bảo mật: Lượt đăng nhập mới trên thiết bị Windows,"Tài khoản Google của bạn vừa được đăng nhập từ một thiết bị Windows mới tại Thành phố Hồ Chí Minh, Việt Nam.
+
+Nếu đây là bạn, bạn không cần phải làm gì thêm.
+
+Nếu bạn không nhận ra hoạt động này, vui lòng kiểm tra các thiết bị đã kết nối tại trang quản lý tài khoản chính thức: https://myaccount.google.com/device-activity.",https://myaccount.google.com/device-activity,"Địa chỉ gửi chuẩn xác của Google (@accounts.google.com) | Chữ ký DKIM google.com, SPF pass | Liên kết trỏ trực tiếp đến tên miền chính thức myaccount.google.com",Không có,Medium
+MSG_A12,Pre-test,AI_Phishing,Phishing,Giám đốc Trung tâm Khởi nghiệp & Đổi mới Sáng tạo,innovation-center@uni-startup-network.org,Thư mời độc quyền: Tham gia Vòng bình chọn Dự án Công nghệ Xuất sắc 2026,"Thân gửi các bạn sinh viên năng động,
+
+Chúng tôi rất ấn tượng trước tinh thần nghiên cứu và học tập của các bạn tại Khoa CNTT. Trung tâm Đổi mới Sáng tạo trân trọng gửi lời mời bạn tham gia với tư cách Thành viên Hội đồng Bình chọn Sinh viên cho Cuộc thi Sinh viên Khởi nghiệp Công nghệ 2026.
+
+Mỗi lá phiếu của bạn đóng góp trực tiếp vào quỹ ươm mầm tài năng trẻ trị giá 100.000.000 VNĐ. Hãy bình chọn cho các dự án tiềm năng ngay tại cổng trực tuyến sau:
+https://vote.uni-startup-network.org/login?sso=student
+
+Thời hạn mở cổng bình chọn chỉ kéo dài đến hết 22:00 tối nay.",https://vote.uni-startup-network.org/login?sso=student,"Tên miền 'uni-startup-network.org' là tên miền phi chính phủ/ngoài trường lập ra nhằm giả mạo tổ chức học thuật | Mẫu email được cá nhân hóa cao, giọng điệu khích lệ, khen ngợi (Compliments) để tạo sự tin tưởng | Hệ thống bắt đăng nhập SSO giả để chiếm đoạt tài khoản trường",Xây dựng sự quý mến (Liking/Flattery) & Tác động xã hội,Hard
+MSG_A13,Pre-test,Legitimate,Legitimate,Khoa Mạng Máy tính và Truyền thông,vp_khoa@university.edu.vn,Thông báo: Lịch báo cáo Khóa luận Tốt nghiệp đợt 2,"Kính gửi quý Thầy Cô và các bạn Sinh viên,
+
+Văn phòng Khoa xin thông báo danh sách Hội đồng và thời gian báo cáo Khóa luận tốt nghiệp đợt 2. Chi tiết lịch báo cáo từng hội đồng được đính kèm trong tệp tin PDF và công bố tại website khoa: https://cs.university.edu.vn/thong-bao-khoa-luan.
+
+Sinh viên có mặt trước giờ báo cáo 15 phút tại phòng Hội đồng tương ứng.
+
+Trân trọng.",https://cs.university.edu.vn/thong-bao-khoa-luan,Tên miền người gửi chuẩn xác (@university.edu.vn) | Đường dẫn nội bộ chính xác thuộc phân hệ khoa (cs.university.edu.vn) | Không chứa bất kỳ liên kết rút gọn hay yêu cầu nhập mật khẩu nào,Không có,Easy
+MSG_A14,Pre-test,Traditional_Phishing,Phishing,Bo Phan Nhan Su Vinamilk,tuyendung.vinamilkvn@gmail.com,THU MOI NHAN VIEN PART-TIME XU LY DU LIEU TAI NHA (LUONG 15TR),"Chao ban,
+
+Bo phan tuyen dung tap doan dang can gap 10 ban sinh vien lam cong viec nhap lieu online tai nha. Thu nhap tu 500.000 den 1.000.000d/ngay, linh luong trong ngay qua the ngan hang.
+
+Khong can kinh nghiem, duoc huong dan tan tinh.
+Nhan vao link de add Zalo truong phong nhan su de phong van ngay:
+https://tinyurl.com/zalo-tuyendung-vinamilk
+
+Nhanh tay so luong co han!",https://tinyurl.com/zalo-tuyendung-vinamilk,Sử dụng địa chỉ @gmail.com mạo danh doanh nghiệp lớn | Mức lương phi lý (15 triệu/tháng cho part-time không kinh nghiệm) | Sử dụng dịch vụ rút gọn link tinyurl | Kéo nạn nhân sang kênh chat cá nhân Zalo để thao túng tâm lý nạp tiền cọc,Lợi ích tài chính quá mức (High Reward),Easy
+MSG_A15,Pre-test,Legitimate,Legitimate,Hệ thống Quản lý Học tập LMS,lms-notifications@university.edu.vn,[LMS] Giảng viên đã giao bài tập mới: Bài tập lớn Chương 2,"Xin chào bạn,
+
+Giảng viên TS. Lê Quốc Tuấn vừa đăng tải bài tập mới trong môn An toàn thông tin: 'Bài tập lớn Chương 2: Thiết kế khảo sát thực nghiệm'.
+
+Hạn chót nộp bài: 23:59 ngày 25/10/2026.
+
+Bạn có thể xem chi tiết yêu cầu và nộp bài trực tiếp tại lớp học trực tuyến: https://lms.university.edu.vn/course/view.php?id=302.",https://lms.university.edu.vn/course/view.php?id=302,Tên miền gửi chuẩn LMS trường (@university.edu.vn) | Hệ thống gửi tự động có header Precedence: list | URL chính quy nội bộ,Không có,Easy
+MSG_A16,Pre-test,AI_Phishing,Phishing,Bộ Thông tin và Truyền thông - Cục An toàn thông tin,canhbao@ais-gov.vn.telecom-cert.net,Lệnh rà soát mã độc gián điệp trên thiết bị di động công vụ và cá nhân,"Kính gửi người dân và cán bộ công chức,
+
+Căn cứ Công văn số 1102/CATTT-VNCERT về chiến dịch bóc gỡ mã độc gián điệp đa nền tảng đang nhắm mục tiêu vào người dùng thiết bị thông minh tại Việt Nam.
+
+Cục An toàn thông tin yêu cầu người dùng lập tức cài đặt ứng dụng quét lỗ hổng và kiểm tra mã độc chuyên dụng do Trung tâm phát triển theo hướng dẫn:
+https://ais-gov.vn.telecom-cert.net/kiem-tra-an-toan
+
+Trường hợp không thực hiện rà soát, thiết bị của bạn có thể bị tạm ngưng kết nối dịch vụ viễn thông 4G/5G để ngăn chặn lây nhiễm diện rộng.",https://ais-gov.vn.telecom-cert.net/kiem-tra-an-toan,Tên miền gốc là 'telecom-cert.net' (không phải tên miền chính phủ có đuôi .gov.vn) | Subdomain lừa đảo 'ais-gov.vn' mô phỏng Cục An toàn thông tin | Yêu cầu tải tệp ứng dụng không rõ nguồn gốc (có thể là file APK/malware) | Đe dọa cắt dịch vụ viễn thông trái thẩm quyền,Mạo danh cơ quan công quyền (Authority) & Răn đe (Intimidation),Hard
+MSG_A17,Pre-test,Traditional_Phishing,Phishing,VNPT Tra Cuu Hoa Don,hoadon_vnpt_online@yahoo.com,HOA DON TIEN CUOC INTERNET THANG 9 CHUA THANH TOAN,"Kinh gui khach hang,
+
+Cuoc internet thang 9 cua quy khach la 330.000d hien chua duoc thanh toan. Vui long thanh toan ngay hom nay de khong bi cat mang va phat tien cham thanh toan.
+
+Xem hoa don chi tiet va thanh toan tai:
+http://vnpt-billing.top/pay.php
+
+Cam on quy khach.",http://vnpt-billing.top/pay.php,Địa chỉ gửi từ hòm thư @yahoo.com | Tên miền lừa đảo đuôi lạ rẻ tiền (.top) | Giao thức HTTP không bảo mật,Đe dọa cắt dịch vụ viễn thông,Easy
+MSG_A18,Pre-test,Legitimate,Legitimate,Trung tâm Đào tạo Ngoại ngữ,flc@university.edu.vn,Lịch thi chuẩn đầu ra Tiếng Anh VSTEP đợt tháng 11,"Kính gửi các bạn sinh viên,
+
+Trung tâm Ngoại ngữ thông báo lịch tổ chức kỳ thi Đánh giá năng lực tiếng Anh theo Khung NLNN 6 bậc (VSTEP) đợt thi ngày 15/11/2026.
+
+Sinh viên có nhu cầu dự thi đăng ký trực tuyến tại trang web chính thức của Trung tâm: https://flc.university.edu.vn từ ngày 10/10 đến hết ngày 25/10. Lệ phí thi nộp trực tiếp tại Văn phòng Trung tâm (Phòng B.201) hoặc chuyển khoản vào tài khoản trường.
+
+Trân trọng.",https://flc.university.edu.vn/vstep,Tên miền trường học chuẩn @university.edu.vn | Địa điểm nộp lệ phí trực tiếp tại văn phòng cơ sở trường | Không yêu cầu cung cấp thông tin tài khoản ngân hàng online,Không có,Easy
+MSG_A19,Pre-test,AI_Phishing,Phishing,Đội ngũ Quản lý Nhân sự & Tiền lương,payroll-notification@university.edu.vn.hr-portal.me,Thông báo điều chỉnh phụ cấp trợ cấp học tập và hỗ trợ sinh hoạt năm 2026,"Kính gửi Thầy Cô và các bạn Sinh viên,
+
+Thực hiện nghị quyết Hội đồng trường về việc điều chỉnh mức hỗ trợ kinh phí hoạt động nghiên cứu khoa học và phụ cấp sinh hoạt phí giai đoạn cuối năm 2026.
+
+Phòng Nhân sự & Tài chính kính mời quý vị kiểm tra bảng kê chi tiết quyền lợi và số tài khoản thụ hưởng tại biểu mẫu điều chỉnh trực tuyến:
+https://university.edu.vn.hr-portal.me/payroll/review
+
+Vui lòng kiểm tra và phản hồi thông tin trước ngày 15/10 để đảm bảo kỳ chi trả sắp tới diễn ra chính xác.
+
+Trân trọng.",https://university.edu.vn.hr-portal.me/payroll/review,"Root domain là 'hr-portal.me', không phải tên miền giáo dục đại học (.edu.vn) | Thao túng thị giác bằng chuỗi subdomain 'university.edu.vn.' | Mạo danh quy trình nội bộ nhà trường với nội dung văn phong hành chính cực kỳ chuẩn xác",Quyền lợi tài chính (Financial Incentive),Hard
+MSG_A20,Pre-test,Legitimate,Legitimate,Hội Sinh viên Trường,hoisinhvien@university.edu.vn,Mời tham gia Chiến dịch Tình nguyện Mùa Hè Xanh 2027,"Thân chào các bạn hội viên, sinh viên,
+
+Ban Chỉ huy Chiến dịch Mùa Hè Xanh thông báo bắt đầu mở đơn tuyển tình nguyện viên cho các mặt trận tình nguyện hè. Đây là cơ hội tuyệt vời để các bạn rèn luyện kỹ năng sống và cống hiến cho cộng đồng.
+
+Thông tin chi tiết về các mặt trận và mẫu phiếu đăng ký có tại trang tin Đoàn - Hội: https://youth.university.edu.vn/mua-he-xanh.
+
+Hạn chót đăng ký: 20/10.
+
+Thân ái!",https://youth.university.edu.vn/mua-he-xanh,Tên miền trường học chuẩn xác | Trang thông tin trỏ về subdomain Đoàn - Hội chính thức (youth.university.edu.vn) | Không có yêu cầu thu phí hay thông tin nhạy cảm,Không có,Easy
+MSG_A21,Pre-test,Traditional_Phishing,Phishing,Ngan Hang Quan Doi MBBank,cskh_mbbank_online@hotmail.com,TAI KHOAN MB CUA QUY KHACH BI KHOA TAM THOI DO GIAO DICH LA,"Kinh gui khach hang,
+
+Tai khoan MB Bank cua quy khach da bi tam khoa vi ly do an toan do phat hien giao dich 15.000.000 VND luc 02:00 sang. De mo khoa lai the va tai khoan, xin vui long nhan vao link va xac nhan danh tinh:
+http://mbbank-online-unlock.tk/ebanking
+
+Neu khong xac nhan trong vong 2 gio, the cua ban se bi huy hoan toan.",http://mbbank-online-unlock.tk/ebanking,Gửi từ hòm thư @hotmail.com | Tên miền lừa đảo miễn phí (.tk) | Đe dọa khóa tài khoản trong 2 giờ | Giao thức HTTP không mã hóa,Sợ mất tiền & Cấp bách (Urgency),Easy
+MSG_A22,Pre-test,Legitimate,Legitimate,Ban Quản lý Ký túc xá,ktx@university.edu.vn,Lịch kiểm tra an toàn phòng cháy chữa cháy và vệ sinh phòng ở,"Thông báo gửi các bạn sinh viên nội trú,
+
+Ban Quản lý Ký túc xá sẽ tiến hành kiểm tra công tác an toàn PCCC và vệ sinh môi trường định kỳ tại các tòa nhà A, B, C từ ngày 14/10 đến 16/10 vào khung giờ 19:00 - 21:00.
+
+Đề nghị các phòng cử đại diện có mặt để phối hợp cùng đoàn kiểm tra. Chi tiết lịch kiểm tra cụ thể từng tầng xem tại bảng tin KTX hoặc liên hệ trực tiếp phòng Quản lý KTX tại Tầng trệt Nhà A.",https://ktx.university.edu.vn/thong-bao,Tên miền gửi chuẩn @university.edu.vn | Nội dung mang tính thông báo nội bộ thực tế | Không kèm theo các yêu cầu nhập liệu trực tuyến bất thường,Không có,Easy
+MSG_A23,Pre-test,AI_Phishing,Phishing,Bộ phận Hỗ trợ Kỹ thuật Zoom Cloud,meeting-alert@zoom-conference-verify.com,Nhắc nhở: Phiên họp trực tuyến Hội thảo Nghiên cứu Khoa học sắp diễn ra,"Chào bạn,
+
+Bạn có một lịch họp trực tuyến quan trọng: 'Hội thảo Đánh giá Tiến độ Đồ án Tốt nghiệp & NCKH 2026' dự kiến diễn ra sau 15 phút nữa.
+
+Do thay đổi giao thức mã hóa đầu cuối (E2EE), phòng họp yêu cầu người tham gia cập nhật cấu hình bảo mật Zoom Client trước khi tham gia phòng chờ:
+https://zoom-conference-verify.com/join?meeting_id=8923410291
+
+Vui lòng đăng nhập để hệ thống tự động đồng bộ quyền người tham gia.",https://zoom-conference-verify.com/join?meeting_id=8923410291,Tên miền người gửi và URL 'zoom-conference-verify.com' là mạo danh thương hiệu Zoom (zoom.us) | Kẻ tấn công tạo bối cảnh sắp đến giờ họp (sau 15 phút) khiến người nhận vội vã bấm vào link | Mục đích đánh cắp thông tin tài khoản đăng nhập cuộc họp hoặc tải malware giả dạng bản update,Áp lực sắp trễ cuộc họp quan trọng & Tính tức thời,Hard
+MSG_A24,Pre-test,Legitimate,Legitimate,Phòng Khoa học Công nghệ,khcn@university.edu.vn,Mời gửi bài viết cho Hội nghị Khoa học Trẻ lần thứ IX,"Kính gửi quý Thầy Cô, Học viên và Sinh viên,
+
+Trường Đại học trân trọng thông báo về việc tiếp nhận bài báo khoa học tham gia 'Hội nghị Khoa học Trẻ lần thứ IX' với chủ đề: Trí tuệ nhân tạo và Chuyển đổi số.
+
+Thông tin chi tiết về thể lệ viết bài, mẫu định dạng và hạn nộp bài đăng tải tại cổng thông tin nghiên cứu: https://research.university.edu.vn/young-conference-2026.
+
+Ban Tổ chức rất mong nhận được sự tham gia tích cực từ các nhà nghiên cứu trẻ.",https://research.university.edu.vn/young-conference-2026,Email nguồn gốc chính thống từ phòng KHCN của trường | Trang web trỏ về domain chính thức research.university.edu.vn | Không yêu cầu thông tin xác thực bất thường,Không có,Easy
+MSG_A25,Pre-test,Traditional_Phishing,Phishing,Shopee Tang Thuong,shopee_voucher_tri_an99@gmail.com,CHUC MUNG! BAN DA DUOC TANG MA GIAM GIA SHOPEE 1.000.000D,"Xin chao khach hang than thiet Shopee,
+
+De tri an su ung ho cua ban, Shopee tang ban voucher mua sam tri gia 1.000.000d khong gioi han gia tri don hang. Voucher co hieu luc trong 48h.
+
+Nhan voucher ngay tai lien ket sau:
+http://shopee-voucher-trian.000webhostapp.com/claim
+
+Nhanh tay len so luong voucher co han!",http://shopee-voucher-trian.000webhostapp.com/claim,Gửi từ @gmail.com | Hosting miễn phí lừa đảo '000webhostapp.com' | Mồi nhử quà tặng phi thực tế | Giao thức HTTP không an toàn,Lòng tham (Greed) & Voucher khủng,Easy
+MSG_A26,Pre-test,Legitimate,Legitimate,Phòng Y tế Trường học,yte@university.edu.vn,Kế hoạch Khám sức khỏe định kỳ đầu khóa cho Tân sinh viên,"Kính gửi các bạn sinh viên,
+
+Phòng Y tế thông báo kế hoạch tổ chức khám sức khỏe tổng quát định kỳ cho tân sinh viên năm học 2026 - 2027. Thời gian diễn ra từ ngày 20/10 đến 24/10 tại Trạm Y tế trường (Tầng trệt Nhà D).
+
+Sinh viên vui lòng xem lịch khám cụ thể của từng khoa và tải phiếu khám sức khỏe tại website: https://yte.university.edu.vn.
+
+Trân trọng.",https://yte.university.edu.vn/lich-kham,Tên miền chính thức của trường | Hướng dẫn thủ tục khám sức khỏe rõ ràng tại cơ sở y tế trong trường | Không có liên kết rút gọn hay yêu cầu xác thực thẻ,Không có,Easy
+MSG_A27,Pre-test,AI_Phishing,Phishing,LinkedIn Career Opportunities,invitations@linkedin-talentnetwork.com,Lời mời phỏng vấn vị trí Thực tập sinh An toàn Thông tin (Kèm thư tiến cử),"Chào bạn,
+
+Chúng tôi nhận thấy hồ sơ học tập và kỹ năng an ninh mạng của bạn trên mạng lưới học thuật rất phù hợp với vị trí 'Cyber Security Intern' tại Trung tâm Giám sát An toàn Thông tin (SOC) thuộc Tập đoàn Viễn thông đối tác.
+
+Nhà tuyển dụng đã xem xét dự án nghiên cứu của bạn và gửi một thư tiến cử riêng cho bạn. Bạn có thể xem hồ sơ đánh giá và phản hồi lịch hẹn trao đổi kỹ thuật tại đường link dưới đây:
+https://linkedin-talentnetwork.com/candidate/review?ref=78192
+
+Chúc bạn có một buổi phỏng vấn thành công!",https://linkedin-talentnetwork.com/candidate/review?ref=78192,Tên miền 'linkedin-talentnetwork.com' không phải 'linkedin.com' | Nội dung do AI cá nhân hóa theo đúng ngành nghề học tập (Cyber Security) để khơi gợi sự hứng thú | Mục tiêu là lừa người dùng nhập thông tin tài khoản LinkedIn hoặc tải CV chứa macro độc hại,Cơ hội nghề nghiệp & Khen ngợi năng lực bản thân,Hard
+MSG_A28,Pre-test,Legitimate,Legitimate,Cổng Dịch vụ công Quốc gia,dichvucong@chinhphu.vn,Thông báo: Hồ sơ đăng ký cấp đổi giấy phép lái xe đã được tiếp nhận,"Kính gửi công dân,
+
+Hồ sơ số 2026.00921.DVC của bạn về việc 'Cấp đổi Giấy phép lái xe do ngành Giao thông vận tải cấp' đã được tiếp nhận và chuyển đến cơ quan chuyên môn thụ lý giải quyết.
+
+Bạn có thể tra cứu tiến độ xử lý hồ sơ tại Cổng Dịch vụ công Quốc gia: https://dichvucong.gov.vn bằng cách nhập mã hồ sơ trên.
+
+Cổng Dịch vụ công Quốc gia trân trọng thông báo.",https://dichvucong.gov.vn/p/home/dvc-tra-cuu-ho-so.html,"Email gửi có đuôi chính phủ .chinhphu.vn | Liên kết tra cứu thuộc tên miền .gov.vn chính thức | Thông tin chuẩn mực, không yêu cầu nhập OTP ngân hàng",Không có,Medium
+MSG_A29,Pre-test,Legitimate,Legitimate,Phòng Sau đại học,sdh@university.edu.vn,Thông báo: Đăng ký tham gia Hội thảo Khoa học Nghiên cứu sinh 2026,"Kính gửi các anh chị học viên cao học và nghiên cứu sinh,
+
+Phòng Sau đại học thông báo kế hoạch tổ chức Hội thảo Khoa học thường niên dành cho học viên sau đại học. Thông tin chi tiết về việc nộp bài tóm tắt (Abstract) và mẫu trình bày có tại website: https://sdh.university.edu.vn/hoi-thao-2026.
+
+Hạn chót nộp tóm tắt: 20/10/2026. Trân trọng.",https://sdh.university.edu.vn/hoi-thao-2026,Tên miền gửi chuẩn @university.edu.vn | Đường dẫn đúng cấu trúc phòng Sau đại học | Không có yêu cầu nhạy cảm,Không có,Easy
+MSG_A30,Pre-test,Legitimate,Legitimate,Trung tâm Khảo thí và Đảm bảo Chất lượng,khaothi@university.edu.vn,Khảo sát ý kiến sinh viên về hoạt động giảng dạy Học kỳ vừa qua,"Kính gửi các bạn sinh viên,
+
+Nhằm không ngừng cải tiến chất lượng giảng dạy, Nhà trường trân trọng đề nghị sinh viên dành khoảng 5 phút để hoàn thành phiếu đánh giá hoạt động giảng dạy của giảng viên trong học kỳ qua.
+
+Khảo sát hoàn toàn ẩn danh. Sinh viên đăng nhập vào hệ thống khảo sát của trường tại: https://survey.university.edu.vn bằng tài khoản sinh viên.
+
+Sự đóng góp trung thực của các bạn là động lực giúp nâng cao chất lượng đào tạo.",https://survey.university.edu.vn/feedback,Tên miền trường học chuẩn @university.edu.vn | Trang khảo sát nằm trên subdomain chính quy của trường | Khẳng định rõ ràng tính ẩn danh và mục đích chất lượng giáo dục,Không có,Easy
+MSG_B01,Post-test,AI_Phishing,Phishing,Trung tâm Quản trị Hạ tầng Mạng & Viễn thông,network-admin@university-edu.vn.sys-cloud.org,Yêu cầu rà soát cấu hình chứng thực mạng Wi-Fi Eduroam nội bộ,"Kính gửi Quý Thầy Cô và Sinh viên,
+
+Để tăng cường bảo mật cho hạ tầng Wi-Fi trường học và triển khai chuẩn mã hóa WPA3-Enterprise, Trung tâm Hạ tầng mạng yêu cầu tất cả thiết bị cá nhân cập nhật chứng chỉ bảo mật số mới.
+
+Nếu chứng chỉ không được cài đặt trước ngày 20/10, thiết bị của bạn sẽ bị hệ thống tự động từ chối truy cập internet trong khuôn viên nhà trường.
+
+Vui lòng tải và xác nhận hồ sơ cài đặt tại trang hỗ trợ kỹ thuật:
+https://wifi.university-edu.vn.sys-cloud.org/eduroam-cert
+
+Trân trọng thông báo.",https://wifi.university-edu.vn.sys-cloud.org/eduroam-cert,Root domain là 'sys-cloud.org' thay vì domain trường | Sử dụng subdomain lừa đảo giả danh trường học 'university-edu.vn.' | Đe dọa ngắt kết nối Internet trong trường để tạo áp lực tuân thủ | Dụ nạn nhân tải file chứa chứng chỉ độc hại (Root CA / MobileConfig) để tấn công MITM,Sợ mất quyền truy cập mạng & Tính thẩm quyền,Hard
+MSG_B02,Post-test,Legitimate,Legitimate,Phòng Đào tạo,daotao@university.edu.vn,Thông báo: Thời khóa biểu và phân phòng thi Học kỳ I (Chính thức),"Kính gửi sinh viên,
+
+Phòng Đào tạo đã công bố lịch thi và danh sách phòng thi chính thức cho kỳ thi kết thúc học phần Học kỳ I. Sinh viên tra cứu lịch thi cá nhân trực tiếp tại trang portal: https://portal.university.edu.vn/lich-thi.
+
+Sinh viên lưu ý mang theo Thẻ sinh viên hoặc CCCD khi vào phòng thi. Mọi trường hợp trùng lịch thi, sinh viên nộp đơn phản ánh tại Văn phòng Đào tạo trước ngày 15/10.",https://portal.university.edu.vn/lich-thi,Email người gửi chuẩn @university.edu.vn | URL chuẩn xác trỏ về cổng portal trường | Yêu cầu mang giấy tờ tùy thân thực tế vào phòng thi,Không có,Easy
+MSG_B03,Post-test,Traditional_Phishing,Phishing,Quan Tri Webmail He Thong,system_mail_update2026@zoho.com,THONG BAO KHAN: NANG CAP PHIEN BAN WEBMAIL NHA TRUONG,"Kinh gui quy thay co va sinh vien,
+
+He thong may chu mail dang tien hanh don dep co so du lieu. Tai khoan mail cua ban can xac thuc ngay de tranh bi xoa bo vao luc 24:00 dem nay.
+
+Bam vao link duoi day va nhap ten dang nhap va mat khau hien tai:
+http://webmail-upgrade-server.free.bg/login.html
+
+Neu khong xac nhan ban se bi mat toan bo du lieu email.",http://webmail-upgrade-server.free.bg/login.html,"Gửi từ hòm thư @zoho.com | Tên miền lừa đảo đuôi Bulgaria (.bg) trên nền tảng lưu trữ miễn phí | Chính tả tiếng Việt không dấu, văn phong dọa nạt | Giao thức HTTP không bảo mật",Sợ mất dữ liệu & Hối thúc thời gian,Easy
+MSG_B04,Post-test,Legitimate,Legitimate,Văn phòng Đoàn Thanh niên,doanthanhnien@university.edu.vn,Khai mạc Giải bóng đá Sinh viên Truyền thống năm 2026,"Thân gửi các bạn đoàn viên, sinh viên,
+
+Đoàn Trường trân trọng kính mời các bạn đến tham dự Lễ Khai mạc Giải Bóng đá Sinh viên Truyền thống năm 2026 vào lúc 08:00 sáng Chủ nhật, ngày 18/10 tại Sân vận động trường.
+
+Thông tin chi tiết về bảng đấu và lịch thi đấu các vòng bảng xem tại fanpage chính thức và website Đoàn Trường: https://youth.university.edu.vn/giai-bong-da-2026.
+
+Hẹn gặp lại các bạn tại sân bóng!",https://youth.university.edu.vn/giai-bong-da-2026,Địa chỉ gửi thư nội bộ chuẩn xác của Đoàn trường | URL chuẩn xác theo cấu trúc website chính thức | Sự kiện thể thao thực tế không yêu cầu nhập thông tin cá nhân nhạy cảm,Không có,Easy
+MSG_B05,Post-test,AI_Phishing,Phishing,Phòng Hợp tác Quốc tế & Trao đổi Sinh viên,global-mobility@uni-global-exchange.com,Kết quả xét tuyển Chương trình Trao đổi Sinh viên Học kỳ Mùa Xuân tại Nhật Bản,"Kính gửi bạn sinh viên,
+
+Phòng Hợp tác Quốc tế trân trọng thông báo: Hồ sơ đăng ký chương trình Trao đổi Sinh viên Học kỳ Mùa Xuân 2027 tại Đại học Đối tác (Kyoto, Nhật Bản) của bạn đã vượt qua vòng sơ loại hồ sơ xuất sắc.
+
+Để nhận Thư chấp thuận chính thức (Letter of Acceptance) và làm thủ tục xin visa du học, bạn vui lòng đăng nhập vào cổng trao đổi sinh viên quốc tế để hoàn thiện hồ sơ hộ chiếu và bảng điểm:
+https://apply.uni-global-exchange.com/portal/login?id=vn-candidate
+
+Hạn chót xác nhận nguyện vọng: 48 giờ kể từ khi nhận thư.
+
+Chúc mừng bạn!",https://apply.uni-global-exchange.com/portal/login?id=vn-candidate,"Tên miền 'uni-global-exchange.com' là tên miền mạo danh ngoài trường | Mẫu thư sử dụng thuật ngữ đối ngoại và học bổng rất tự nhiên, tạo ấn tượng chuyên nghiệp | Dẫn dắt sinh viên nhập thông tin danh tính và tài khoản vào website phishing",Cơ hội du học quý giá & Tâm lý háo hức thành công,Hard
+MSG_B06,Post-test,Traditional_Phishing,Phishing,Bao Hiem Xa Hoi Viet Nam,bhxh_trocap_covid19@mail.ru,TRA CUU KHOAN TIEN TRO CAP BAO HIEM THAT NGHIEP CHUA NHAN,"Thong bao,
+
+He thong ghi nhan ban co khoan tien tro cap that nghiep chua nhan tri gia 3.750.000d. Vui long truy cap duong dan sau de nhan tien ve vi MOMO hoac tai khoan ngan hang:
+http://trocap-bhxh-vietnam.biz/nhantien.php
+
+Luu y: Nhap dung so the ATM va ma ma PIN de tien ve ngay trong 5 phut.",http://trocap-bhxh-vietnam.biz/nhantien.php,Gửi từ địa chỉ Nga @mail.ru mạo danh cơ quan nhà nước | Đòi mã PIN thẻ ngân hàng (dấu hiệu lừa đảo tuyệt đối) | Tên miền lừa đảo đuôi .biz | Giao thức HTTP không mã hóa,Tiền trợ cấp bất ngờ,Easy
+MSG_B07,Post-test,Legitimate,Legitimate,Apple Security,noreply@email.apple.com,ID Apple của bạn đã được dùng để đăng nhập vào iCloud trên trình duyệt web,"Xin chào bạn,
+
+ID Apple của bạn vừa được sử dụng để đăng nhập vào dịch vụ iCloud thông qua một trình duyệt web.
+
+Thời gian: 10:14 sáng (Giờ Việt Nam)
+Hệ điều hành: Windows 11
+
+Nếu bạn vừa đăng nhập, bạn có thể bỏ qua thông báo này.
+Nếu bạn không thực hiện đăng nhập này, vui lòng truy cập trang quản lý chính thức https://appleid.apple.com để thay đổi mật khẩu của mình ngay lập tức.",https://appleid.apple.com,Gửi từ email chính thức của Apple (@email.apple.com) | Chữ ký số DKIM apple.com hợp lệ | URL chuẩn xác dẫn về trang chính thức appleid.apple.com,Không có,Medium
+MSG_B08,Post-test,AI_Phishing,Phishing,Phòng Tài chính Kế toán,ketoan@university.edu.vn.portal-epay.info,Biên lai đối soát và xác nhận hoàn trả học phí tín chỉ dư Học kỳ trước,"Kính gửi sinh viên,
+
+Căn cứ biên bản đối soát dữ liệu đăng ký môn học và thực tế nộp học phí học kỳ vừa qua, Phòng Kế hoạch Tài chính xác nhận bạn có khoản học phí chênh lệch được hoàn trả là 1.850.000 VNĐ.
+
+Để hệ thống chuyển trực tiếp số tiền này vào tài khoản ngân hàng liên kết của bạn, vui lòng rà soát lại thông tin số tài khoản và chi nhánh tại cổng đối soát số hóa của nhà trường:
+https://finance.university.edu.vn.portal-epay.info/refund-confirm
+
+Sau ngày 18/10, khoản tiền chưa xác nhận sẽ tự động chuyển vào quỹ bảo lưu học phí cho học kỳ sau.
+
+Trân trọng.",https://finance.university.edu.vn.portal-epay.info/refund-confirm,"FQDN đích là 'portal-epay.info', lạm dụng chuỗi subdomain 'university.edu.vn' để ngụy trang | Mạo danh quy trình nghiệp vụ kế toán có thật với ngữ cảnh thực tế (hoàn tiền dư tín chỉ) | Tạo áp lực nhẹ về thời gian hoàn tiền trước ngày 18/10",Lợi ích tài chính chính đáng & Tâm lý muốn lấy lại tiền,Hard
+MSG_B09,Post-test,Legitimate,Legitimate,GitHub Security,noreply@github.com,[GitHub] Một khóa SSH mới vừa được thêm vào tài khoản của bạn,"Hi there,
+
+The following SSH key was recently added to your account:
+
+Key name: id_ed25519_lab_pc
+Fingerprint: SHA256:qZ91...4M8
+Added on: 2026-10-07 10:20 UTC
+
+If you believe this was done in error, please remove the key from your account settings at https://github.com/settings/keys and contact support.",https://github.com/settings/keys,Email gửi chính thức từ @github.com | DMARC và SPF pass hoàn toàn | URL chuẩn xác trỏ về cài đặt tài khoản bảo mật của GitHub,Không có,Medium
+MSG_B10,Post-test,Traditional_Phishing,Phishing,TikTok Viet Nam Creator,tiktok_badge_verified2026@gmail.com,CHUC MUNG KENH CUA BAN DU DIEU KIEN CAP TICH XANH TIKTOK,"Chao ban,
+
+Kenh video cua ban da dat luong tuong tac xuat sac va du tieu chuan duoc cap Huy hieu Xac minh (Tich xanh) chinh thuc tu TikTok.
+
+De kich hoat tich xanh mien phi trong 24h, hay truy cap link sau va dang nhap tai khoan TikTok kem ma xac minh 2FA:
+http://tiktok-verify-badge.freevar.com
+
+Co hoi chi danh cho 100 kenh nhanh nhat!",http://tiktok-verify-badge.freevar.com,Gửi từ hòm thư @gmail.com | Tên miền lừa đảo miễn phí freevar.com | Đòi cung cấp cả mật khẩu và mã 2FA | Giao thức HTTP không mã hóa,Khao khát danh tiếng (Social Status) & Cấp bách,Easy
+MSG_B11,Post-test,Legitimate,Legitimate,Trung tâm Thông tin Thư viện,library@university.edu.vn,Thông báo: Cấp quyền truy cập cơ sở dữ liệu học thuật IEEE Xplore và ScienceDirect,"Kính gửi quý Cán bộ, Giảng viên và Sinh viên,
+
+Thư viện trường đã hoàn tất việc gia hạn quyền truy cập các cơ sở dữ liệu tạp chí khoa học quốc tế uy tín bao gồm IEEE Xplore, ScienceDirect và SpringerLink phục vụ công tác NCKH.
+
+Người dùng có thể truy cập tìm kiếm bài báo trực tiếp thông qua dải IP nội bộ trường hoặc kết nối từ xa qua cổng VPN của thư viện: https://lib.university.edu.vn/databases.
+
+Chúc quý Thầy Cô và các bạn sinh viên có nhiều công trình nghiên cứu xuất sắc.",https://lib.university.edu.vn/databases,Domain trường chuẩn xác | Không yêu cầu cung cấp thông tin tài khoản qua form ngoài | Hướng dẫn truy cập thông qua VPN nội bộ chính thống,Không có,Easy
+MSG_B12,Post-test,AI_Phishing,Phishing,Hệ thống Quản lý Đào tạo Trực tuyến LMS Canvas,notifications@canvas-lms-portal.org,Khẩn cấp: Bài nộp giữa kỳ bị lỗi định dạng tệp tin - Cần gửi lại trước 21:00,"Kính gửi sinh viên,
+
+Hệ thống phát hiện tệp bài nộp của bạn cho bài kiểm tra giữa kỳ môn 'An toàn thông tin' bị lỗi hỏng cấu trúc (Corrupted File Header) và giảng viên không thể chấm điểm.
+
+Để không bị tính điểm 0 cho cột kiểm tra này, bạn phải nộp lại tệp bài làm thông qua cổng tiếp nhận tệp phụ trợ của hệ thống LMS trước 21:00 tối nay:
+https://canvas-lms-portal.org/submission/re-upload?course_id=ATTT2026
+
+Hệ thống sẽ tự động khóa cổng nộp bài sau thời gian trên.
+
+Ban Quản trị LMS.",https://canvas-lms-portal.org/submission/re-upload?course_id=ATTT2026,Tên miền 'canvas-lms-portal.org' là tên miền mạo danh Canvas LMS | Kẻ tấn công đánh trúng nỗi sợ lớn nhất của sinh viên (bị điểm 0 vì bài hỏng) | Khống chế thời gian sát sao (trước 21:00) nhằm ép sinh viên đăng nhập nộp lại bài mà không kịp kiểm tra,Nỗi sợ hãi thất bại trong học tập (Fear of Failure) & Cấp bách,Hard
+MSG_B13,Post-test,Legitimate,Legitimate,Phòng Quản lý Khoa học và Hợp tác Quốc tế,qlkh@university.edu.vn,Thông báo: Đăng ký đề tài Nghiên cứu Khoa học Sinh viên năm học 2026-2027,"Kính gửi sinh viên các khoa,
+
+Phòng Quản lý Khoa học thông báo mở đợt tiếp nhận thuyết minh đề tài NCKH Sinh viên cấp trường năm học 2026-2027. Thời hạn nộp hồ sơ thuyết minh từ nay đến hết ngày 30/10.
+
+Sinh viên tải các biểu mẫu thuyết minh, dự toán kinh phí và nộp hồ sơ trực tuyến tại cổng thông tin NCKH: https://science.university.edu.vn/nckh-sv.
+
+Trân trọng.",https://science.university.edu.vn/nckh-sv,Tên miền trường học chuẩn @university.edu.vn | Đường dẫn đúng cấu trúc hệ thống NCKH nhà trường | Không yêu cầu mật khẩu hay chi phí xét duyệt,Không có,Easy
+MSG_B14,Post-test,Traditional_Phishing,Phishing,Bo Cong An - Phong Canh Sat Giao Thong,phatnguoi_giaothong2026@gmail.com,BIEN BAN VI PHAM PHAT NGUOI GIAO THONG CHO PHUONG TIEN CUA BAN,"Thong bao gui chu phuong tien,
+
+Camera giao thong ghi nhan xe may/oto cua ban vi pham loi 'Vuot den do' vao ngay 02/10 tai nga tu Ho Chi Minh. So tien phat la 5.000.000 VND.
+
+Ban phai nop phat truc tuyen trong vong 48h neu khong se bi tich thu bang lai:
+http://tracuu-phatnguoi-online.tk/thanhtoan
+
+Nhanh chong xu ly tranh rac roi phap ly.",http://tracuu-phatnguoi-online.tk/thanhtoan,"Mạo danh Bộ Công an nhưng dùng email cá nhân @gmail.com | Tên miền lừa đảo miễn phí .tk | Đe dọa tước bằng lái, hù dọa pháp lý thô bạo | Giao thức HTTP không bảo mật",Sợ phạt tiền & Sợ pháp lý,Easy
+MSG_B15,Post-test,Legitimate,Legitimate,Văn phòng Khoa Công nghệ Thông tin,fit@university.edu.vn,Thông báo: Hội thảo Doanh nghiệp 'Công nghệ Cloud và Bảo mật DevSecOps',"Kính gửi các bạn sinh viên,
+
+Khoa CNTT phối hợp cùng chuyên gia công nghệ tổ chức buổi Workshop chuyên đề 'Kiến trúc bảo mật DevSecOps trong môi trường Cloud Native' vào lúc 09:00 Thứ Bảy (ngày 24/10) tại Hội trường B.
+
+Sinh viên tham dự sẽ được cấp Giấy chứng nhận và cộng điểm rèn luyện. Đăng ký tham dự miễn phí tại: https://fit.university.edu.vn/workshop-devsecops.
+
+Thân ái chào đón các bạn sinh viên.",https://fit.university.edu.vn/workshop-devsecops,Tên miền trường học chuẩn @university.edu.vn | Sự kiện học thuật thực tế tổ chức tại Hội trường B | Liên kết chính quy không yêu cầu mật khẩu nhạy cảm,Không có,Easy
+MSG_B16,Post-test,AI_Phishing,Phishing,Trung tâm Hỗ trợ Học vụ & Trợ lý Sinh viên AI,ai-support@university-portal.org,Khảo sát và Phê duyệt Hạn mức Sử dụng Tài khoản AI Pro (ChatGPT & Copilot) Học viện,"Kính gửi sinh viên,
+
+Nhằm hỗ trợ tốt nhất cho công tác học tập và nghiên cứu công nghệ số, Nhà trường đã mua bản quyền gói sinh viên cho bộ công cụ Generative AI (bao gồm OpenAI ChatGPT Plus và GitHub Copilot Pro) dành cho sinh viên xuất sắc.
+
+Để kích hoạt tài khoản bản quyền liên kết với email trường của bạn mà không phải trả phí 20$/tháng, vui lòng xác nhận danh tính học tập của bạn tại cổng ủy quyền:
+https://sso.university-portal.org/oauth2/authorize?client_id=edu-ai-pilot
+
+Số lượng gói tài trợ có giới hạn cho 500 sinh viên đăng ký đầu tiên trước 23:59 hôm nay.
+
+Trân trọng.",https://sso.university-portal.org/oauth2/authorize?client_id=edu-ai-pilot,Root domain là 'university-portal.org' thay vì domain trường học chính thức | Mồi nhử bản quyền AI cao cấp trị giá hàng chục USD rất hấp dẫn với sinh viên công nghệ | Mạo danh giao thức OAuth2 SSO để lấy cắp thông tin đăng nhập tập trung của trường,Lợi ích công nghệ hấp dẫn & Giới hạn số lượng (Scarcity),Hard
+MSG_B17,Post-test,Legitimate,Legitimate,Phòng Quản lý Ký túc xá,ktx@university.edu.vn,Thông báo: Lịch gia hạn hợp đồng lưu trú Học kỳ II,"Kính gửi sinh viên nội trú,
+
+Ban Quản lý KTX thông báo thời gian đăng ký gia hạn phòng ở cho Học kỳ II từ ngày 15/10 đến 25/10. Sinh viên thực hiện thủ tục trực tuyến tại hệ thống: https://ktx.university.edu.vn/gia-han hoặc nộp đơn trực tiếp tại phòng QL KTX.
+
+Sau ngày 25/10, các chỗ ở chưa gia hạn sẽ được chuyển cho sinh viên diện chờ duyệt.",https://ktx.university.edu.vn/gia-han,"Tên miền chính thức của trường @university.edu.vn | Quy trình gia hạn rõ ràng, có kênh trực tiếp | URL chuẩn xác theo cấu trúc KTX",Không có,Easy
+MSG_B18,Post-test,Legitimate,Legitimate,Phòng Công tác Sinh viên,ctsv@university.edu.vn,Thông báo: Đăng ký tham gia Bảo hiểm Y tế bắt buộc năm học 2026-2027,"Kính gửi các bạn sinh viên,
+
+Theo quy định của Luật Bảo hiểm Y tế, sinh viên bắt buộc phải tham gia BHYT tại cơ sở giáo dục. Phòng Công tác Sinh viên hướng dẫn sinh viên rà soát mã thẻ BHYT và hạn sử dụng trên ứng dụng VssID.
+
+Đối với sinh viên cần gia hạn thẻ BHYT, vui lòng nộp hồ sơ trực tuyến tại cổng thông tin CTSV: https://ctsv.university.edu.vn/bhyt trước ngày 25/10. Mọi hướng dẫn chi tiết xem tại thông báo trên website trường.",https://ctsv.university.edu.vn/bhyt,"Domain trường học chuẩn @university.edu.vn | URL chuẩn xác theo phân hệ phòng CTSV | Thời hạn thông báo rộng và rõ ràng, viện dẫn đúng Luật BHYT",Không có,Easy
+MSG_B19,Post-test,AI_Phishing,Phishing,Trung tâm Đảm bảo Chất lượng Đào tạo,quality-assurance@portal-edu-survey.net,Yêu cầu bắt buộc: Hoàn thành đánh giá rà soát tín chỉ trước kỳ thi kết thúc học phần,"Kính gửi sinh viên,
+
+Theo quy chế đào tạo tín chỉ hiện hành của Bộ Giáo dục và Đào tạo, việc hoàn thành khảo sát chất lượng giảng dạy là điều kiện tiên quyết để hệ thống mở khóa thẻ dự thi kết thúc học phần cho sinh viên.
+
+Hiện tại, hệ thống ghi nhận tài khoản của bạn chưa hoàn thành phiếu đánh giá môn học. Để đảm bảo không bị đình chỉ thi và được in tên trong danh sách phòng thi chính thức, bạn vui lòng hoàn tất biểu mẫu khảo sát trực tuyến:
+https://survey.portal-edu-survey.net/student-evaluation?term=1-2026
+
+Thời hạn cuối cùng để hệ thống tự động ghi nhận là trước 17:00 ngày mai.
+
+Trân trọng.",https://survey.portal-edu-survey.net/student-evaluation?term=1-2026,"Root domain là 'portal-edu-survey.net' mạo danh cổng khảo sát học vụ | Văn phong hành chính chuẩn xác, sử dụng thuật ngữ 'Bộ GD&ĐT' và 'quy chế tín chỉ' để tạo niềm tin | Dùng đòn bẩy tâm lý 'đình chỉ thi' để ép nạn nhân truy cập ngay",Sợ bị cấm thi & Thẩm quyền quy chế,Hard
+MSG_B20,Post-test,Legitimate,Legitimate,Trung tâm Tin học Trường Đại học,itc@university.edu.vn,Lịch tổ chức thi chứng chỉ Công nghệ Thông tin cơ bản và nâng cao tháng 11,"Kính gửi học viên và sinh viên,
+
+Trung tâm Tin học thông báo mở đăng ký thi chứng chỉ Ứng dụng CNTT cơ bản và nâng cao đợt thi tháng 11/2026.
+
+Thí sinh đăng ký trực tuyến tại trang web trung tâm: https://itc.university.edu.vn hoặc đăng ký trực tiếp tại Văn phòng Trung tâm Tin học (Tầng trệt Nhà B) từ ngày 10/10 đến hết ngày 28/10.
+
+Mọi thông tin ôn tập và đề thi minh họa có thể tải miễn phí tại trang web.",https://itc.university.edu.vn/lich-thi-chung-chi,Địa chỉ gửi chính thống của trường (@university.edu.vn) | Có văn phòng thực tế để đăng ký trực tiếp | URL chuẩn xác theo cấu trúc website trường,Không có,Easy
+MSG_B21,Post-test,Traditional_Phishing,Phishing,Dich Vu Khach Hang Vietjet Air,vemaybay_vietjet_khuyenmai@outlook.com,CHUC MUNG QUY KHACH NHAN VE MAY BAY KHU HOI MIEN PHI,"Kinh gui quy khach,
+
+Nhan dip ky niem 15 nam thanh lap, Vietjet Air tang ban 01 ve may bay khu hoi noi dia mien phi tuy chon chang bay. Ve co gia tri su dung trong 6 thang.
+
+Quy khach vui long bam vao link duoi day de dien thong tin ca nhan va thanh toan phi xu ly ve 150k qua the:
+http://vemaybay-khuyenmai2026.esy.es/nhanve
+
+So luong ve co han uu tien nguoi dang ky som.",http://vemaybay-khuyenmai2026.esy.es/nhanve,Gửi từ @outlook.com | Tên miền lừa đảo miễn phí của dịch vụ lưu trữ rẻ tiền (.esy.es) | Mồi chài vé máy bay miễn phí nhưng bắt trả tiền thẻ ngân hàng | Giao thức HTTP không bảo mật,Lòng tham quà tặng giá trị cao,Easy
+MSG_B22,Post-test,Legitimate,Legitimate,Phòng Quản lý Cơ sở Vật chất,csvc@university.edu.vn,Thông báo: Bảo trì hệ thống điện và máy chủ phòng thực hành máy tính,"Kính gửi quý Cán bộ và Sinh viên,
+
+Phòng Quản lý Cơ sở Vật chất sẽ tiến hành bảo trì định kỳ trạm biến áp và hệ thống làm mát trung tâm tại Tòa nhà C vào Chủ nhật (ngày 18/10) từ 07:00 đến 17:00.
+
+Trong thời gian này, nguồn điện tại các phòng lab Tòa nhà C sẽ tạm thời bị ngắt. Các hệ thống dịch vụ trực tuyến vẫn hoạt động bình thường trên cụm máy chủ dự phòng đám mây.
+
+Trân trọng cảm ơn sự phối hợp.",https://csvc.university.edu.vn/ke-hoach-bao-tri,"Tên miền chuẩn xác của trường | Thông báo kỹ thuật nội bộ thông thường, không có nút call-to-action nhập thông tin | URL chuẩn xác theo cấu trúc trường",Không có,Easy
+MSG_B23,Post-test,AI_Phishing,Phishing,Cổng Thanh toán Trực tuyến VNPAY,transaction-service@vnpay-merchant-alert.com,Thông báo giao dịch thanh toán trực tuyến bị treo - Yêu cầu xác nhận hoàn tiền,"Kính gửi Quý khách hàng,
+
+Hệ thống Cổng thanh toán VNPAY ghi nhận một giao dịch thanh toán học phí/dịch vụ trị giá 2.450.000 VNĐ phát sinh từ tài khoản của bạn bị gián đoạn do lỗi kết nối cổng ngân hàng vào lúc 09:30 sáng nay.
+
+Số tiền đã bị trừ khỏi tài khoản nhưng chưa được ghi nhận vào hệ thống của đơn vị thụ hưởng. Để kích hoạt lệnh tra soát tự động và hoàn tiền về tài khoản nguồn trong 30 phút, Quý khách vui lòng xác thực mã giao dịch tại đường dẫn:
+https://vnpay-merchant-alert.com/dispute/resolve?txn=99481029
+
+Trân trọng phục vụ Quý khách.",https://vnpay-merchant-alert.com/dispute/resolve?txn=99481029,"Domain 'vnpay-merchant-alert.com' là mạo danh thương hiệu VNPAY (vnpay.vn) | Tạo bối cảnh giao dịch bị lỗi treo tiền cực kỳ logic, đánh trúng tâm lý lo âu mất tiền của nạn nhân | Mục tiêu là dẫn nạn nhân vào trang cổng đăng nhập tài khoản ngân hàng giả mạo",Lo sợ mất tiền trong giao dịch & Cần hoàn tiền khẩn,Hard
+MSG_B24,Post-test,Legitimate,Legitimate,Văn phòng Chương trình Chất lượng cao,clc@university.edu.vn,Kế hoạch tổ chức Tuần lễ Định hướng nghề nghiệp và Phỏng vấn thử,"Kính gửi sinh viên Chương trình Chất lượng cao,
+
+Văn phòng thông báo chương trình 'Career Week 2026' sẽ diễn ra từ ngày 26/10 đến ngày 30/10 tại Hội trường lớn với sự tham gia của 15 doanh nghiệp đa quốc gia trong lĩnh vực Công nghệ và Viễn thông.
+
+Sinh viên tham gia các buổi phỏng vấn thử (Mock Interview) đăng ký giữ chỗ và nộp CV tại cổng thông tin: https://clc.university.edu.vn/career-week.
+
+Chúc các bạn có những trải nghiệm bổ ích.",https://clc.university.edu.vn/career-week,Email người gửi chuẩn @university.edu.vn | URL chuẩn xác dẫn về hệ thống khoa chất lượng cao | Không yêu cầu bất kỳ khoản phí hay dữ liệu đăng nhập tài khoản ngân hàng nào,Không có,Easy
+MSG_B25,Post-test,Traditional_Phishing,Phishing,Dich Vu Mo Khoa The Tin Dung,hotro_thetindung247@gmail.com,HO TRO NANG HAN MUC THE TIN DUNG LEN 100 TRIEU DONG LAI SUAT 0%,"Chao anh/chi,
+
+Ngan hang ho tro quy khach nang han muc the tin dung tat ca cac ngan hang len 50-100 trieu khong can chung minh thu nhap, giai ngan trong 15 phut.
+
+Quy khach bam vao link de gui anh chup 2 mat the tin dung (bao gom ca ma bao mat CVV mat sau) de nhan vien lam ho so ngay:
+http://nanghanmucthe-nhanh.webflow.io/form
+
+Hoan toan mien phi phi ho so.",http://nanghanmucthe-nhanh.webflow.io/form,Gửi từ @gmail.com | Yêu cầu chụp ảnh mặt sau thẻ chứa mã CVV bí mật | Dùng nền tảng tạo form miễn phí webflow | Văn phong tiếp thị thô thiển,Lợi ích tín dụng dễ dãi & Lòng tham,Easy
+MSG_B26,Post-test,Legitimate,Legitimate,Phòng Thanh tra và Pháp chế,thanhtra@university.edu.vn,Phổ biến quy chế thi và kỷ luật phòng thi năm học 2026-2027,"Kính gửi sinh viên toàn trường,
+
+Nhằm đảm bảo tính nghiêm túc, công bằng và khách quan trong kỳ thi học kỳ sắp tới, Phòng Thanh tra và Pháp chế đề nghị toàn thể sinh viên đọc kỹ 'Quy chế thi và xử lý kỷ luật phòng thi' ban hành kèm Quyết định số 482/QĐ-ĐH.
+
+Văn bản quy chế đầy đủ được đăng tải công khai tại chuyên mục Pháp chế trên website trường: https://phapche.university.edu.vn/quy-che-thi.
+
+Chúc các bạn sinh viên ôn tập và đạt kết quả cao trong kỳ thi.",https://phapche.university.edu.vn/quy-che-thi,Email trường học chuẩn @university.edu.vn | Văn bản pháp quy được đăng tải trên cổng chính thức | Không kèm liên kết thu thập dữ liệu,Không có,Easy
+MSG_B27,Post-test,AI_Phishing,Phishing,Hệ thống Quản lý Dự án Tốt nghiệp & Khóa luận,thesis-portal@grad-evaluation-system.com,Cảnh báo: Tỷ lệ tương đồng trùng lặp Turnitin vượt ngưỡng cho phép (38.5%),"Kính gửi sinh viên,
+
+Hệ thống kiểm tra tính nguyên bản học thuật (Turnitin / Plagiarism Checker) tích hợp đã hoàn tất quét toàn văn bản dự thảo Khóa luận tốt nghiệp của bạn.
+
+Kết quả chỉ ra Chỉ số tương đồng (Similarity Index) của báo cáo là 38.5%, vượt qua ngưỡng tối đa cho phép của Hội đồng (20%). Bạn có nguy cơ không được phép bảo vệ nếu không nộp bản giải trình đối chiếu nguồn trích dẫn trước 12:00 trưa mai.
+
+Xem báo cáo chi tiết các đoạn trùng lặp và gửi phiếu phúc khảo tại:
+https://grad-evaluation-system.com/plagiarism/report?doc_id=THESIS_2026_981
+
+Ban Thư ký Hội đồng Luận văn.",https://grad-evaluation-system.com/plagiarism/report?doc_id=THESIS_2026_981,"Root domain 'grad-evaluation-system.com' không thuộc sở hữu trường đại học | Đánh vào nỗi sợ hãi tột cùng của sinh viên làm khóa luận (đạo văn, bị đình chỉ bảo vệ) | Chỉ số 38.5% được đưa ra cụ thể và logic để tạo sự tin tưởng tuyệt đối | Hối thúc thời gian nộp giải trình trước 12:00 trưa mai",Nỗi sợ hãi đạo văn & Nguy cơ hủy kết quả tốt nghiệp,Hard
+MSG_B28,Post-test,Legitimate,Legitimate,Trung tâm Đổi mới Sáng tạo Quốc gia (NIC),info@nic.gov.vn,Thông báo: Phát động Cuộc thi Đổi mới sáng tạo Việt Nam Innovate 2026,"Kính gửi các bạn trẻ đam mê công nghệ,
+
+Trung tâm Đổi mới Sáng tạo Quốc gia (NIC) thuộc Bộ Kế hoạch và Đầu tư trân trọng gửi lời mời tham dự Cuộc thi Sáng tạo Khởi nghiệp Công nghệ 2026 với tổng giá trị giải thưởng lên đến 500 triệu đồng.
+
+Thông tin chi tiết về thể lệ tham dự, bảng thi đấu và nộp hồ sơ dự án tại website cổng thông tin chính thức của NIC: https://innovate.nic.gov.vn.
+
+Hạn tiếp nhận hồ sơ: Đến hết ngày 31/10/2026.
+
+Trân trọng.",https://innovate.nic.gov.vn,"Email và tên miền thuộc cơ quan nhà nước (.gov.vn) | Thông tin tổ chức giải đấu minh bạch, chính thức | Không yêu cầu mật khẩu hay chi phí xét tuyển",Không có,Medium
+MSG_B29,Post-test,Legitimate,Legitimate,Ban Chấp hành Công đoàn Trường,congdoan@university.edu.vn,Thông báo: Phát động phong trào hiến máu nhân đạo năm 2026,"Kính gửi quý Cán bộ, Giảng viên và Sinh viên,
+
+Công đoàn phối hợp cùng Hội Chữ Thập Đỏ tổ chức Ngày hội Hiến máu tình nguyện 'Giọt hồng tri ân' vào sáng Thứ Năm (ngày 22/10) tại Sảnh Nhà Điều Hành.
+
+Tình nguyện viên tham gia vui lòng đăng ký danh sách trước ngày 19/10 tại chuyên trang: https://congdoan.university.edu.vn/hien-mau. Xin cảm ơn nghĩa cử cao đẹp của quý Thầy Cô và các bạn.",https://congdoan.university.edu.vn/hien-mau,Email gửi chính thống từ @university.edu.vn | Hoạt động phong trào thiện nguyện tổ chức tại khuôn viên trường | URL chuẩn xác không có dấu hiệu độc hại,Không có,Easy
+MSG_B30,Post-test,AI_Phishing,Phishing,Phòng Quan hệ Doanh nghiệp & Việc làm Cựu Sinh viên,career-services@portal-university-jobs.net,Đề xuất Cơ hội Làm việc Trực tiếp: Vị trí Junior Security Analyst tại FPT Software,"Thân gửi bạn sinh viên,
+
+Bộ phận Giới thiệu Việc làm Nhà trường nhận được thông báo tuyển dụng đặc cách từ đối tác chiến lược FPT Software dành riêng cho 05 sinh viên có kết quả học tập tốt thuộc chuyên ngành An toàn Thông tin.
+
+Thông tin vị trí: Junior Security Analyst (Mức lương khởi điểm: 14.000.000 - 18.000.000 VNĐ/tháng, hỗ trợ đào tạo chứng chỉ quốc tế Security+).
+
+Để nhận lịch hẹn phỏng vấn trực tiếp tại trường vào tuần tới, bạn vui lòng xác nhận nguyện vọng và tải tệp CV mới nhất lên hệ sinh thái việc làm:
+https://jobs.portal-university-jobs.net/apply/fpt-security-intern
+
+Hạn chót nộp hồ sơ đặc quyền: 18:00 ngày mai.
+
+Chúc bạn nắm bắt cơ hội thành công!",https://jobs.portal-university-jobs.net/apply/fpt-security-intern,"Tên miền 'portal-university-jobs.net' là tên miền mạo danh ngoài trường | Mẫu email được cá nhân hóa hoàn hảo theo chuyên ngành sinh viên đang theo học (ATTT, Junior Security Analyst) | Tạo cơ hội độc quyền có giới hạn (chỉ 05 suất) để thôi thúc nạn nhân nộp dữ liệu cá nhân ngay lập tức",Cơ hội việc làm mơ ước & Giới hạn suất phỏng vấn (Scarcity),Hard
