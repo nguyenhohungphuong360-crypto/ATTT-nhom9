@@ -1,0 +1,508 @@
+{
+  "_about": "30 BRIEF de NHOM TU VIET TAY nhanh 'manual' (15 legit + 15 phish). Moi brief co kich ban, to chuc hu cau, dau hieu bat buoc va cho trong de dien. Muc tieu: giu nhanh manual la do CON NGUOI viet (giu gia tri RQ1), do kho tuong duong nhanh AI, va can bang 4 o. Khi viet xong, dien vao 'body' va bo '_TODO', roi chay tools/build_dataset.py de gop voi messages_ai.json.",
+  "_huong_dan_viet": [
+    "Dung DUNG to chuc/ten mien hu cau ghi trong brief; link chi la van ban, khong tao trang that.",
+    "Khong sao chep y nguyen thong diep AI; viet bang giong van cua ban.",
+    "Voi tin phish: phai the hien DU cac 'signals_required'. Voi tin legit: phai thoa 'legit_constraints' (mien khop, khong doi dang nhap/thanh toan qua link).",
+    "Giu do dai tuong duong vi du AI cung kenh (SMS ngan, email dai hon).",
+    "Ba thanh vien viet doc lap, sau do gan nhan cheo (xem tools/label_sheet)."
+  ],
+  "briefs": [
+    {
+      "id": "MN-P01",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "email",
+      "difficulty": "medium",
+      "entity": "Ngân hàng Sao Việt (miền thật saoviet-bank.test)",
+      "use_fake_domain": "saoviet-xacminh.test",
+      "scenario": "Email dọa tài khoản bị giới hạn do 'nghi ngờ gian lận', yêu cầu đăng nhập qua link để gỡ.",
+      "signals_required": [
+        "sender_domain",
+        "lookalike_url",
+        "credential_ask",
+        "urgency",
+        "authority"
+      ],
+      "body": "Kính gửi Quý khách hàng,\n\nHệ thống giám sát an ninh Ngân hàng Thương mại Cổ phần Sao Việt phát hiện tài khoản của Quý khách vừa phát sinh giao dịch bất thường tại thiết bị lạ vào lúc 03:15 sáng nay. Để bảo vệ tài sản, tài khoản tạm thời bị giới hạn một số tính năng chuyển tiền.\n\nQuý khách vui lòng truy cập ngay vào cổng kiểm soát rủi ro để xác minh danh tính và mở khóa trong vòng 2 giờ:\nhttps://xacminh.saoviet-xacminh.test/security-verify\n\nNếu quá thời hạn trên, tài khoản sẽ bị tạm khóa vĩnh viễn theo quy định an toàn liên ngân hàng.\n\nTrân trọng,\nTrung tâm An ninh Thông tin - Ngân hàng Sao Việt"
+    },
+    {
+      "id": "MN-P02",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "sms",
+      "difficulty": "hard",
+      "entity": "Ví SenPay (miền thật senpay.test)",
+      "use_fake_domain": "senpay-vn.test",
+      "scenario": "SMS brandname giả báo 'điểm thưởng sắp hết hạn', đổi quà qua link đăng nhập.",
+      "signals_required": [
+        "lookalike_url",
+        "credential_ask",
+        "urgency",
+        "reward_bait"
+      ],
+      "body": "[SenPay] Quy khach co 45.000 diem thuong tich luy sap het han vao 24h dem nay. Vui long dang nhap doi ngay voucher 500.000d hoac the cao tai: https://quatang.senpay-vn.test/redeem truoc khi he thong huy diem."
+    },
+    {
+      "id": "MN-P03",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "email",
+      "difficulty": "hard",
+      "entity": "ĐH Phương Nam (miền thật dhphuongnam.test)",
+      "use_fake_domain": "dhphuongnam-portal.test",
+      "scenario": "Email 'cập nhật thông tin sinh viên để nhận bằng/chứng chỉ', đòi đăng nhập cổng giả.",
+      "signals_required": [
+        "sender_domain",
+        "lookalike_url",
+        "credential_ask",
+        "authority",
+        "context_mismatch"
+      ],
+      "body": "Kính gửi Sinh viên,\n\nNhà trường đang tiến hành chuẩn hóa cơ sở dữ liệu quốc gia về văn bằng và chứng chỉ tốt nghiệp theo quy định mới. Tất cả sinh viên năm cuối và chuẩn bị tốt nghiệp bắt buộc phải hoàn tất rà soát thông tin cá nhân và số định danh CCCD.\n\nĐề nghị sinh viên đăng nhập vào hệ thống kiểm tra dữ liệu tốt nghiệp tại: https://sinhvien.dhphuongnam-portal.test/xac-thuc\n\nHạn chót: trước 17h00 ngày mai. Sinh viên không cập nhật đúng hạn sẽ bị hoãn xét tốt nghiệp đợt này.\n\nPhòng Quản lý Đào tạo - Trường ĐH Phương Nam"
+    },
+    {
+      "id": "MN-P04",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "zalo",
+      "difficulty": "medium",
+      "entity": "Giao hàng Nhanh Việt (miền thật ghnhanh.test)",
+      "use_fake_domain": "ghnhanh-hoantien.test",
+      "scenario": "Tin Zalo báo 'giao thất bại, cập nhật địa chỉ + phí giao lại' qua link.",
+      "signals_required": [
+        "lookalike_url",
+        "payment_ask",
+        "urgency",
+        "context_mismatch"
+      ],
+      "body": "Thông báo từ GHNhanh: Kiện hàng #VN892147 của bạn giao không thành công do sai thông tin số nhà. Bưu tá đã lưu kho giữ hàng 24h. Vui lòng truy cập https://ghnhanh-hoantien.test/cap-nhat-dia-chi để bổ sung lại địa chỉ chính xác và thanh toán phí lưu kho giao lại (12.000đ). Hết 24h bưu kiện sẽ bị hoàn trả về người gửi."
+    },
+    {
+      "id": "MN-P05",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "email",
+      "difficulty": "easy",
+      "entity": "Chợ Xanh (miền thật choxanh.test)",
+      "use_fake_domain": "choxanh-qua.test",
+      "scenario": "Email 'tri ân khách hàng thân thiết, nhận voucher 2 triệu', đóng phí kích hoạt + nhập thẻ.",
+      "signals_required": [
+        "lookalike_url",
+        "credential_ask",
+        "payment_ask",
+        "reward_bait",
+        "urgency"
+      ],
+      "body": "CHÚC MỪNG QUÝ KHÁCH HÀNG!\n\nNhân dịp tri ân khách hàng thân thiết, Sàn TMĐT Chợ Xanh xin trân trọng thông báo số điện thoại của bạn đã may mắn trúng gói Voucher mua sắm trị giá 2.000.000 VNĐ áp dụng cho mọi đơn hàng.\n\nĐể nhận mã quà tặng, bạn vui lòng bấm vào liên kết dưới đây, nhập thông tin thẻ ATM/Visa để thanh toán phí xuất hóa đơn điện tử 30.000 VNĐ:\nhttp://nhanqua.choxanh-qua.test/kich-hoat-voucher\n\nƯu đãi chỉ dành cho 50 người bấm nhận sớm nhất trước 23:59 hôm nay!"
+    },
+    {
+      "id": "MN-P06",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "email",
+      "difficulty": "hard",
+      "entity": "Phòng Kế toán nội bộ",
+      "use_fake_domain": "ketoan-cty.test (không phải miền công ty)",
+      "scenario": "BEC: email giả kế toán gửi 'cập nhật số tài khoản nhận lương', yêu cầu nhân viên xác nhận.",
+      "signals_required": [
+        "sender_domain",
+        "credential_ask",
+        "authority",
+        "context_mismatch"
+      ],
+      "body": "Chào anh/chị,\n\nPhòng Kế toán đang chuẩn bị lập danh sách chuyển khoản kỳ lương tháng này qua ngân hàng đối tác mới của công ty. Do hệ thống đối soát đang nâng cấp, một số thông tin tài khoản thụ hưởng của nhân sự bị thiếu sót.\n\nAnh/chị vui lòng kiểm tra lại thông tin cá nhân, cung cấp số tài khoản nhận lương và mật khẩu cổng nhân sự tại đường link sau để kế toán kịp nộp hồ sơ qua ngân hàng trước 15:00:\nhttps://nhansu.ketoan-cty.test/cap-nhat-luong\n\nNếu không xác nhận kịp thời, kỳ lương tháng này của anh/chị sẽ bị chuyển sang chi trả vào tháng kế tiếp.\n\nPhòng Kế toán - Tài chính"
+    },
+    {
+      "id": "MN-P07",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "sms",
+      "difficulty": "medium",
+      "entity": "Điện lực Miền Đông (miền thật dienlucmiendong.test)",
+      "use_fake_domain": "evn-thanhtoan.test",
+      "scenario": "SMS dọa cắt điện trong 2 giờ, thanh toán qua link.",
+      "signals_required": [
+        "lookalike_url",
+        "payment_ask",
+        "urgency",
+        "authority"
+      ],
+      "body": "[EVN Mien Dong] Canh bao: Ma khach hang PE082194 chua thanh toan tien dien ky thang nay voi so tien 845.000d. Lenh tam ngung cap dien se thi hanh sau 02 gio nua. Vui long thanh toan ngay qua cong truc tuyen: https://evn-thanhtoan.test/pay de tranh bi cat dien sinh hoat."
+    },
+    {
+      "id": "MN-P08",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "email",
+      "difficulty": "hard",
+      "entity": "Cục Thuế (mô phỏng)",
+      "use_fake_domain": "cucthue-hoantra.test",
+      "scenario": "Email 'thông báo truy thu/hoàn thuế', đính kèm biểu mẫu .html đòi thông tin tài khoản.",
+      "signals_required": [
+        "sender_domain",
+        "attachment",
+        "credential_ask",
+        "authority",
+        "urgency"
+      ],
+      "body": "Kính gửi Người nộp thuế,\n\nCục Thuế thông báo kết quả quyết toán thuế thu nhập cá nhân năm qua của bạn có khoản chênh lệch nộp thừa đủ điều kiện được hoàn trả là 3.420.000 VNĐ.\n\nĐể nhận tiền hoàn thuế về tài khoản ngân hàng trong vòng 24 giờ, bạn vui lòng tải và mở tệp đính kèm 'Bien_Ban_Hoan_Thue_2026.html', sau đó nhập thông tin tài khoản ngân hàng và mã xác thực giao dịch theo hướng dẫn trên biểu mẫu.\n\nThông báo có hiệu lực trong vòng 48 giờ. Quá thời hạn trên hồ sơ sẽ tự động chuyển vào quỹ bảo lưu của kỳ sau.\n\nCục Thuế - Bộ phận Quản lý Thuế TNCN"
+    },
+    {
+      "id": "MN-P09",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "zalo",
+      "difficulty": "medium",
+      "entity": "Tuyển dụng online (không rõ nguồn)",
+      "use_fake_domain": "không có link",
+      "scenario": "Mời làm nhiệm vụ like/thả tim kiếm tiền, nạp vốn 'nhiệm vụ VIP' để rút hoa hồng.",
+      "signals_required": [
+        "reward_bait",
+        "payment_ask",
+        "context_mismatch"
+      ],
+      "body": "Chào bạn nha! Bên mình là phòng nhân sự đối tác truyền thông đang tuyển cộng tác viên làm online tại nhà. Công việc chỉ cần like, thả tim video TikTok/Shopee, mỗi ngày kiếm 300k - 800k thanh toán ngay về tài khoản. Bạn làm thử 3 nhiệm vụ đầu nhận 50k tiền mặt nhé. Sau đó bạn nâng cấp lên gói Nhiệm vụ VIP (chỉ cần nạp vốn tạm ứng 500k làm lệnh) để rút cả gốc lẫn hoa hồng 40% trong 15 phút. Nhắn tin cho mình số Zalo này để nhận mã việc ngay nha!"
+    },
+    {
+      "id": "MN-P10",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "email",
+      "difficulty": "medium",
+      "entity": "SenPay (miền thật senpay.test)",
+      "use_fake_domain": "senpay-security.test",
+      "scenario": "Email 'phát hiện đăng nhập lạ, khoá ví tạm thời', bấm link để mở khoá bằng cách đăng nhập.",
+      "signals_required": [
+        "sender_domain",
+        "lookalike_url",
+        "credential_ask",
+        "urgency"
+      ],
+      "body": "CẢNH BÁO BẢO MẬT VÍ SENPAY\n\nKính gửi Quý khách,\n\nHệ thống phát hiện một lượt đăng nhập bất thường vào tài khoản Ví SenPay của bạn từ thiết bị lạ tại khu vực ngoài lãnh thổ Việt Nam lúc 04:20.\n\nNhằm ngăn ngừa rủi ro mất tiền, ví của bạn đã được tạm khóa giao dịch thanh toán. Vui lòng bấm vào liên kết bên dưới và tiến hành đăng nhập lại để xác minh chính chủ và mở khóa ví:\nhttps://senpay-security.test/unlock-account\n\nVui lòng hoàn tất trong vòng 30 phút để tránh việc tài khoản bị khóa vĩnh viễn.\n\nĐội ngũ An toàn SenPay"
+    },
+    {
+      "id": "MN-P11",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "sms",
+      "difficulty": "hard",
+      "entity": "Ngân hàng Sao Việt",
+      "use_fake_domain": "saoviet.vn-login.test",
+      "scenario": "Smishing báo 'nâng cấp sinh trắc học/định danh bắt buộc', nếu không sẽ ngừng giao dịch.",
+      "signals_required": [
+        "lookalike_url",
+        "credential_ask",
+        "urgency",
+        "authority"
+      ],
+      "body": "[SaoViet Bank] Theo quy dinh moi cua NHNN, tai khoan cua quy khach can bo sung du lieu khuon mat va sinh trac hoc truoc ngay 30/10 de duy tri han muc chuyen tien tren 10 trieu dong. Vui long truy cap https://saoviet.vn-login.test de cap nhat ngay, tranh bi gian doan giao dich."
+    },
+    {
+      "id": "MN-P12",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "email",
+      "difficulty": "medium",
+      "entity": "Chợ Xanh (miền thật choxanh.test)",
+      "use_fake_domain": "choxanh-donhang.test",
+      "scenario": "Email 'đơn hàng giá trị lớn vừa đặt, kiểm tra/huỷ ngay' để dụ đăng nhập trang giả.",
+      "signals_required": [
+        "lookalike_url",
+        "credential_ask",
+        "urgency",
+        "context_mismatch"
+      ],
+      "body": "Xác nhận đơn hàng #CX-992108 từ Chợ Xanh\n\nCảm ơn bạn đã đặt mua sản phẩm: 'Điện thoại iPhone 16 Pro Max 256GB' trị giá 31.990.000 VNĐ qua phương thức thanh toán tiền mặt khi nhận hàng (COD). Đơn hàng đang được chuẩn bị đóng gói.\n\nNếu bạn không thực hiện đơn hàng này, vui lòng truy cập ngay vào hệ thống xử lý khiếu nại để đăng nhập hủy đơn hàng trong vòng 15 phút:\nhttps://huydon.choxanh-donhang.test/cancel-order?id=CX992108\n\nSau 15 phút hệ thống sẽ tự động xuất kho và chuyển giao cho đơn vị vận chuyển."
+    },
+    {
+      "id": "MN-P13",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "zalo",
+      "difficulty": "medium",
+      "entity": "Giả danh người quen/họ hàng",
+      "use_fake_domain": "không có link",
+      "scenario": "Tin nhắn 'mình đổi số, đang kẹt tiền, chuyển giúp mình 3 triệu tối mai trả'.",
+      "signals_required": [
+        "payment_ask",
+        "urgency",
+        "context_mismatch",
+        "authority"
+      ],
+      "body": "Alo, mình mới đổi số điện thoại với Zalo này nè. Đang đi việc gấp ngoài đường mà tài khoản ngân hàng của mình bị lỗi ứng dụng không chuyển khoản thanh toán tiền viện phí cho người nhà được. Bạn còn tiền trong tài khoản chuyển khoản giúp mình 3 triệu qua số tài khoản này gấp với: 1029384729 - MB Bank (Nguyen Van Nam). Tối về nhà mình xử lý xong ứng dụng rồi chuyển trả lại liền cho bạn nha, cảm ơn bạn nhiều lắm!"
+    },
+    {
+      "id": "MN-P14",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "email",
+      "difficulty": "hard",
+      "entity": "Dịch vụ lưu trữ đám mây (giả)",
+      "use_fake_domain": "cloud-share-review.test",
+      "scenario": "Email 'có tài liệu được chia sẻ với bạn, đăng nhập để xem', link tới trang đăng nhập giả.",
+      "signals_required": [
+        "sender_domain",
+        "lookalike_url",
+        "credential_ask",
+        "context_mismatch"
+      ],
+      "body": "Thông báo chia sẻ tài liệu trực tuyến\n\nNgười dùng (admin_office@partner-group.vn) đã chia sẻ một tệp tài liệu bảo mật với bạn: 'Hop_Dong_Hop_Tac_Quy_IV_2026.pdf' (Dung lượng: 4.8 MB).\n\nTài liệu này được cài đặt chế độ chỉ đọc và yêu cầu xác thực người nhận. Để truy cập và xem nội dung toàn văn, vui lòng đăng nhập bằng tài khoản email công vụ/học tập của bạn tại cổng lưu trữ:\nhttps://cloud-share-review.test/drive/folders/shared-doc-view\n\nLiên kết này sẽ hết hạn sau 72 giờ kể từ khi gửi thư."
+    },
+    {
+      "id": "MN-P15",
+      "arm": "manual",
+      "category": "phish",
+      "channel": "email",
+      "difficulty": "medium",
+      "entity": "Phòng CTSV ĐH Phương Nam",
+      "use_fake_domain": "ctsv-hotro.test",
+      "scenario": "Email 'hỗ trợ sinh viên bị ảnh hưởng, nhận tiền', đòi số tài khoản + OTP để 'giải ngân'.",
+      "signals_required": [
+        "credential_ask",
+        "reward_bait",
+        "authority",
+        "urgency"
+      ],
+      "body": "Kính gửi Sinh viên trường ĐH Phương Nam,\n\nCăn cứ chương trình hỗ trợ học tập và trợ cấp khó khăn dành cho sinh viên, Nhà trường trích quỹ khuyến học chi trả khoản trợ cấp 2.500.000 VNĐ cho mỗi sinh viên đủ điều kiện trong danh sách đợt 1.\n\nĐể phòng Kế toán thực hiện lệnh giải ngân trực tiếp vào tài khoản cá nhân trong hôm nay, bạn vui lòng truy cập đường dẫn sau và điền chính xác số thẻ ngân hàng cùng mã OTP xác thực do ngân hàng gửi về điện thoại:\nhttps://sinhvien.ctsv-hotro.test/nhan-tro-cap\n\nThời hạn hoàn thành: trước 16:30 chiều nay. Quá thời gian trên suất hỗ trợ sẽ bị hủy bỏ.\n\nPhòng Công tác Sinh viên"
+    },
+    {
+      "id": "MN-L01",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "email",
+      "difficulty": "medium",
+      "entity": "Ngân hàng Sao Việt (miền thật saoviet-bank.test)",
+      "use_fake_domain": "—",
+      "scenario": "Email nhắc kỳ sao kê/khuyến nghị đổi mật khẩu định kỳ, hướng tự mở ứng dụng.",
+      "legit_constraints": [
+        "Miền gửi khớp saoviet-bank.test",
+        "Không link đăng nhập",
+        "Có câu cảnh báo không cung cấp OTP"
+      ],
+      "body": "Kính gửi Quý khách hàng,\n\nNgân hàng TMCP Sao Việt xin gửi lời cảm ơn Quý khách đã đồng hành cùng chúng tôi. Để tăng cường an toàn cho tài khoản trong bối cảnh các thủ đoạn gian lận công nghệ cao ngày càng phức tạp, Ngân hàng khuyến nghị Quý khách nên chủ động thay đổi mật khẩu ngân hàng số định kỳ 3 - 6 tháng một lần.\n\nQuý khách vui lòng chủ động mở ứng dụng SaoViet Mobile trên điện thoại cá nhân và vào mục Cài đặt > Đổi mật khẩu để thực hiện.\n\nLƯU Ý AN TOÀN: Ngân hàng Sao Việt KHÔNG BAO GIỜ yêu cầu Quý khách cung cấp mã OTP, mã PIN hay mật khẩu qua email, tin nhắn hoặc điện thoại. Tuyệt đối không chia sẻ các thông tin bảo mật này cho bất kỳ ai.\n\nTrân trọng,\nNgân hàng TMCP Sao Việt (contact@saoviet-bank.test)"
+    },
+    {
+      "id": "MN-L02",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "sms",
+      "difficulty": "easy",
+      "entity": "Sao Việt (brandname chính thức)",
+      "use_fake_domain": "—",
+      "scenario": "SMS biến động số dư sau một giao dịch.",
+      "legit_constraints": [
+        "Không link",
+        "Không yêu cầu hành động",
+        "Có nhắc không chia sẻ OTP"
+      ],
+      "body": "[SaoViet] TK 0192xxx819: -250.000VND vao 14:20 28/10/2026. So du: 5.430.000VND. ND: Thanh toan tien sach. Canh bao: Tuyet doi khong chia se ma OTP, mat khau cho bat ky ai, ke ca nhan vien ngan hang."
+    },
+    {
+      "id": "MN-L03",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "email",
+      "difficulty": "hard",
+      "entity": "Phòng Đào tạo ĐH Phương Nam (dhphuongnam.test)",
+      "use_fake_domain": "—",
+      "scenario": "Thông báo thời hạn nộp đồ án/đăng ký, có mốc thời gian nhưng hướng truy cập trực tiếp.",
+      "legit_constraints": [
+        "Miền khớp",
+        "Không thu tiền qua link",
+        "Hướng truy cập cổng trực tiếp"
+      ],
+      "body": "Kính gửi Sinh viên trường ĐH Phương Nam,\n\nPhòng Quản lý Đào tạo thông báo về thời hạn nộp thuyết minh Đề tài Tốt nghiệp và Đồ án Chuyên ngành Học kỳ I năm học 2026 - 2027. Thời hạn cuối cùng để sinh viên hoàn thành việc nộp bài là 17h00 ngày 15/11/2026.\n\nSinh viên vui lòng chủ động truy cập vào Cổng thông tin đào tạo của trường tại địa chỉ quen thuộc (mở trình duyệt và tự nhập tên miền chính thức của trường dhphuongnam.test) để tải biểu mẫu hướng dẫn và nộp hồ sơ theo đúng phân hệ quy định. Nhà trường không thu bất kỳ khoản phí nào khi nộp đề tài.\n\nChúc các bạn sinh viên hoàn thành tốt đồ án.\n\nPhòng Quản lý Đào tạo (daotao@dhphuongnam.test)"
+    },
+    {
+      "id": "MN-L04",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "zalo",
+      "difficulty": "medium",
+      "entity": "GHNhanh (OA đã xác thực)",
+      "use_fake_domain": "—",
+      "scenario": "Thông báo đơn đang vận chuyển / đã giao, có số tra cứu.",
+      "legit_constraints": [
+        "OA xác thực",
+        "Không đòi phí qua tin",
+        "Không link lạ"
+      ],
+      "body": "Chào bạn, đơn hàng mã vận đơn #GHN9812401 từ nhà bán hàng đã được bàn giao cho nhân viên giao nhận của GHNhanh và đang trên đường vận chuyển đến bạn. Dự kiến giao hàng trong ngày hôm nay. Đơn hàng đã được thanh toán trực tuyến trước đó, bạn không phải trả thêm bất kỳ khoản phí nào khi nhận hàng. Bạn có thể tra cứu hành trình kiện hàng trực tiếp trên ứng dụng GHNhanh chính thức."
+    },
+    {
+      "id": "MN-L05",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "email",
+      "difficulty": "hard",
+      "entity": "Chợ Xanh (choxanh.test)",
+      "use_fake_domain": "—",
+      "scenario": "Xác nhận đơn hàng người dùng vừa đặt, hướng theo dõi trong ứng dụng.",
+      "legit_constraints": [
+        "Miền khớp",
+        "Không đòi đăng nhập qua link",
+        "Hướng vào ứng dụng"
+      ],
+      "body": "Kính gửi Quý khách,\n\nChợ Xanh xác nhận bạn vừa đặt thành công đơn hàng số #CX-884210 vào lúc 10:15 ngày 28/10/2026 với tổng giá trị thanh toán là 345.000 VNĐ.\n\nĐể theo dõi tình trạng xử lý đơn hàng, tiến độ vận chuyển hoặc cần hỗ trợ thay đổi thời gian giao, Quý khách vui lòng mở ứng dụng Chợ Xanh trên điện thoại di động và vào mục 'Đơn hàng của tôi'.\n\nChợ Xanh không yêu cầu khách hàng đăng nhập tài khoản hay nhập mật khẩu thẻ thông qua bất kỳ liên kết email nào.\n\nCảm ơn bạn đã mua sắm tại Chợ Xanh!\nBộ phận Chăm sóc Khách hàng (hotro@choxanh.test)"
+    },
+    {
+      "id": "MN-L06",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "email",
+      "difficulty": "medium",
+      "entity": "SenPay (senpay.test)",
+      "use_fake_domain": "—",
+      "scenario": "Biên lai nạp tiền điện thoại / thanh toán hoá đơn người dùng chủ động thực hiện.",
+      "legit_constraints": [
+        "Miền khớp",
+        "Có mã giao dịch",
+        "Không yêu cầu gì thêm"
+      ],
+      "body": "Kính gửi Quý khách,\n\nVí điện tử SenPay thông báo giao dịch nạp tiền điện thoại của bạn đã hoàn tất thành công.\n\n- Mã giao dịch: SP-20261028-99214\n- Dịch vụ: Nạp tiền điện thoại Viettel 100.000đ (Số thuê bao: 098xxxx123)\n- Số tiền thanh toán: 97.000 VNĐ (Đã áp dụng chiết khấu 3%)\n- Thời gian: 10:30 ngày 28/10/2026\n- Nguồn tiền: Số dư ví SenPay\n\nBiên lai điện tử này được tạo tự động nhằm lưu vết giao dịch của Quý khách. Quý khách không cần thực hiện thêm bất kỳ thao tác nào.\n\nTrân trọng,\nVí điện tử SenPay (no-reply@senpay.test)"
+    },
+    {
+      "id": "MN-L07",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "email",
+      "difficulty": "medium",
+      "entity": "Bộ phận CNTT ĐH Phương Nam (dhphuongnam.test)",
+      "use_fake_domain": "—",
+      "scenario": "Thông báo đổi mật khẩu định kỳ qua hệ thống chính thức, nhắc KHÔNG đăng nhập qua link lạ.",
+      "legit_constraints": [
+        "Miền khớp",
+        "Không link đăng nhập trong email",
+        "Cảnh báo email giả mạo"
+      ],
+      "body": "Kính gửi toàn thể Giảng viên và Sinh viên,\n\nThực hiện chính sách định kỳ đảm bảo an toàn thông tin mạng nhà trường năm học 2026 - 2027, Trung tâm Công nghệ Thông tin đề nghị Thầy Cô và các bạn sinh viên chủ động cập nhật mật khẩu tài khoản cổng thông tin nội bộ trước ngày 15/11/2026.\n\nHướng dẫn thực hiện: Người dùng tự mở trình duyệt web, truy cập trực tiếp vào trang chủ của trường (dhphuongnam.test), đăng nhập vào phân hệ cá nhân và chọn chức năng Đổi mật khẩu.\n\nCẢNH BÁO QUAN TRỌNG: Nhà trường KHÔNG BAO GIỜ gửi liên kết yêu cầu người dùng đăng nhập hoặc nhập mật khẩu trực tiếp từ email. Xin hãy cảnh giác với các thư giả mạo danh nghĩa nhà trường để đánh cắp tài khoản.\n\nTrung tâm CNTT - Trường ĐH Phương Nam (it-support@dhphuongnam.test)"
+    },
+    {
+      "id": "MN-L08",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "sms",
+      "difficulty": "easy",
+      "entity": "SenPay (brandname)",
+      "use_fake_domain": "—",
+      "scenario": "OTP do người dùng yêu cầu khi đăng nhập.",
+      "legit_constraints": [
+        "Không link",
+        "Có cảnh báo không chia sẻ mã"
+      ],
+      "body": "[SenPay] Ma OTP cua ban la 619284. Ma xac thuc co hieu luc trong 3 phut cho thao tac dang nhap vi tren thiet bi moi. CANH BAO: Tuyet doi KHONG chia se ma nay cho bat ky ai de phong tranh mat tien."
+    },
+    {
+      "id": "MN-L09",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "email",
+      "difficulty": "hard",
+      "entity": "Điện lực Miền Đông (dienlucmiendong.test)",
+      "use_fake_domain": "—",
+      "scenario": "Thông báo tiền điện với hạn thanh toán hợp lý (>1 tuần), không link.",
+      "legit_constraints": [
+        "Miền khớp",
+        "Hạn hợp lý không gấp",
+        "Không link thanh toán",
+        "Nhắc chiêu lừa"
+      ],
+      "body": "Kính gửi Quý khách hàng sử dụng điện,\n\nCông ty Điện lực Miền Đông xin thông báo tiền điện kỳ tháng 10/2026 của Mã khách hàng PE01829472 là: 624.500 VNĐ.\n\nThời hạn thanh toán: từ ngày 28/10/2026 đến hết ngày 10/11/2026.\n\nQuý khách có thể lựa chọn thanh toán thuận tiện qua các kênh chính thức: ứng dụng Internet Banking của các ngân hàng liên kết, trích nợ tự động, ví điện tử chính thức hoặc tại các điểm thu tiền điện trực tiếp trên địa bàn.\n\nKhuyến cáo an toàn: Điện lực Miền Đông không cung cấp đường dẫn thanh toán qua thư điện tử. Quý khách đề cao cảnh giác trước các cuộc gọi hoặc tin nhắn đe dọa cắt điện khẩn cấp yêu cầu chuyển tiền vào tài khoản cá nhân.\n\nTrung tâm CSKH - Điện lực Miền Đông (cskh@dienlucmiendong.test)"
+    },
+    {
+      "id": "MN-L10",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "email",
+      "difficulty": "medium",
+      "entity": "Thư viện ĐH Phương Nam (dhphuongnam.test)",
+      "use_fake_domain": "—",
+      "scenario": "Nhắc hạn trả sách / gia hạn.",
+      "legit_constraints": [
+        "Miền khớp",
+        "Không thu tiền qua link"
+      ],
+      "body": "Kính gửi Bạn đọc,\n\nThư viện trường ĐH Phương Nam xin thông báo: Tài liệu bạn đang mượn 'Giáo trình An toàn Mạng và Hệ thống' (Mã vạch: LIB-2024-9182) có hạn trả vào ngày 03/11/2026.\n\nBạn vui lòng mang sách đến quầy lưu hành Thư viện (Tầng 2 - Tòa nhà Thư viện trung tâm) để làm thủ tục trả sách hoặc gia hạn thêm thời gian mượn trước ngày trên. Việc gia hạn sách trực tuyến cũng có thể thực hiện khi bạn tự đăng nhập vào tài khoản bạn đọc trên trang web thư viện của trường.\n\nThư viện không thực hiện thu bất kỳ khoản phí nào qua đường dẫn trong thư điện tử.\n\nBan Quản lý Thư viện ĐH Phương Nam (thuvien@dhphuongnam.test)"
+    },
+    {
+      "id": "MN-L11",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "email",
+      "difficulty": "hard",
+      "entity": "Chợ Xanh (choxanh.test)",
+      "use_fake_domain": "—",
+      "scenario": "Email khuyến mãi hợp lệ, hướng vào ứng dụng, cảnh báo email giả đòi đăng nhập.",
+      "legit_constraints": [
+        "Miền khớp",
+        "Không đòi thông tin",
+        "Cảnh báo giả mạo"
+      ],
+      "body": "Thân gửi Quý khách hàng thân thiết,\n\nTừ ngày 01/11 đến 11/11, Chợ Xanh triển khai chương trình ưu đãi 'Lễ hội mua sắm cuối năm' với hàng ngàn mã giảm giá vận chuyển và phiếu quà tặng áp dụng trực tiếp khi mua sắm trên ứng dụng di động Chợ Xanh.\n\nĐể nhận và sử dụng mã ưu đãi, Quý khách vui lòng chủ động mở ứng dụng Chợ Xanh trên điện thoại và chọn chuyên mục 'Ví Voucher' trên trang chủ ứng dụng.\n\nLưu ý cảnh giác: Chợ Xanh không yêu cầu khách hàng cung cấp số tài khoản, mã CVV/OTP thẻ ngân hàng hoặc nộp phí bảo lãnh để nhận quà. Quý khách không bấm vào các đường link lạ tự xưng là chương trình trúng thưởng từ Chợ Xanh.\n\nBộ phận Chăm sóc Khách hàng (cskh@choxanh.test)"
+    },
+    {
+      "id": "MN-L12",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "zalo",
+      "difficulty": "medium",
+      "entity": "Phòng CTSV ĐH Phương Nam (OA xác thực)",
+      "use_fake_domain": "—",
+      "scenario": "Thông báo kết quả học bổng, làm thủ tục trực tiếp.",
+      "legit_constraints": [
+        "OA xác thực",
+        "Làm thủ tục trực tiếp",
+        "Không đòi OTP/số thẻ"
+      ],
+      "body": "Phòng Công tác Sinh viên Trường ĐH Phương Nam thông báo: Chúc mừng bạn đã có tên trong danh sách sinh viên đạt Học bổng Khuyến khích học tập Học kỳ vừa qua. Sinh viên vui lòng xem danh sách chi tiết công bố trên bảng tin trường hoặc cổng thông tin sinh viên. Để hoàn tất thủ tục nhận học bổng, bạn mang theo Thẻ sinh viên và CCCD bản gốc đến trực tiếp Văn phòng CTSV (Phòng A.102) từ ngày 01/11 đến 08/11 trong giờ hành chính. Nhà trường tuyệt đối không yêu cầu sinh viên cung cấp mã OTP ngân hàng hay đóng bất kỳ khoản phí nào qua tin nhắn."
+    },
+    {
+      "id": "MN-L13",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "email",
+      "difficulty": "medium",
+      "entity": "Ngân hàng Sao Việt (saoviet-bank.test)",
+      "use_fake_domain": "—",
+      "scenario": "Thông báo thay đổi điều khoản/biểu phí, không yêu cầu thao tác.",
+      "legit_constraints": [
+        "Miền khớp",
+        "Không đòi hành động",
+        "Hướng gọi số trên thẻ"
+      ],
+      "body": "Kính gửi Quý khách hàng,\n\nNgân hàng TMCP Sao Việt trân trọng thông báo về việc cập nhật Điều khoản và Điều kiện sử dụng dịch vụ Ngân hàng điện tử và Biểu phí dịch vụ thẻ, áp dụng chính thức từ ngày 15/11/2026. Chi tiết văn bản biểu phí mới đã được niêm yết công khai tại tất cả các chi nhánh/phòng giao dịch và trên website chính thức của ngân hàng.\n\nThông báo này chỉ mang tính chất thông tin và Quý khách KHÔNG CẦN thực hiện bất kỳ thao tác nào đối với tài khoản hay thẻ của mình.\n\nNếu cần thêm thông tin giải đáp, Quý khách vui lòng gọi đến Tổng đài Chăm sóc Khách hàng 24/7 theo số điện thoại in ở mặt sau thẻ ATM của Quý khách.\n\nTrân trọng,\nNgân hàng TMCP Sao Việt (thongbao@saoviet-bank.test)"
+    },
+    {
+      "id": "MN-L14",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "sms",
+      "difficulty": "easy",
+      "entity": "GHNhanh (brandname)",
+      "use_fake_domain": "—",
+      "scenario": "SMS shipper đang giao, có số điện thoại tài xế.",
+      "legit_constraints": [
+        "Không link",
+        "Không đòi phí"
+      ],
+      "body": "[GHNhanh] Bưu tá Nguyễn Văn Hùng (SĐT: 0912345678) đang trên đường giao đơn hàng #GHN772183 cho bạn. Bạn vui lòng chú ý điện thoại để nhận hàng. Đơn hàng không thu thêm tiền."
+    },
+    {
+      "id": "MN-L15",
+      "arm": "manual",
+      "category": "legit",
+      "channel": "email",
+      "difficulty": "hard",
+      "entity": "Phòng Khảo thí ĐH Phương Nam (dhphuongnam.test)",
+      "use_fake_domain": "—",
+      "scenario": "Thông báo lịch thi, hướng đăng nhập cổng như thường lệ, nhắc không có link đăng nhập trong email.",
+      "legit_constraints": [
+        "Miền khớp",
+        "Không link đăng nhập",
+        "Tự nhắc chính sách an toàn"
+      ],
+      "body": "Kính gửi Sinh viên toàn trường,\n\nPhòng Khảo thí và Đảm bảo Chất lượng Đào tạo thông báo: Lịch thi và danh sách phòng thi chính thức cho kỳ thi Đánh giá giữa kỳ Học kỳ I đã được cập nhật đầy đủ trên hệ thống khảo thí của Nhà trường.\n\nĐể tra cứu lịch thi cá nhân, sinh viên vui lòng tự mở trình duyệt web, truy cập vào cổng thông tin đào tạo chính thức của trường (dhphuongnam.test) và đăng nhập bằng tài khoản sinh viên đã được cấp.\n\nNhằm bảo đảm an toàn dữ liệu cá nhân cho sinh viên, Nhà trường thực hiện chính sách KHÔNG gửi liên kết đăng nhập trực tiếp trong email thông báo. Mọi thắc mắc về lịch thi, sinh viên liên hệ trực tiếp tại Văn phòng Khảo thí (Nhà B).\n\nPhòng Khảo thí & Đảm bảo Chất lượng Đào tạo (khaothi@dhphuongnam.test)"
+    }
+  ]
+}

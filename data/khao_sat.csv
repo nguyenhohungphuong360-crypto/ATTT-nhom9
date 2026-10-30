@@ -1,0 +1,1201 @@
+﻿nguoi_tham_gia,id_thong_diep,nhom,dap_an_dung,kenh,do_kho,bo,tra_loi,ket_qua,muc_tu_tin,dau_hieu,thoi_gian_giay
+P01,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,20.7
+P01,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,8.0
+P01,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,18.4
+P01,AI-L04,ai,legit,zalo,medium,A,Lừa đảo,Sai,2,giả thẩm quyền,15.4
+P01,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,13.9
+P01,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,26.8
+P01,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,19.4
+P01,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,11.5
+P01,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,2,đòi chuyển tiền; giả thẩm quyền; tệp đính kèm,37.9
+P01,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,20.0
+P01,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,21.8
+P01,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,5,,15.2
+P01,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,16.0
+P01,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,,11.1
+P01,AI-L15,ai,legit,email,hard,B,Lừa đảo,Sai,2,đòi chuyển tiền,20.7
+P01,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,19.0
+P01,AI-P02,ai,phish,sms,hard,B,Lừa đảo,Đúng,2,đòi OTP/mật khẩu; mồi thưởng,9.1
+P01,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi chuyển tiền; giả thẩm quyền; tệp đính kèm,18.5
+P01,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,5,đòi chuyển tiền; hối thúc; sai ngữ cảnh,8.8
+P01,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; mồi thưởng; chất lượng ngôn ngữ,12.1
+P01,AI-P06,ai,phish,email,hard,A,Hợp lệ,Sai,1,,23.2
+P01,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,3,URL nhái; hối thúc; giả thẩm quyền; sai ngữ cảnh; mồi thưởng,8.4
+P01,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,3,tên miền lạ; đòi chuyển tiền; hối thúc; giả thẩm quyền,15.5
+P01,AI-P09,ai,phish,zalo,medium,A,Hợp lệ,Sai,2,,12.7
+P01,AI-P10,ai,phish,email,hard,B,Hợp lệ,Sai,3,,31.0
+P01,AI-P11,ai,phish,email,medium,B,Hợp lệ,Sai,3,,26.9
+P01,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,10.0
+P01,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,11.7
+P01,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; giả thẩm quyền; sai ngữ cảnh; mồi thưởng,17.6
+P01,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,4,hối thúc; chất lượng ngôn ngữ,27.6
+P01,MN-L01,manual,legit,email,medium,A,Lừa đảo,Sai,4,sai ngữ cảnh,23.7
+P01,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,10.1
+P01,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,25.3
+P01,MN-L04,manual,legit,zalo,medium,B,Lừa đảo,Sai,2,hối thúc,11.4
+P01,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,3,,23.5
+P01,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,19.3
+P01,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,34.2
+P01,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,,11.6
+P01,MN-L09,manual,legit,email,hard,B,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,39.7
+P01,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,14.3
+P01,MN-L11,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,23.5
+P01,MN-L12,manual,legit,zalo,medium,A,Lừa đảo,Sai,4,,13.6
+P01,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,5,,16.6
+P01,MN-L14,manual,legit,sms,easy,B,Lừa đảo,Sai,4,đòi OTP/mật khẩu; đòi chuyển tiền; sai ngữ cảnh; chất lượng ngôn ngữ,10.2
+P01,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,22.3
+P01,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,27.8
+P01,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; tệp đính kèm; mồi thưởng; chất lượng ngôn ngữ,17.6
+P01,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; sai ngữ cảnh; chất lượng ngôn ngữ,31.3
+P01,MN-P04,manual,phish,zalo,medium,B,Hợp lệ,Sai,3,chất lượng ngôn ngữ,11.1
+P01,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc,21.6
+P01,MN-P06,manual,phish,email,hard,A,Hợp lệ,Sai,2,,34.3
+P01,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,3,tên miền lạ; đòi chuyển tiền; hối thúc; giả thẩm quyền,17.6
+P01,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,24.3
+P01,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,3,tên miền lạ; sai ngữ cảnh; mồi thưởng,20.6
+P01,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,3,hối thúc,14.8
+P01,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,4,URL nhái; hối thúc,20.6
+P01,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,2,URL nhái; đòi OTP/mật khẩu; hối thúc; sai ngữ cảnh,18.4
+P01,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,đòi chuyển tiền; hối thúc; giả thẩm quyền,14.1
+P01,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; sai ngữ cảnh,12.1
+P01,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,5,tên miền lạ; hối thúc; giả thẩm quyền; tệp đính kèm; mồi thưởng,15.4
+P02,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,2,,25.8
+P02,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,9.1
+P02,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,33.2
+P02,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,3,,11.6
+P02,AI-L05,ai,legit,email,hard,B,Lừa đảo,Sai,2,tệp đính kèm,26.2
+P02,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,20.1
+P02,AI-L07,ai,legit,email,medium,A,Lừa đảo,Sai,2,giả thẩm quyền; sai ngữ cảnh,15.8
+P02,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,5.8
+P02,AI-L09,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,24.1
+P02,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,17.6
+P02,AI-L11,ai,legit,email,hard,B,Lừa đảo,Sai,2,,28.0
+P02,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,4,,14.0
+P02,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,18.2
+P02,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,,8.4
+P02,AI-L15,ai,legit,email,hard,B,Lừa đảo,Sai,4,,20.6
+P02,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; hối thúc,38.9
+P02,AI-P02,ai,phish,sms,hard,B,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu,11.8
+P02,AI-P03,ai,phish,email,hard,A,Hợp lệ,Sai,1,,15.8
+P02,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh,9.6
+P02,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền,17.1
+P02,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; hối thúc; giả thẩm quyền,26.4
+P02,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; sai ngữ cảnh,8.9
+P02,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,3,tên miền lạ; đòi chuyển tiền; giả thẩm quyền; sai ngữ cảnh,15.5
+P02,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,mồi thưởng,12.3
+P02,AI-P10,ai,phish,email,hard,B,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền; tệp đính kèm,14.4
+P02,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc,25.3
+P02,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,13.6
+P02,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,20.8
+P02,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; giả thẩm quyền; sai ngữ cảnh; mồi thưởng,13.8
+P02,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,1,tên miền lạ; URL nhái; đòi OTP/mật khẩu,16.2
+P02,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,5,,26.4
+P02,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,20.3
+P02,MN-L03,manual,legit,email,hard,B,Lừa đảo,Sai,1,mồi thưởng,27.6
+P02,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,4,,14.0
+P02,MN-L05,manual,legit,email,hard,A,Lừa đảo,Sai,2,tệp đính kèm; chất lượng ngôn ngữ,19.9
+P02,MN-L06,manual,legit,email,medium,B,Lừa đảo,Sai,3,sai ngữ cảnh,20.9
+P02,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,33.9
+P02,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,11.6
+P02,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,1,URL nhái; đòi chuyển tiền,31.3
+P02,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,25.3
+P02,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,2,hối thúc,38.9
+P02,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,2,,18.3
+P02,MN-L13,manual,legit,email,medium,A,Lừa đảo,Sai,4,sai ngữ cảnh,23.5
+P02,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,4,,14.8
+P02,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,20.5
+P02,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu,22.6
+P02,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; mồi thưởng,23.4
+P02,MN-P03,manual,phish,email,hard,A,Hợp lệ,Sai,3,,46.2
+P02,MN-P04,manual,phish,zalo,medium,B,Hợp lệ,Sai,2,,18.9
+P02,MN-P05,manual,phish,email,easy,B,Hợp lệ,Sai,4,,19.1
+P02,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,2,tên miền lạ; đòi OTP/mật khẩu; giả thẩm quyền; sai ngữ cảnh,15.5
+P02,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,4,tên miền lạ; đòi chuyển tiền; hối thúc; giả thẩm quyền,21.5
+P02,MN-P08,manual,phish,email,hard,A,Hợp lệ,Sai,3,,38.5
+P02,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,5,URL nhái; đòi chuyển tiền,21.2
+P02,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,18.2
+P02,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; hối thúc; tệp đính kèm,23.4
+P02,MN-P12,manual,phish,email,medium,B,Hợp lệ,Sai,2,,15.2
+P02,MN-P13,manual,phish,zalo,medium,B,Hợp lệ,Sai,4,,22.2
+P02,MN-P14,manual,phish,email,hard,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,34.0
+P02,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; tệp đính kèm; mồi thưởng,31.4
+P03,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,33.3
+P03,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,12.5
+P03,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,31.3
+P03,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,4,,21.8
+P03,AI-L05,ai,legit,email,hard,B,Lừa đảo,Sai,4,tệp đính kèm,26.0
+P03,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,20.9
+P03,AI-L07,ai,legit,email,medium,A,Lừa đảo,Sai,3,giả thẩm quyền,17.9
+P03,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,11.3
+P03,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,4,sai ngữ cảnh,35.6
+P03,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,18.6
+P03,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,24.3
+P03,AI-L12,ai,legit,zalo,medium,B,Lừa đảo,Sai,5,giả thẩm quyền,29.6
+P03,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,13.5
+P03,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,8.2
+P03,AI-L15,ai,legit,email,hard,B,Lừa đảo,Sai,3,đòi OTP/mật khẩu; giả thẩm quyền,34.2
+P03,AI-P01,ai,phish,email,medium,B,Hợp lệ,Sai,2,,22.0
+P03,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,4,,13.0
+P03,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,16.3
+P03,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh; chất lượng ngôn ngữ,11.3
+P03,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; mồi thưởng; chất lượng ngôn ngữ,22.9
+P03,AI-P06,ai,phish,email,hard,A,Hợp lệ,Sai,1,,27.3
+P03,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc; giả thẩm quyền,11.7
+P03,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,3,tên miền lạ; đòi chuyển tiền; hối thúc; giả thẩm quyền; sai ngữ cảnh,23.3
+P03,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,5,URL nhái; mồi thưởng,14.8
+P03,AI-P10,ai,phish,email,hard,B,Lừa đảo,Đúng,2,tên miền lạ; đòi chuyển tiền; hối thúc; giả thẩm quyền; tệp đính kèm,30.1
+P03,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; sai ngữ cảnh,17.1
+P03,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,2,URL nhái; đòi OTP/mật khẩu; hối thúc,20.1
+P03,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; giả thẩm quyền; chất lượng ngôn ngữ,18.1
+P03,AI-P14,ai,phish,zalo,medium,A,Hợp lệ,Sai,1,,13.3
+P03,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; hối thúc; sai ngữ cảnh,23.5
+P03,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,22.4
+P03,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,13.5
+P03,MN-L03,manual,legit,email,hard,B,Lừa đảo,Sai,2,tệp đính kèm,34.8
+P03,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,3,,20.0
+P03,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,3,,29.0
+P03,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,20.3
+P03,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,36.2
+P03,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,9.8
+P03,MN-L09,manual,legit,email,hard,B,Hợp lệ,Đúng,5,,32.2
+P03,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,18.7
+P03,MN-L11,manual,legit,email,hard,B,Hợp lệ,Đúng,1,,27.5
+P03,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,4,,16.0
+P03,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,5,,29.4
+P03,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,4,,8.3
+P03,MN-L15,manual,legit,email,hard,B,Lừa đảo,Sai,2,,19.9
+P03,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; mồi thưởng,19.4
+P03,MN-P02,manual,phish,sms,hard,A,Hợp lệ,Sai,2,,23.1
+P03,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,4,URL nhái; giả thẩm quyền; sai ngữ cảnh; tệp đính kèm,41.0
+P03,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh,21.7
+P03,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; mồi thưởng,27.8
+P03,MN-P06,manual,phish,email,hard,A,Hợp lệ,Sai,2,,33.4
+P03,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,5,URL nhái; hối thúc,19.0
+P03,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; chất lượng ngôn ngữ,38.6
+P03,MN-P09,manual,phish,zalo,medium,A,Hợp lệ,Sai,4,,30.3
+P03,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; sai ngữ cảnh,32.4
+P03,MN-P11,manual,phish,sms,hard,A,Hợp lệ,Sai,2,,20.2
+P03,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,5,URL nhái; hối thúc,27.0
+P03,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,5,đòi chuyển tiền; giả thẩm quyền; sai ngữ cảnh; chất lượng ngôn ngữ,14.3
+P03,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; sai ngữ cảnh; chất lượng ngôn ngữ,30.0
+P03,MN-P15,manual,phish,email,medium,B,Hợp lệ,Sai,3,,28.2
+P04,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,31.3
+P04,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,15.4
+P04,AI-L03,ai,legit,email,hard,B,Lừa đảo,Sai,2,giả thẩm quyền,43.7
+P04,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,3,,10.8
+P04,AI-L05,ai,legit,email,hard,B,Lừa đảo,Sai,2,tên miền lạ,26.3
+P04,AI-L06,ai,legit,email,medium,A,Lừa đảo,Sai,4,tên miền lạ,28.6
+P04,AI-L07,ai,legit,email,medium,A,Lừa đảo,Sai,4,giả thẩm quyền,18.4
+P04,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,16.9
+P04,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,3,sai ngữ cảnh,26.0
+P04,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,31.4
+P04,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,20.9
+P04,AI-L12,ai,legit,zalo,medium,B,Lừa đảo,Sai,3,giả thẩm quyền; sai ngữ cảnh,21.3
+P04,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,24.4
+P04,AI-L14,ai,legit,sms,easy,B,Lừa đảo,Sai,5,URL nhái; sai ngữ cảnh,7.7
+P04,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,5,,40.7
+P04,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,25.3
+P04,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,2,,14.6
+P04,AI-P03,ai,phish,email,hard,A,Hợp lệ,Sai,3,chất lượng ngôn ngữ,34.2
+P04,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,5,URL nhái; đòi chuyển tiền; hối thúc,16.3
+P04,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; mồi thưởng,27.7
+P04,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; sai ngữ cảnh,41.1
+P04,AI-P07,ai,phish,sms,medium,B,Hợp lệ,Sai,2,,12.7
+P04,AI-P08,ai,phish,email,hard,B,Hợp lệ,Sai,3,,31.8
+P04,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,tên miền lạ; đòi chuyển tiền; sai ngữ cảnh,18.1
+P04,AI-P10,ai,phish,email,hard,B,Hợp lệ,Sai,3,,22.3
+P04,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu,36.3
+P04,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc,33.3
+P04,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,3,URL nhái; hối thúc; giả thẩm quyền,22.5
+P04,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; sai ngữ cảnh; mồi thưởng; chất lượng ngôn ngữ,22.7
+P04,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,28.6
+P04,MN-L01,manual,legit,email,medium,A,Lừa đảo,Sai,4,đòi OTP/mật khẩu,28.5
+P04,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,20.1
+P04,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,35.0
+P04,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,3,,17.7
+P04,MN-L05,manual,legit,email,hard,A,Lừa đảo,Sai,3,URL nhái,38.9
+P04,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,15.4
+P04,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,2,,40.1
+P04,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,15.4
+P04,MN-L09,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,50.9
+P04,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,38.1
+P04,MN-L11,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,23.0
+P04,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,4,,18.6
+P04,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,29.8
+P04,MN-L14,manual,legit,sms,easy,B,Lừa đảo,Sai,3,,13.1
+P04,MN-L15,manual,legit,email,hard,B,Lừa đảo,Sai,2,đòi OTP/mật khẩu,32.1
+P04,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; tệp đính kèm; chất lượng ngôn ngữ,28.3
+P04,MN-P02,manual,phish,sms,hard,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,23.6
+P04,MN-P03,manual,phish,email,hard,A,Hợp lệ,Sai,1,,39.5
+P04,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,5,URL nhái; hối thúc; sai ngữ cảnh,24.6
+P04,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; mồi thưởng,25.8
+P04,MN-P06,manual,phish,email,hard,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,49.6
+P04,MN-P07,manual,phish,sms,medium,B,Hợp lệ,Sai,3,,20.6
+P04,MN-P08,manual,phish,email,hard,A,Hợp lệ,Sai,3,chất lượng ngôn ngữ,40.7
+P04,MN-P09,manual,phish,zalo,medium,A,Hợp lệ,Sai,3,,23.1
+P04,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,3,tên miền lạ,29.7
+P04,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,25.3
+P04,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu,20.6
+P04,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,5,đòi chuyển tiền; hối thúc; giả thẩm quyền; sai ngữ cảnh,16.6
+P04,MN-P14,manual,phish,email,hard,A,Hợp lệ,Sai,2,,27.9
+P04,MN-P15,manual,phish,email,medium,B,Hợp lệ,Sai,3,,48.0
+P05,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,29.2
+P05,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,11.1
+P05,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,38.1
+P05,AI-L04,ai,legit,zalo,medium,A,Lừa đảo,Sai,2,hối thúc,20.4
+P05,AI-L05,ai,legit,email,hard,B,Lừa đảo,Sai,3,chất lượng ngôn ngữ,34.4
+P05,AI-L06,ai,legit,email,medium,A,Lừa đảo,Sai,4,tệp đính kèm,20.2
+P05,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,2,chất lượng ngôn ngữ,25.0
+P05,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,14.4
+P05,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,1,tên miền lạ; giả thẩm quyền; sai ngữ cảnh,20.7
+P05,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,25.8
+P05,AI-L11,ai,legit,email,hard,B,Lừa đảo,Sai,4,mồi thưởng,46.7
+P05,AI-L12,ai,legit,zalo,medium,B,Lừa đảo,Sai,2,hối thúc; giả thẩm quyền,29.4
+P05,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,34.0
+P05,AI-L14,ai,legit,sms,easy,B,Lừa đảo,Sai,4,sai ngữ cảnh,12.0
+P05,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,30.0
+P05,AI-P01,ai,phish,email,medium,B,Hợp lệ,Sai,4,,37.6
+P05,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,3,,18.0
+P05,AI-P03,ai,phish,email,hard,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,39.1
+P05,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; sai ngữ cảnh,12.2
+P05,AI-P05,ai,phish,email,easy,B,Hợp lệ,Sai,3,,40.7
+P05,AI-P06,ai,phish,email,hard,A,Hợp lệ,Sai,2,,25.8
+P05,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,4,đòi chuyển tiền; giả thẩm quyền,15.7
+P05,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,4,tên miền lạ; đòi chuyển tiền; giả thẩm quyền; sai ngữ cảnh,19.2
+P05,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,sai ngữ cảnh,25.7
+P05,AI-P10,ai,phish,email,hard,B,Lừa đảo,Đúng,3,tên miền lạ; đòi chuyển tiền; hối thúc,25.6
+P05,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; sai ngữ cảnh,26.6
+P05,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,4,hối thúc; tệp đính kèm,13.8
+P05,AI-P13,ai,phish,email,medium,B,Hợp lệ,Sai,2,,27.5
+P05,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; tệp đính kèm; mồi thưởng; chất lượng ngôn ngữ,15.3
+P05,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; hối thúc,30.1
+P05,MN-L01,manual,legit,email,medium,A,Lừa đảo,Sai,4,URL nhái; mồi thưởng,41.5
+P05,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,15.1
+P05,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,5,,29.6
+P05,MN-L04,manual,legit,zalo,medium,B,Lừa đảo,Sai,4,tên miền lạ; hối thúc,22.3
+P05,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,3,,22.4
+P05,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,27.0
+P05,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,28.8
+P05,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,,15.5
+P05,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,2,tệp đính kèm,31.7
+P05,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,32.4
+P05,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,3,tệp đính kèm,48.4
+P05,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,3,,24.0
+P05,MN-L13,manual,legit,email,medium,A,Lừa đảo,Sai,3,tên miền lạ,33.5
+P05,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,4,,16.8
+P05,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,34.0
+P05,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; chất lượng ngôn ngữ,45.7
+P05,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; mồi thưởng,32.7
+P05,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu,32.3
+P05,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,đòi chuyển tiền; sai ngữ cảnh,23.7
+P05,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; đòi chuyển tiền; hối thúc; mồi thưởng,31.9
+P05,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; giả thẩm quyền; sai ngữ cảnh,38.9
+P05,MN-P07,manual,phish,sms,medium,B,Hợp lệ,Sai,5,,29.1
+P05,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,4,hối thúc; giả thẩm quyền; tệp đính kèm,29.0
+P05,MN-P09,manual,phish,zalo,medium,A,Hợp lệ,Sai,2,,24.9
+P05,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,23.1
+P05,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền,19.6
+P05,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,5,hối thúc; sai ngữ cảnh,22.4
+P05,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,3,đòi chuyển tiền; hối thúc; giả thẩm quyền; sai ngữ cảnh,18.3
+P05,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu,31.9
+P05,MN-P15,manual,phish,email,medium,B,Hợp lệ,Sai,2,,34.9
+P06,AI-L01,ai,legit,email,medium,A,Lừa đảo,Sai,4,sai ngữ cảnh,35.7
+P06,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,9.2
+P06,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,2,,36.1
+P06,AI-L04,ai,legit,zalo,medium,A,Lừa đảo,Sai,4,,15.0
+P06,AI-L05,ai,legit,email,hard,B,Lừa đảo,Sai,2,giả thẩm quyền; tệp đính kèm,37.2
+P06,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,30.0
+P06,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,32.5
+P06,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,9.1
+P06,AI-L09,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,43.4
+P06,AI-L10,ai,legit,email,medium,A,Lừa đảo,Sai,4,URL nhái,22.9
+P06,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,25.8
+P06,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,30.7
+P06,AI-L13,ai,legit,email,medium,A,Lừa đảo,Sai,4,giả thẩm quyền,30.9
+P06,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,,12.9
+P06,AI-L15,ai,legit,email,hard,B,Lừa đảo,Sai,2,giả thẩm quyền,35.1
+P06,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,32.2
+P06,AI-P02,ai,phish,sms,hard,B,Lừa đảo,Đúng,3,URL nhái; hối thúc,16.0
+P06,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,35.7
+P06,AI-P04,ai,phish,zalo,medium,A,Hợp lệ,Sai,3,,14.6
+P06,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; hối thúc; mồi thưởng,23.9
+P06,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; hối thúc; giả thẩm quyền,32.1
+P06,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,4,đòi chuyển tiền; hối thúc; giả thẩm quyền; sai ngữ cảnh,14.9
+P06,AI-P08,ai,phish,email,hard,B,Hợp lệ,Sai,1,chất lượng ngôn ngữ,31.2
+P06,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi chuyển tiền; sai ngữ cảnh; mồi thưởng,16.9
+P06,AI-P10,ai,phish,email,hard,B,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; đòi chuyển tiền; tệp đính kèm,27.3
+P06,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; tệp đính kèm,18.6
+P06,AI-P12,ai,phish,sms,hard,A,Hợp lệ,Sai,3,,16.9
+P06,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,25.1
+P06,AI-P14,ai,phish,zalo,medium,A,Hợp lệ,Sai,4,chất lượng ngôn ngữ,33.2
+P06,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,26.1
+P06,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,5,,46.2
+P06,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,11.4
+P06,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,38.2
+P06,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,4,,11.7
+P06,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,2,,36.5
+P06,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,2,,15.7
+P06,MN-L07,manual,legit,email,medium,A,Lừa đảo,Sai,4,sai ngữ cảnh,29.3
+P06,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,9.5
+P06,MN-L09,manual,legit,email,hard,B,Hợp lệ,Đúng,2,chất lượng ngôn ngữ,51.0
+P06,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,21.7
+P06,MN-L11,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,41.9
+P06,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,3,,16.7
+P06,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,24.1
+P06,MN-L14,manual,legit,sms,easy,B,Lừa đảo,Sai,3,chất lượng ngôn ngữ,11.0
+P06,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,29.2
+P06,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,37.7
+P06,MN-P02,manual,phish,sms,hard,A,Hợp lệ,Sai,2,,31.9
+P06,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; giả thẩm quyền; sai ngữ cảnh,42.4
+P06,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,3,đòi chuyển tiền; sai ngữ cảnh,28.6
+P06,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc,22.4
+P06,MN-P06,manual,phish,email,hard,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,45.2
+P06,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi chuyển tiền; hối thúc,13.3
+P06,MN-P08,manual,phish,email,hard,A,Hợp lệ,Sai,2,,32.1
+P06,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi chuyển tiền; mồi thưởng,24.6
+P06,MN-P10,manual,phish,email,medium,B,Hợp lệ,Sai,2,,25.2
+P06,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,2,đòi OTP/mật khẩu; giả thẩm quyền,42.8
+P06,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; sai ngữ cảnh,25.8
+P06,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,5,tên miền lạ; đòi chuyển tiền; giả thẩm quyền; sai ngữ cảnh; chất lượng ngôn ngữ,16.1
+P06,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; giả thẩm quyền; sai ngữ cảnh,26.1
+P06,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; mồi thưởng,25.4
+P07,AI-L01,ai,legit,email,medium,A,Lừa đảo,Sai,5,giả thẩm quyền,27.4
+P07,AI-L02,ai,legit,sms,easy,A,Lừa đảo,Sai,3,đòi OTP/mật khẩu,8.8
+P07,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,28.4
+P07,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,4,,16.9
+P07,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,5,,61.7
+P07,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,19.3
+P07,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,16.1
+P07,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,7.9
+P07,AI-L09,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,24.5
+P07,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,26.9
+P07,AI-L11,ai,legit,email,hard,B,Lừa đảo,Sai,3,mồi thưởng,18.9
+P07,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,4,,25.0
+P07,AI-L13,ai,legit,email,medium,A,Lừa đảo,Sai,2,giả thẩm quyền,37.0
+P07,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,13.0
+P07,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,5,,21.0
+P07,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,32.8
+P07,AI-P02,ai,phish,sms,hard,B,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc,17.3
+P07,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; đòi chuyển tiền; giả thẩm quyền,30.5
+P07,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; sai ngữ cảnh,13.6
+P07,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; đòi chuyển tiền; tệp đính kèm; mồi thưởng,20.4
+P07,AI-P06,ai,phish,email,hard,A,Hợp lệ,Sai,3,,29.9
+P07,AI-P07,ai,phish,sms,medium,B,Hợp lệ,Sai,3,chất lượng ngôn ngữ,26.5
+P07,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,3,tên miền lạ; đòi chuyển tiền; hối thúc; sai ngữ cảnh,23.8
+P07,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi chuyển tiền; mồi thưởng,25.1
+P07,AI-P10,ai,phish,email,hard,B,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; tệp đính kèm,19.6
+P07,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; hối thúc; sai ngữ cảnh,19.6
+P07,AI-P12,ai,phish,sms,hard,A,Hợp lệ,Sai,2,,20.0
+P07,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; giả thẩm quyền,36.1
+P07,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,2,giả thẩm quyền; sai ngữ cảnh,20.0
+P07,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc,16.5
+P07,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,26.5
+P07,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,3,,10.8
+P07,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,2,,28.0
+P07,MN-L04,manual,legit,zalo,medium,B,Lừa đảo,Sai,3,tệp đính kèm,8.6
+P07,MN-L05,manual,legit,email,hard,A,Lừa đảo,Sai,3,giả thẩm quyền; tệp đính kèm,19.8
+P07,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,18.2
+P07,MN-L07,manual,legit,email,medium,A,Lừa đảo,Sai,4,sai ngữ cảnh,41.6
+P07,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,19.0
+P07,MN-L09,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,31.6
+P07,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,24.6
+P07,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,3,tệp đính kèm,49.3
+P07,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,3,,18.2
+P07,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,23.8
+P07,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,5,,12.2
+P07,MN-L15,manual,legit,email,hard,B,Lừa đảo,Sai,2,,40.3
+P07,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; hối thúc; giả thẩm quyền; chất lượng ngôn ngữ,23.9
+P07,MN-P02,manual,phish,sms,hard,A,Hợp lệ,Sai,3,,17.0
+P07,MN-P03,manual,phish,email,hard,A,Hợp lệ,Sai,3,chất lượng ngôn ngữ,25.1
+P07,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,URL nhái; hối thúc,28.5
+P07,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,5,đòi chuyển tiền; mồi thưởng,30.1
+P07,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,2,tên miền lạ; đòi OTP/mật khẩu; giả thẩm quyền; sai ngữ cảnh,26.7
+P07,MN-P07,manual,phish,sms,medium,B,Hợp lệ,Sai,3,,20.7
+P07,MN-P08,manual,phish,email,hard,A,Hợp lệ,Sai,4,chất lượng ngôn ngữ,34.2
+P07,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi chuyển tiền; sai ngữ cảnh; mồi thưởng,20.0
+P07,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; đòi OTP/mật khẩu,22.8
+P07,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,4,hối thúc; giả thẩm quyền,20.5
+P07,MN-P12,manual,phish,email,medium,B,Hợp lệ,Sai,3,chất lượng ngôn ngữ,24.6
+P07,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,5,đòi chuyển tiền; hối thúc; sai ngữ cảnh,18.1
+P07,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; sai ngữ cảnh,27.2
+P07,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,5,hối thúc; giả thẩm quyền,29.5
+P08,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,30.5
+P08,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,8.5
+P08,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,22.8
+P08,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,3,,10.8
+P08,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,23.4
+P08,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,15.7
+P08,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,14.1
+P08,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,8.8
+P08,AI-L09,ai,legit,email,hard,B,Hợp lệ,Đúng,2,,24.1
+P08,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,15.0
+P08,AI-L11,ai,legit,email,hard,B,Lừa đảo,Sai,3,,14.8
+P08,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,4,,12.2
+P08,AI-L13,ai,legit,email,medium,A,Lừa đảo,Sai,4,đòi OTP/mật khẩu; giả thẩm quyền,12.4
+P08,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,,4.2
+P08,AI-L15,ai,legit,email,hard,B,Lừa đảo,Sai,3,,20.3
+P08,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; giả thẩm quyền,14.7
+P08,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,3,,14.4
+P08,AI-P03,ai,phish,email,hard,A,Hợp lệ,Sai,2,,39.5
+P08,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi chuyển tiền; giả thẩm quyền,13.0
+P08,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền; mồi thưởng,16.5
+P08,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,1,tên miền lạ; URL nhái; hối thúc; giả thẩm quyền; tệp đính kèm,18.3
+P08,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,3,URL nhái; đòi chuyển tiền; hối thúc; giả thẩm quyền,10.6
+P08,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,2,tên miền lạ; hối thúc; sai ngữ cảnh; tệp đính kèm,16.3
+P08,AI-P09,ai,phish,zalo,medium,A,Hợp lệ,Sai,4,,10.7
+P08,AI-P10,ai,phish,email,hard,B,Hợp lệ,Sai,1,,24.3
+P08,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; tệp đính kèm,11.2
+P08,AI-P12,ai,phish,sms,hard,A,Hợp lệ,Sai,1,,9.4
+P08,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; giả thẩm quyền,23.8
+P08,AI-P14,ai,phish,zalo,medium,A,Hợp lệ,Sai,3,chất lượng ngôn ngữ,12.1
+P08,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,3,URL nhái,18.0
+P08,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,34.1
+P08,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,3,,10.0
+P08,MN-L03,manual,legit,email,hard,B,Lừa đảo,Sai,3,hối thúc,17.3
+P08,MN-L04,manual,legit,zalo,medium,B,Lừa đảo,Sai,3,tệp đính kèm,11.9
+P08,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,4,,17.9
+P08,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,11.4
+P08,MN-L07,manual,legit,email,medium,A,Lừa đảo,Sai,3,tên miền lạ; tệp đính kèm,24.0
+P08,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,3,,5.5
+P08,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,4,tên miền lạ,25.8
+P08,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,20.1
+P08,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,3,đòi chuyển tiền,23.8
+P08,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,3,,21.6
+P08,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,2,,20.8
+P08,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,4,,6.2
+P08,MN-L15,manual,legit,email,hard,B,Lừa đảo,Sai,3,,33.4
+P08,MN-P01,manual,phish,email,medium,A,Hợp lệ,Sai,4,,25.1
+P08,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; mồi thưởng,12.4
+P08,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; sai ngữ cảnh; tệp đính kèm,29.8
+P08,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi chuyển tiền; hối thúc,13.7
+P08,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; mồi thưởng,20.1
+P08,MN-P06,manual,phish,email,hard,A,Hợp lệ,Sai,3,,31.8
+P08,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,4,URL nhái; giả thẩm quyền,16.2
+P08,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; tệp đính kèm,20.3
+P08,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi chuyển tiền; sai ngữ cảnh; mồi thưởng,11.5
+P08,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,15.7
+P08,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; chất lượng ngôn ngữ,26.3
+P08,MN-P12,manual,phish,email,medium,B,Hợp lệ,Sai,5,,28.0
+P08,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,3,sai ngữ cảnh,10.6
+P08,MN-P14,manual,phish,email,hard,A,Hợp lệ,Sai,2,,21.7
+P08,MN-P15,manual,phish,email,medium,B,Hợp lệ,Sai,2,,22.6
+P09,AI-L01,ai,legit,email,medium,A,Lừa đảo,Sai,4,sai ngữ cảnh,24.7
+P09,AI-L02,ai,legit,sms,easy,A,Lừa đảo,Sai,5,,12.3
+P09,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,19.0
+P09,AI-L04,ai,legit,zalo,medium,A,Lừa đảo,Sai,3,,7.8
+P09,AI-L05,ai,legit,email,hard,B,Lừa đảo,Sai,2,,27.7
+P09,AI-L06,ai,legit,email,medium,A,Lừa đảo,Sai,2,,16.6
+P09,AI-L07,ai,legit,email,medium,A,Lừa đảo,Sai,4,giả thẩm quyền,13.9
+P09,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,6.7
+P09,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,3,giả thẩm quyền; mồi thưởng,26.9
+P09,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,15.0
+P09,AI-L11,ai,legit,email,hard,B,Lừa đảo,Sai,4,mồi thưởng,24.6
+P09,AI-L12,ai,legit,zalo,medium,B,Lừa đảo,Sai,2,giả thẩm quyền,11.5
+P09,AI-L13,ai,legit,email,medium,A,Lừa đảo,Sai,4,,20.9
+P09,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,,5.0
+P09,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,25.1
+P09,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; hối thúc; mồi thưởng,17.5
+P09,AI-P02,ai,phish,sms,hard,B,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; sai ngữ cảnh,7.1
+P09,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc,16.6
+P09,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,2,hối thúc; sai ngữ cảnh,9.6
+P09,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; giả thẩm quyền; sai ngữ cảnh; mồi thưởng; chất lượng ngôn ngữ,11.2
+P09,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; giả thẩm quyền; tệp đính kèm,15.9
+P09,AI-P07,ai,phish,sms,medium,B,Hợp lệ,Sai,3,,6.2
+P09,AI-P08,ai,phish,email,hard,B,Hợp lệ,Sai,2,chất lượng ngôn ngữ,11.7
+P09,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,5,sai ngữ cảnh,10.9
+P09,AI-P10,ai,phish,email,hard,B,Hợp lệ,Sai,2,,12.2
+P09,AI-P11,ai,phish,email,medium,B,Hợp lệ,Sai,4,,12.9
+P09,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; hối thúc; giả thẩm quyền,8.0
+P09,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,2,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,17.7
+P09,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; giả thẩm quyền; tệp đính kèm; mồi thưởng,7.4
+P09,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,23.5
+P09,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,22.1
+P09,MN-L02,manual,legit,sms,easy,A,Lừa đảo,Sai,3,,7.1
+P09,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,5,,36.0
+P09,MN-L04,manual,legit,zalo,medium,B,Lừa đảo,Sai,3,tên miền lạ; đòi chuyển tiền; chất lượng ngôn ngữ,11.7
+P09,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,20.6
+P09,MN-L06,manual,legit,email,medium,B,Lừa đảo,Sai,3,tên miền lạ,13.3
+P09,MN-L07,manual,legit,email,medium,A,Lừa đảo,Sai,3,tệp đính kèm,21.6
+P09,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,,8.1
+P09,MN-L09,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,21.3
+P09,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,11.1
+P09,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,4,tệp đính kèm,24.0
+P09,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,4,,19.4
+P09,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,19.0
+P09,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,5,,8.1
+P09,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,2,,22.6
+P09,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,24.0
+P09,MN-P02,manual,phish,sms,hard,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,16.6
+P09,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; sai ngữ cảnh,26.9
+P09,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh,16.7
+P09,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; mồi thưởng; chất lượng ngôn ngữ,18.0
+P09,MN-P06,manual,phish,email,hard,A,Hợp lệ,Sai,1,,29.1
+P09,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi chuyển tiền; hối thúc; giả thẩm quyền; tệp đính kèm,19.4
+P09,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,2,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; tệp đính kèm,26.2
+P09,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,3,đòi chuyển tiền; giả thẩm quyền; sai ngữ cảnh; mồi thưởng,17.4
+P09,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; chất lượng ngôn ngữ,11.5
+P09,MN-P11,manual,phish,sms,hard,A,Hợp lệ,Sai,2,,15.3
+P09,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; hối thúc; sai ngữ cảnh; mồi thưởng,18.0
+P09,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,giả thẩm quyền; sai ngữ cảnh,9.4
+P09,MN-P14,manual,phish,email,hard,A,Hợp lệ,Sai,3,,19.6
+P09,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,2,hối thúc; mồi thưởng; chất lượng ngôn ngữ,15.1
+P10,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,27.4
+P10,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,8.7
+P10,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,2,,31.8
+P10,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,4,,18.4
+P10,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,28.2
+P10,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,20.2
+P10,AI-L07,ai,legit,email,medium,A,Lừa đảo,Sai,3,sai ngữ cảnh,31.9
+P10,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,3,,11.9
+P10,AI-L09,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,24.4
+P10,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,24.0
+P10,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,20.0
+P10,AI-L12,ai,legit,zalo,medium,B,Lừa đảo,Sai,3,giả thẩm quyền; chất lượng ngôn ngữ,21.8
+P10,AI-L13,ai,legit,email,medium,A,Lừa đảo,Sai,3,giả thẩm quyền,20.5
+P10,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,,18.4
+P10,AI-L15,ai,legit,email,hard,B,Lừa đảo,Sai,4,giả thẩm quyền,36.0
+P10,AI-P01,ai,phish,email,medium,B,Hợp lệ,Sai,2,,26.5
+P10,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,2,,16.7
+P10,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi chuyển tiền; hối thúc; giả thẩm quyền,58.5
+P10,AI-P04,ai,phish,zalo,medium,A,Hợp lệ,Sai,3,chất lượng ngôn ngữ,13.9
+P10,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; tệp đính kèm; mồi thưởng,22.1
+P10,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,2,URL nhái; đòi OTP/mật khẩu; giả thẩm quyền; chất lượng ngôn ngữ,40.9
+P10,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,3,URL nhái; hối thúc; giả thẩm quyền; sai ngữ cảnh,17.1
+P10,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi chuyển tiền; hối thúc; giả thẩm quyền; sai ngữ cảnh,18.1
+P10,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi chuyển tiền; sai ngữ cảnh,19.8
+P10,AI-P10,ai,phish,email,hard,B,Hợp lệ,Sai,4,,30.5
+P10,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc,30.9
+P10,AI-P12,ai,phish,sms,hard,A,Hợp lệ,Sai,3,,15.2
+P10,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,29.2
+P10,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; hối thúc; sai ngữ cảnh; mồi thưởng,20.6
+P10,AI-P15,ai,phish,email,hard,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,52.4
+P10,MN-L01,manual,legit,email,medium,A,Lừa đảo,Sai,3,tên miền lạ; đòi OTP/mật khẩu; hối thúc,33.6
+P10,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,2,,15.6
+P10,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,37.4
+P10,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,4,,24.2
+P10,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,4,,24.7
+P10,MN-L06,manual,legit,email,medium,B,Lừa đảo,Sai,4,hối thúc,26.1
+P10,MN-L07,manual,legit,email,medium,A,Lừa đảo,Sai,4,tên miền lạ; sai ngữ cảnh,33.5
+P10,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,13.5
+P10,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,3,sai ngữ cảnh,40.5
+P10,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,24.0
+P10,MN-L11,manual,legit,email,hard,B,Hợp lệ,Đúng,5,,32.4
+P10,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,4,,26.4
+P10,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,47.0
+P10,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,4,,11.8
+P10,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,29.7
+P10,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,35.8
+P10,MN-P02,manual,phish,sms,hard,A,Hợp lệ,Sai,1,chất lượng ngôn ngữ,26.3
+P10,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu,29.4
+P10,MN-P04,manual,phish,zalo,medium,B,Hợp lệ,Sai,2,,20.1
+P10,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,4,đòi chuyển tiền; tệp đính kèm,36.3
+P10,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,2,đòi OTP/mật khẩu; giả thẩm quyền,43.4
+P10,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,3,đòi chuyển tiền; hối thúc; giả thẩm quyền,23.0
+P10,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,4,giả thẩm quyền; tệp đính kèm,24.0
+P10,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi chuyển tiền; sai ngữ cảnh,23.4
+P10,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; hối thúc; chất lượng ngôn ngữ,35.3
+P10,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; hối thúc; giả thẩm quyền,16.4
+P10,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,3,đòi chuyển tiền; sai ngữ cảnh,21.6
+P10,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,3,tên miền lạ; đòi chuyển tiền; hối thúc; sai ngữ cảnh,45.7
+P10,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; sai ngữ cảnh; mồi thưởng,55.0
+P10,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,5,mồi thưởng,24.9
+P11,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,28.8
+P11,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,15.3
+P11,AI-L03,ai,legit,email,hard,B,Lừa đảo,Sai,3,tên miền lạ; hối thúc; mồi thưởng,22.7
+P11,AI-L04,ai,legit,zalo,medium,A,Lừa đảo,Sai,3,giả thẩm quyền,14.0
+P11,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,27.5
+P11,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,21.9
+P11,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,23.1
+P11,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,7.9
+P11,AI-L09,ai,legit,email,hard,B,Hợp lệ,Đúng,2,,43.7
+P11,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,15.8
+P11,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,2,,22.4
+P11,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,17.1
+P11,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,18.9
+P11,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,4,,8.0
+P11,AI-L15,ai,legit,email,hard,B,Lừa đảo,Sai,2,giả thẩm quyền,24.7
+P11,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,21.0
+P11,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,3,,15.5
+P11,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền; mồi thưởng,37.5
+P11,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,URL nhái; sai ngữ cảnh; mồi thưởng,16.7
+P11,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,URL nhái; đòi chuyển tiền; hối thúc; mồi thưởng,15.0
+P11,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,23.6
+P11,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc; giả thẩm quyền; sai ngữ cảnh,9.4
+P11,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,3,tên miền lạ; đòi chuyển tiền; hối thúc; giả thẩm quyền; sai ngữ cảnh; mồi thưởng,11.3
+P11,AI-P09,ai,phish,zalo,medium,A,Hợp lệ,Sai,3,,7.6
+P11,AI-P10,ai,phish,email,hard,B,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền; tệp đính kèm,24.5
+P11,AI-P11,ai,phish,email,medium,B,Hợp lệ,Sai,4,chất lượng ngôn ngữ,18.3
+P11,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,10.8
+P11,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,30.9
+P11,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; mồi thưởng,18.1
+P11,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc,30.8
+P11,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,22.9
+P11,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,10.5
+P11,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,23.0
+P11,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,5,,21.2
+P11,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,2,,21.6
+P11,MN-L06,manual,legit,email,medium,B,Lừa đảo,Sai,2,sai ngữ cảnh,13.6
+P11,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,28.9
+P11,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,7.8
+P11,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,1,chất lượng ngôn ngữ,35.9
+P11,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,22.0
+P11,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,3,tệp đính kèm,22.2
+P11,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,25.4
+P11,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,21.7
+P11,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,5,,13.6
+P11,MN-L15,manual,legit,email,hard,B,Lừa đảo,Sai,3,sai ngữ cảnh,29.5
+P11,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; chất lượng ngôn ngữ,42.1
+P11,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; mồi thưởng; chất lượng ngôn ngữ,19.3
+P11,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,5,tên miền lạ; đòi OTP/mật khẩu; sai ngữ cảnh; mồi thưởng; chất lượng ngôn ngữ,30.1
+P11,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh,14.5
+P11,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; mồi thưởng,11.1
+P11,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; giả thẩm quyền; sai ngữ cảnh,28.3
+P11,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,3,đòi chuyển tiền; hối thúc; giả thẩm quyền,15.7
+P11,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,5,tên miền lạ; đòi OTP/mật khẩu; giả thẩm quyền; sai ngữ cảnh; tệp đính kèm; chất lượng ngôn ngữ,25.3
+P11,MN-P09,manual,phish,zalo,medium,A,Hợp lệ,Sai,1,,16.1
+P11,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc,19.0
+P11,MN-P11,manual,phish,sms,hard,A,Hợp lệ,Sai,2,,37.2
+P11,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,5,URL nhái,18.9
+P11,MN-P13,manual,phish,zalo,medium,B,Hợp lệ,Sai,2,,19.2
+P11,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,2,tên miền lạ; đòi OTP/mật khẩu,23.2
+P11,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; mồi thưởng,32.6
+P12,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,14.6
+P12,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,7.6
+P12,AI-L03,ai,legit,email,hard,B,Lừa đảo,Sai,2,đòi OTP/mật khẩu,24.3
+P12,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,4,,8.5
+P12,AI-L05,ai,legit,email,hard,B,Lừa đảo,Sai,3,đòi OTP/mật khẩu,27.0
+P12,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,13.1
+P12,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,14.1
+P12,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,7.8
+P12,AI-L09,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,27.7
+P12,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,12.2
+P12,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,16.7
+P12,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,12.8
+P12,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,16.4
+P12,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,4,,7.3
+P12,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,22.8
+P12,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền,11.4
+P12,AI-P02,ai,phish,sms,hard,B,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; mồi thưởng,9.5
+P12,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,3,đòi chuyển tiền; hối thúc; giả thẩm quyền,29.2
+P12,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,5,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh; mồi thưởng,12.5
+P12,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,13.6
+P12,AI-P06,ai,phish,email,hard,A,Hợp lệ,Sai,5,,26.6
+P12,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc; giả thẩm quyền; sai ngữ cảnh,11.4
+P12,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,4,tên miền lạ; hối thúc; giả thẩm quyền; sai ngữ cảnh,19.0
+P12,AI-P09,ai,phish,zalo,medium,A,Hợp lệ,Sai,3,,11.9
+P12,AI-P10,ai,phish,email,hard,B,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền,41.9
+P12,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; sai ngữ cảnh,16.5
+P12,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; mồi thưởng,21.3
+P12,AI-P13,ai,phish,email,medium,B,Hợp lệ,Sai,3,,11.3
+P12,AI-P14,ai,phish,zalo,medium,A,Hợp lệ,Sai,3,chất lượng ngôn ngữ,20.1
+P12,AI-P15,ai,phish,email,hard,A,Hợp lệ,Sai,2,,18.0
+P12,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,24.7
+P12,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,,9.3
+P12,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,20.8
+P12,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,3,,14.0
+P12,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,3,,20.7
+P12,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,13.7
+P12,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,19.4
+P12,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,3,,4.5
+P12,MN-L09,manual,legit,email,hard,B,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,21.6
+P12,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,13.0
+P12,MN-L11,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,14.6
+P12,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,4,,15.7
+P12,MN-L13,manual,legit,email,medium,A,Lừa đảo,Sai,3,mồi thưởng,12.4
+P12,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,5,,13.3
+P12,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,19.0
+P12,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,17.4
+P12,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; sai ngữ cảnh; chất lượng ngôn ngữ,24.4
+P12,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; đòi chuyển tiền; giả thẩm quyền; sai ngữ cảnh,11.5
+P12,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi chuyển tiền; sai ngữ cảnh,13.1
+P12,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; mồi thưởng; chất lượng ngôn ngữ,14.1
+P12,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,4,sai ngữ cảnh,16.5
+P12,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,4,tên miền lạ; đòi chuyển tiền; giả thẩm quyền; mồi thưởng; chất lượng ngôn ngữ,11.2
+P12,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; tệp đính kèm,34.5
+P12,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,3,đòi chuyển tiền; mồi thưởng,19.9
+P12,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; hối thúc; chất lượng ngôn ngữ,15.5
+P12,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,2,đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; sai ngữ cảnh,19.3
+P12,MN-P12,manual,phish,email,medium,B,Hợp lệ,Sai,3,chất lượng ngôn ngữ,21.9
+P12,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,URL nhái; giả thẩm quyền,20.1
+P12,MN-P14,manual,phish,email,hard,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,11.3
+P12,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,12.9
+P13,AI-L01,ai,legit,email,medium,A,Lừa đảo,Sai,3,chất lượng ngôn ngữ,14.1
+P13,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,6.9
+P13,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,22.8
+P13,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,4,,9.8
+P13,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,26.2
+P13,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,15.1
+P13,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,16.4
+P13,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,4.5
+P13,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,2,giả thẩm quyền,31.8
+P13,AI-L10,ai,legit,email,medium,A,Lừa đảo,Sai,2,,12.3
+P13,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,17.9
+P13,AI-L12,ai,legit,zalo,medium,B,Lừa đảo,Sai,1,sai ngữ cảnh,12.5
+P13,AI-L13,ai,legit,email,medium,A,Lừa đảo,Sai,4,chất lượng ngôn ngữ,19.8
+P13,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,4,,6.6
+P13,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,13.3
+P13,AI-P01,ai,phish,email,medium,B,Hợp lệ,Sai,3,,20.1
+P13,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,4,,13.7
+P13,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; giả thẩm quyền,26.9
+P13,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc,11.7
+P13,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền; mồi thưởng,14.8
+P13,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; hối thúc,19.2
+P13,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,3,đòi chuyển tiền; hối thúc; giả thẩm quyền; chất lượng ngôn ngữ,14.0
+P13,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,4,tên miền lạ; đòi chuyển tiền; hối thúc; giả thẩm quyền; sai ngữ cảnh,22.5
+P13,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,đòi chuyển tiền; sai ngữ cảnh; mồi thưởng,12.6
+P13,AI-P10,ai,phish,email,hard,B,Lừa đảo,Đúng,2,đòi OTP/mật khẩu; hối thúc; tệp đính kèm,16.3
+P13,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; sai ngữ cảnh,17.0
+P13,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc,11.1
+P13,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; hối thúc; giả thẩm quyền,19.9
+P13,AI-P14,ai,phish,zalo,medium,A,Hợp lệ,Sai,2,,7.4
+P13,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,5,URL nhái,22.4
+P13,MN-L01,manual,legit,email,medium,A,Lừa đảo,Sai,3,mồi thưởng,23.9
+P13,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,,7.8
+P13,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,2,,36.5
+P13,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,12.4
+P13,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,4,,27.7
+P13,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,17.5
+P13,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,21.0
+P13,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,,4.4
+P13,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,2,chất lượng ngôn ngữ,31.1
+P13,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,5,,23.5
+P13,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,3,giả thẩm quyền; chất lượng ngôn ngữ,27.6
+P13,MN-L12,manual,legit,zalo,medium,A,Lừa đảo,Sai,3,hối thúc,20.5
+P13,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,14.6
+P13,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,3,,6.3
+P13,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,39.4
+P13,MN-P01,manual,phish,email,medium,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,20.6
+P13,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; mồi thưởng,11.5
+P13,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; giả thẩm quyền,22.6
+P13,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,5,URL nhái; sai ngữ cảnh; tệp đính kèm,13.7
+P13,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc,14.3
+P13,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; sai ngữ cảnh,21.4
+P13,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,5,giả thẩm quyền,10.7
+P13,MN-P08,manual,phish,email,hard,A,Hợp lệ,Sai,2,,37.0
+P13,MN-P09,manual,phish,zalo,medium,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,25.4
+P13,MN-P10,manual,phish,email,medium,B,Hợp lệ,Sai,3,,21.9
+P13,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu,20.5
+P13,MN-P12,manual,phish,email,medium,B,Hợp lệ,Sai,3,,11.3
+P13,MN-P13,manual,phish,zalo,medium,B,Hợp lệ,Sai,4,,11.9
+P13,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; hối thúc; giả thẩm quyền; sai ngữ cảnh,17.3
+P13,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; hối thúc,18.3
+P14,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,38.3
+P14,AI-L02,ai,legit,sms,easy,A,Lừa đảo,Sai,3,đòi OTP/mật khẩu,11.5
+P14,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,46.7
+P14,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,4,,13.2
+P14,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,25.3
+P14,AI-L06,ai,legit,email,medium,A,Lừa đảo,Sai,3,đòi OTP/mật khẩu,18.9
+P14,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,17.1
+P14,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,10.3
+P14,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,3,giả thẩm quyền,58.2
+P14,AI-L10,ai,legit,email,medium,A,Lừa đảo,Sai,3,hối thúc,19.4
+P14,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,23.1
+P14,AI-L12,ai,legit,zalo,medium,B,Lừa đảo,Sai,3,giả thẩm quyền,22.9
+P14,AI-L13,ai,legit,email,medium,A,Lừa đảo,Sai,3,giả thẩm quyền,22.9
+P14,AI-L14,ai,legit,sms,easy,B,Lừa đảo,Sai,3,đòi chuyển tiền,6.8
+P14,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,52.7
+P14,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,21.3
+P14,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,3,,17.1
+P14,AI-P03,ai,phish,email,hard,A,Hợp lệ,Sai,2,,38.5
+P14,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,URL nhái; hối thúc; sai ngữ cảnh,25.3
+P14,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,18.3
+P14,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,29.0
+P14,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,4,đòi chuyển tiền; hối thúc; giả thẩm quyền,20.4
+P14,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,4,tên miền lạ; đòi chuyển tiền; giả thẩm quyền,18.6
+P14,AI-P09,ai,phish,zalo,medium,A,Hợp lệ,Sai,3,,23.7
+P14,AI-P10,ai,phish,email,hard,B,Lừa đảo,Đúng,2,tên miền lạ; hối thúc; giả thẩm quyền; tệp đính kèm; chất lượng ngôn ngữ,42.8
+P14,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc,17.4
+P14,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,2,URL nhái; đòi OTP/mật khẩu; hối thúc; chất lượng ngôn ngữ,24.0
+P14,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; giả thẩm quyền,15.6
+P14,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; giả thẩm quyền; mồi thưởng,20.7
+P14,AI-P15,ai,phish,email,hard,A,Hợp lệ,Sai,3,chất lượng ngôn ngữ,20.4
+P14,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,20.6
+P14,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,18.5
+P14,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,20.6
+P14,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,4,,20.0
+P14,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,3,,23.6
+P14,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,28.4
+P14,MN-L07,manual,legit,email,medium,A,Lừa đảo,Sai,4,,27.1
+P14,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,14.5
+P14,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,4,đòi chuyển tiền,23.4
+P14,MN-L10,manual,legit,email,medium,B,Lừa đảo,Sai,4,URL nhái,33.5
+P14,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,2,đòi OTP/mật khẩu,53.1
+P14,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,4,,28.0
+P14,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,27.0
+P14,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,3,,12.0
+P14,MN-L15,manual,legit,email,hard,B,Lừa đảo,Sai,3,tên miền lạ; giả thẩm quyền,25.1
+P14,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; hối thúc; chất lượng ngôn ngữ,41.9
+P14,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc,17.6
+P14,MN-P03,manual,phish,email,hard,A,Hợp lệ,Sai,4,chất lượng ngôn ngữ,39.9
+P14,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,3,URL nhái; hối thúc; sai ngữ cảnh,22.2
+P14,MN-P05,manual,phish,email,easy,B,Hợp lệ,Sai,4,chất lượng ngôn ngữ,24.7
+P14,MN-P06,manual,phish,email,hard,A,Hợp lệ,Sai,4,chất lượng ngôn ngữ,32.9
+P14,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc; giả thẩm quyền,21.4
+P14,MN-P08,manual,phish,email,hard,A,Hợp lệ,Sai,2,,46.3
+P14,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,3,đòi chuyển tiền; sai ngữ cảnh; mồi thưởng,13.6
+P14,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; đòi OTP/mật khẩu; hối thúc,21.1
+P14,MN-P11,manual,phish,sms,hard,A,Hợp lệ,Sai,4,,22.4
+P14,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; sai ngữ cảnh,19.6
+P14,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,đòi chuyển tiền; hối thúc; sai ngữ cảnh,24.3
+P14,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu,36.9
+P14,MN-P15,manual,phish,email,medium,B,Hợp lệ,Sai,3,,44.5
+P15,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,39.1
+P15,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,11.1
+P15,AI-L03,ai,legit,email,hard,B,Lừa đảo,Sai,3,hối thúc; chất lượng ngôn ngữ,23.9
+P15,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,5,,12.3
+P15,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,5,,28.7
+P15,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,20.6
+P15,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,24.6
+P15,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,7.4
+P15,AI-L09,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,30.6
+P15,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,17.5
+P15,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,38.6
+P15,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,5,,27.0
+P15,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,23.5
+P15,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,,14.5
+P15,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,19.8
+P15,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,5,giả thẩm quyền,24.1
+P15,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,3,,15.1
+P15,AI-P03,ai,phish,email,hard,A,Hợp lệ,Sai,3,,36.6
+P15,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,URL nhái; hối thúc,12.6
+P15,AI-P05,ai,phish,email,easy,B,Hợp lệ,Sai,4,,23.1
+P15,AI-P06,ai,phish,email,hard,A,Hợp lệ,Sai,2,,22.9
+P15,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,2,URL nhái; hối thúc; giả thẩm quyền; sai ngữ cảnh,10.9
+P15,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,4,tên miền lạ; sai ngữ cảnh; mồi thưởng,25.6
+P15,AI-P09,ai,phish,zalo,medium,A,Hợp lệ,Sai,2,,17.4
+P15,AI-P10,ai,phish,email,hard,B,Hợp lệ,Sai,2,,34.6
+P15,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; sai ngữ cảnh,25.8
+P15,AI-P12,ai,phish,sms,hard,A,Hợp lệ,Sai,3,,16.0
+P15,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; hối thúc; giả thẩm quyền; sai ngữ cảnh; tệp đính kèm,26.0
+P15,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; mồi thưởng,13.5
+P15,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,3,URL nhái; hối thúc; chất lượng ngôn ngữ,39.9
+P15,MN-L01,manual,legit,email,medium,A,Lừa đảo,Sai,2,chất lượng ngôn ngữ,45.0
+P15,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,16.7
+P15,MN-L03,manual,legit,email,hard,B,Lừa đảo,Sai,3,chất lượng ngôn ngữ,17.7
+P15,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,5,,16.5
+P15,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,4,,25.0
+P15,MN-L06,manual,legit,email,medium,B,Lừa đảo,Sai,3,tên miền lạ,23.4
+P15,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,5,,37.9
+P15,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,11.3
+P15,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,4,hối thúc,33.8
+P15,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,37.1
+P15,MN-L11,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,32.0
+P15,MN-L12,manual,legit,zalo,medium,A,Lừa đảo,Sai,3,tên miền lạ,33.1
+P15,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,5,,37.1
+P15,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,5,,13.8
+P15,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,5,,21.3
+P15,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; hối thúc,27.8
+P15,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; mồi thưởng,28.0
+P15,MN-P03,manual,phish,email,hard,A,Hợp lệ,Sai,3,,29.0
+P15,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh,20.3
+P15,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc,21.0
+P15,MN-P06,manual,phish,email,hard,A,Hợp lệ,Sai,2,,59.1
+P15,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,4,URL nhái; hối thúc,20.6
+P15,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; giả thẩm quyền,60.6
+P15,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,3,sai ngữ cảnh; mồi thưởng,18.8
+P15,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,5,tên miền lạ; URL nhái,27.4
+P15,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh,24.3
+P15,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; sai ngữ cảnh; tệp đính kèm; chất lượng ngôn ngữ,16.4
+P15,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,2,đòi chuyển tiền; hối thúc; giả thẩm quyền; chất lượng ngôn ngữ,17.6
+P15,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,4,sai ngữ cảnh,24.1
+P15,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền; mồi thưởng,23.5
+P16,AI-L01,ai,legit,email,medium,A,Lừa đảo,Sai,3,đòi chuyển tiền; giả thẩm quyền,27.7
+P16,AI-L02,ai,legit,sms,easy,A,Lừa đảo,Sai,5,hối thúc; tệp đính kèm; mồi thưởng,9.9
+P16,AI-L03,ai,legit,email,hard,B,Lừa đảo,Sai,3,hối thúc; giả thẩm quyền,46.0
+P16,AI-L04,ai,legit,zalo,medium,A,Lừa đảo,Sai,2,hối thúc,15.7
+P16,AI-L05,ai,legit,email,hard,B,Lừa đảo,Sai,2,mồi thưởng,29.7
+P16,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,32.0
+P16,AI-L07,ai,legit,email,medium,A,Lừa đảo,Sai,4,giả thẩm quyền,23.8
+P16,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,4,,14.2
+P16,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,2,hối thúc; giả thẩm quyền,39.4
+P16,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,14.4
+P16,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,4,,39.1
+P16,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,3,,30.4
+P16,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,26.5
+P16,AI-L14,ai,legit,sms,easy,B,Lừa đảo,Sai,4,tệp đính kèm,9.4
+P16,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,32.7
+P16,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,26.5
+P16,AI-P02,ai,phish,sms,hard,B,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; sai ngữ cảnh,13.5
+P16,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; hối thúc; giả thẩm quyền; sai ngữ cảnh,35.5
+P16,AI-P04,ai,phish,zalo,medium,A,Hợp lệ,Sai,2,,14.9
+P16,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; sai ngữ cảnh,18.4
+P16,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,31.6
+P16,AI-P07,ai,phish,sms,medium,B,Hợp lệ,Sai,3,,18.8
+P16,AI-P08,ai,phish,email,hard,B,Hợp lệ,Sai,3,,20.1
+P16,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi chuyển tiền; sai ngữ cảnh; mồi thưởng; chất lượng ngôn ngữ,12.4
+P16,AI-P10,ai,phish,email,hard,B,Hợp lệ,Sai,2,,39.7
+P16,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; hối thúc; tệp đính kèm,25.3
+P16,AI-P12,ai,phish,sms,hard,A,Hợp lệ,Sai,4,,43.6
+P16,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; mồi thưởng,19.6
+P16,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; giả thẩm quyền; sai ngữ cảnh; mồi thưởng,14.2
+P16,AI-P15,ai,phish,email,hard,A,Hợp lệ,Sai,2,,24.4
+P16,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,28.8
+P16,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,15.6
+P16,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,2,,30.4
+P16,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,4,,18.2
+P16,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,4,,35.7
+P16,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,26.3
+P16,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,41.3
+P16,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,10.1
+P16,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,2,,51.3
+P16,MN-L10,manual,legit,email,medium,B,Lừa đảo,Sai,2,đòi chuyển tiền,28.7
+P16,MN-L11,manual,legit,email,hard,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,37.1
+P16,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,5,,28.9
+P16,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,28.2
+P16,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,5,,22.3
+P16,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,2,,42.9
+P16,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc,29.2
+P16,MN-P02,manual,phish,sms,hard,A,Hợp lệ,Sai,2,,22.3
+P16,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; giả thẩm quyền,27.7
+P16,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,hối thúc; sai ngữ cảnh,26.6
+P16,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,3,URL nhái; hối thúc; mồi thưởng,21.9
+P16,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,2,tên miền lạ; sai ngữ cảnh; chất lượng ngôn ngữ,38.2
+P16,MN-P07,manual,phish,sms,medium,B,Hợp lệ,Sai,2,,28.3
+P16,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,5,tên miền lạ; đòi OTP/mật khẩu; giả thẩm quyền; sai ngữ cảnh; tệp đính kèm,52.8
+P16,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; mồi thưởng,26.8
+P16,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; chất lượng ngôn ngữ,20.5
+P16,MN-P11,manual,phish,sms,hard,A,Hợp lệ,Sai,2,,28.0
+P16,MN-P12,manual,phish,email,medium,B,Hợp lệ,Sai,3,chất lượng ngôn ngữ,23.0
+P16,MN-P13,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh,26.9
+P16,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; sai ngữ cảnh,17.0
+P16,MN-P15,manual,phish,email,medium,B,Hợp lệ,Sai,3,,27.8
+P17,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,26.7
+P17,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,17.0
+P17,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,22.9
+P17,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,15.9
+P17,AI-L05,ai,legit,email,hard,B,Lừa đảo,Sai,3,đòi chuyển tiền,24.2
+P17,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,14.1
+P17,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,31.1
+P17,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,3,,6.6
+P17,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,2,tên miền lạ,17.9
+P17,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,23.2
+P17,AI-L11,ai,legit,email,hard,B,Lừa đảo,Sai,3,đòi OTP/mật khẩu; mồi thưởng,28.2
+P17,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,5,,18.3
+P17,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,17.7
+P17,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,,7.5
+P17,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,22.9
+P17,AI-P01,ai,phish,email,medium,B,Hợp lệ,Sai,4,,27.3
+P17,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,3,,16.8
+P17,AI-P03,ai,phish,email,hard,A,Hợp lệ,Sai,3,,19.3
+P17,AI-P04,ai,phish,zalo,medium,A,Hợp lệ,Sai,2,,12.2
+P17,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,URL nhái; đòi chuyển tiền; hối thúc; giả thẩm quyền; mồi thưởng,22.9
+P17,AI-P06,ai,phish,email,hard,A,Hợp lệ,Sai,3,,26.4
+P17,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,5,URL nhái; hối thúc,12.9
+P17,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,4,tên miền lạ; đòi chuyển tiền; hối thúc; giả thẩm quyền,16.1
+P17,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,sai ngữ cảnh,22.4
+P17,AI-P10,ai,phish,email,hard,B,Hợp lệ,Sai,2,,37.2
+P17,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc,18.6
+P17,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; hối thúc,14.1
+P17,AI-P13,ai,phish,email,medium,B,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; hối thúc; mồi thưởng,30.7
+P17,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; sai ngữ cảnh,12.9
+P17,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; hối thúc,35.1
+P17,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,2,,31.2
+P17,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,13.8
+P17,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,32.2
+P17,MN-L04,manual,legit,zalo,medium,B,Lừa đảo,Sai,4,giả thẩm quyền,19.7
+P17,MN-L05,manual,legit,email,hard,A,Lừa đảo,Sai,3,đòi OTP/mật khẩu; mồi thưởng,30.1
+P17,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,5,,16.3
+P17,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,18.6
+P17,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,,11.9
+P17,MN-L09,manual,legit,email,hard,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,26.4
+P17,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,20.5
+P17,MN-L11,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,40.0
+P17,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,5,,14.5
+P17,MN-L13,manual,legit,email,medium,A,Lừa đảo,Sai,1,sai ngữ cảnh,29.1
+P17,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,4,,11.5
+P17,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,21.4
+P17,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; hối thúc,19.7
+P17,MN-P02,manual,phish,sms,hard,A,Hợp lệ,Sai,1,,24.9
+P17,MN-P03,manual,phish,email,hard,A,Hợp lệ,Sai,3,,37.5
+P17,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,2,URL nhái; hối thúc; sai ngữ cảnh,18.4
+P17,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc,17.5
+P17,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu,44.2
+P17,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,2,URL nhái; đòi chuyển tiền; hối thúc,15.2
+P17,MN-P08,manual,phish,email,hard,A,Hợp lệ,Sai,4,chất lượng ngôn ngữ,41.1
+P17,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,4,sai ngữ cảnh; tệp đính kèm; mồi thưởng,11.3
+P17,MN-P10,manual,phish,email,medium,B,Hợp lệ,Sai,2,,16.3
+P17,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền; chất lượng ngôn ngữ,18.6
+P17,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; hối thúc; sai ngữ cảnh,20.5
+P17,MN-P13,manual,phish,zalo,medium,B,Hợp lệ,Sai,4,,27.6
+P17,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; giả thẩm quyền,19.8
+P17,MN-P15,manual,phish,email,medium,B,Hợp lệ,Sai,5,,20.5
+P18,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,18.6
+P18,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,9.1
+P18,AI-L03,ai,legit,email,hard,B,Lừa đảo,Sai,2,chất lượng ngôn ngữ,23.4
+P18,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,5,,11.5
+P18,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,21.2
+P18,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,21.0
+P18,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,13.4
+P18,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,8.8
+P18,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,3,giả thẩm quyền,28.6
+P18,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,20.6
+P18,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,24.4
+P18,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,4,,17.6
+P18,AI-L13,ai,legit,email,medium,A,Lừa đảo,Sai,3,đòi chuyển tiền,13.0
+P18,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,4,,8.5
+P18,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,24.4
+P18,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; hối thúc; giả thẩm quyền,30.0
+P18,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,3,,12.8
+P18,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,2,tên miền lạ; URL nhái; hối thúc; giả thẩm quyền,23.4
+P18,AI-P04,ai,phish,zalo,medium,A,Hợp lệ,Sai,2,,14.3
+P18,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền; mồi thưởng,15.9
+P18,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; giả thẩm quyền,18.3
+P18,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,4,đòi chuyển tiền; hối thúc; giả thẩm quyền; sai ngữ cảnh,11.8
+P18,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,5,URL nhái; hối thúc; giả thẩm quyền; sai ngữ cảnh,20.7
+P18,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,hối thúc; sai ngữ cảnh; mồi thưởng,13.5
+P18,AI-P10,ai,phish,email,hard,B,Hợp lệ,Sai,2,,25.0
+P18,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc,22.4
+P18,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,13.1
+P18,AI-P13,ai,phish,email,medium,B,Hợp lệ,Sai,2,chất lượng ngôn ngữ,9.4
+P18,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; sai ngữ cảnh,14.3
+P18,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,2,tên miền lạ; URL nhái; hối thúc,16.2
+P18,MN-L01,manual,legit,email,medium,A,Lừa đảo,Sai,2,chất lượng ngôn ngữ,16.4
+P18,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,,14.1
+P18,MN-L03,manual,legit,email,hard,B,Lừa đảo,Sai,3,,23.1
+P18,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,5,,13.6
+P18,MN-L05,manual,legit,email,hard,A,Lừa đảo,Sai,3,đòi chuyển tiền,29.9
+P18,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,13.8
+P18,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,47.5
+P18,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,6.7
+P18,MN-L09,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,26.1
+P18,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,25.8
+P18,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,3,đòi chuyển tiền,17.2
+P18,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,5,,16.0
+P18,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,21.3
+P18,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,4,,6.8
+P18,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,3,,31.9
+P18,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,5,tên miền lạ; đòi OTP/mật khẩu; hối thúc; chất lượng ngôn ngữ,15.3
+P18,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; hối thúc,10.0
+P18,MN-P03,manual,phish,email,hard,A,Hợp lệ,Sai,3,,31.4
+P18,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; hối thúc,20.9
+P18,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; chất lượng ngôn ngữ,34.0
+P18,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,2,tên miền lạ; đòi OTP/mật khẩu; giả thẩm quyền; sai ngữ cảnh,21.2
+P18,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,3,URL nhái; hối thúc; giả thẩm quyền,17.1
+P18,MN-P08,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; đòi chuyển tiền; giả thẩm quyền; tệp đính kèm,19.7
+P18,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,5,mồi thưởng,22.6
+P18,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; tệp đính kèm,22.5
+P18,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,23.8
+P18,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; sai ngữ cảnh; chất lượng ngôn ngữ,19.4
+P18,MN-P13,manual,phish,zalo,medium,B,Hợp lệ,Sai,2,,13.8
+P18,MN-P14,manual,phish,email,hard,A,Hợp lệ,Sai,4,chất lượng ngôn ngữ,28.9
+P18,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,4,giả thẩm quyền; mồi thưởng,28.0
+P19,AI-L01,ai,legit,email,medium,A,Hợp lệ,Đúng,5,,23.1
+P19,AI-L02,ai,legit,sms,easy,A,Lừa đảo,Sai,5,giả thẩm quyền,14.4
+P19,AI-L03,ai,legit,email,hard,B,Lừa đảo,Sai,2,mồi thưởng,19.5
+P19,AI-L04,ai,legit,zalo,medium,A,Hợp lệ,Đúng,4,,36.5
+P19,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,2,,27.4
+P19,AI-L06,ai,legit,email,medium,A,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,19.3
+P19,AI-L07,ai,legit,email,medium,A,Lừa đảo,Sai,4,giả thẩm quyền,22.3
+P19,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,,11.3
+P19,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,2,giả thẩm quyền,22.0
+P19,AI-L10,ai,legit,email,medium,A,Lừa đảo,Sai,3,sai ngữ cảnh,15.9
+P19,AI-L11,ai,legit,email,hard,B,Hợp lệ,Đúng,2,,35.8
+P19,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,4,,15.7
+P19,AI-L13,ai,legit,email,medium,A,Hợp lệ,Đúng,4,,15.6
+P19,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,5,,6.0
+P19,AI-L15,ai,legit,email,hard,B,Hợp lệ,Đúng,5,,26.1
+P19,AI-P01,ai,phish,email,medium,B,Hợp lệ,Sai,3,,20.9
+P19,AI-P02,ai,phish,sms,hard,B,Lừa đảo,Đúng,3,hối thúc; mồi thưởng,16.7
+P19,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi chuyển tiền; giả thẩm quyền,23.7
+P19,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,3,URL nhái; đòi chuyển tiền; hối thúc,9.8
+P19,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc; mồi thưởng,19.5
+P19,AI-P06,ai,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; hối thúc; chất lượng ngôn ngữ,20.8
+P19,AI-P07,ai,phish,sms,medium,B,Hợp lệ,Sai,3,,11.4
+P19,AI-P08,ai,phish,email,hard,B,Lừa đảo,Đúng,3,tên miền lạ; đòi chuyển tiền; giả thẩm quyền; sai ngữ cảnh,26.6
+P19,AI-P09,ai,phish,zalo,medium,A,Hợp lệ,Sai,3,,23.9
+P19,AI-P10,ai,phish,email,hard,B,Hợp lệ,Sai,2,,26.5
+P19,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; chất lượng ngôn ngữ,27.3
+P19,AI-P12,ai,phish,sms,hard,A,Lừa đảo,Đúng,2,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền,10.9
+P19,AI-P13,ai,phish,email,medium,B,Hợp lệ,Sai,3,,25.8
+P19,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,5,đòi OTP/mật khẩu; hối thúc; giả thẩm quyền; sai ngữ cảnh; mồi thưởng,7.4
+P19,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,4,hối thúc,21.8
+P19,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,24.7
+P19,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,4,,11.2
+P19,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,30.4
+P19,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,4,,11.3
+P19,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,4,,25.0
+P19,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,3,,15.5
+P19,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,5,,39.2
+P19,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,14.9
+P19,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,3,tên miền lạ,38.3
+P19,MN-L10,manual,legit,email,medium,B,Hợp lệ,Đúng,5,,16.1
+P19,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,3,đòi OTP/mật khẩu; đòi chuyển tiền,32.0
+P19,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,4,,15.4
+P19,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,3,,32.9
+P19,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,9.7
+P19,MN-L15,manual,legit,email,hard,B,Hợp lệ,Đúng,2,,39.1
+P19,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc; chất lượng ngôn ngữ,26.4
+P19,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; đòi OTP/mật khẩu; hối thúc; mồi thưởng,16.9
+P19,MN-P03,manual,phish,email,hard,A,Hợp lệ,Sai,2,,38.1
+P19,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,5,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh; mồi thưởng,24.4
+P19,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; mồi thưởng,24.2
+P19,MN-P06,manual,phish,email,hard,A,Hợp lệ,Sai,2,,35.8
+P19,MN-P07,manual,phish,sms,medium,B,Hợp lệ,Sai,2,chất lượng ngôn ngữ,11.9
+P19,MN-P08,manual,phish,email,hard,A,Hợp lệ,Sai,4,chất lượng ngôn ngữ,31.3
+P19,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; đòi chuyển tiền; sai ngữ cảnh; mồi thưởng,14.4
+P19,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; hối thúc,18.5
+P19,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,4,hối thúc; giả thẩm quyền,21.9
+P19,MN-P12,manual,phish,email,medium,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; hối thúc,16.0
+P19,MN-P13,manual,phish,zalo,medium,B,Hợp lệ,Sai,4,,18.6
+P19,MN-P14,manual,phish,email,hard,A,Hợp lệ,Sai,3,,21.0
+P19,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,3,đòi OTP/mật khẩu; hối thúc,22.9
+P20,AI-L01,ai,legit,email,medium,A,Lừa đảo,Sai,2,đòi chuyển tiền,23.1
+P20,AI-L02,ai,legit,sms,easy,A,Hợp lệ,Đúng,3,,11.4
+P20,AI-L03,ai,legit,email,hard,B,Hợp lệ,Đúng,3,,20.3
+P20,AI-L04,ai,legit,zalo,medium,A,Lừa đảo,Sai,3,tệp đính kèm,14.2
+P20,AI-L05,ai,legit,email,hard,B,Hợp lệ,Đúng,3,chất lượng ngôn ngữ,30.1
+P20,AI-L06,ai,legit,email,medium,A,Lừa đảo,Sai,3,tên miền lạ; tệp đính kèm,16.1
+P20,AI-L07,ai,legit,email,medium,A,Hợp lệ,Đúng,3,,13.8
+P20,AI-L08,ai,legit,sms,easy,A,Hợp lệ,Đúng,5,chất lượng ngôn ngữ,8.5
+P20,AI-L09,ai,legit,email,hard,B,Lừa đảo,Sai,2,đòi chuyển tiền; hối thúc,20.1
+P20,AI-L10,ai,legit,email,medium,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,17.2
+P20,AI-L11,ai,legit,email,hard,B,Lừa đảo,Sai,1,đòi chuyển tiền,23.2
+P20,AI-L12,ai,legit,zalo,medium,B,Hợp lệ,Đúng,4,,17.4
+P20,AI-L13,ai,legit,email,medium,A,Lừa đảo,Sai,2,giả thẩm quyền,26.9
+P20,AI-L14,ai,legit,sms,easy,B,Hợp lệ,Đúng,4,,6.0
+P20,AI-L15,ai,legit,email,hard,B,Lừa đảo,Sai,2,giả thẩm quyền,33.3
+P20,AI-P01,ai,phish,email,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền,15.3
+P20,AI-P02,ai,phish,sms,hard,B,Hợp lệ,Sai,1,,12.8
+P20,AI-P03,ai,phish,email,hard,A,Lừa đảo,Đúng,5,tên miền lạ; URL nhái; hối thúc; giả thẩm quyền,29.8
+P20,AI-P04,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,URL nhái; đòi chuyển tiền; sai ngữ cảnh,14.2
+P20,AI-P05,ai,phish,email,easy,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; mồi thưởng,18.9
+P20,AI-P06,ai,phish,email,hard,A,Hợp lệ,Sai,2,chất lượng ngôn ngữ,25.1
+P20,AI-P07,ai,phish,sms,medium,B,Lừa đảo,Đúng,3,đòi chuyển tiền; hối thúc; giả thẩm quyền,22.2
+P20,AI-P08,ai,phish,email,hard,B,Hợp lệ,Sai,3,,38.3
+P20,AI-P09,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,đòi chuyển tiền; mồi thưởng,16.0
+P20,AI-P10,ai,phish,email,hard,B,Lừa đảo,Đúng,4,đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; giả thẩm quyền; tệp đính kèm,17.2
+P20,AI-P11,ai,phish,email,medium,B,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; hối thúc; sai ngữ cảnh; tệp đính kèm,16.2
+P20,AI-P12,ai,phish,sms,hard,A,Hợp lệ,Sai,2,,15.9
+P20,AI-P13,ai,phish,email,medium,B,Hợp lệ,Sai,3,,17.3
+P20,AI-P14,ai,phish,zalo,medium,A,Lừa đảo,Đúng,4,giả thẩm quyền; mồi thưởng,13.9
+P20,AI-P15,ai,phish,email,hard,A,Lừa đảo,Đúng,4,tên miền lạ; hối thúc,27.0
+P20,MN-L01,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,34.5
+P20,MN-L02,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,11.4
+P20,MN-L03,manual,legit,email,hard,B,Hợp lệ,Đúng,4,,33.6
+P20,MN-L04,manual,legit,zalo,medium,B,Hợp lệ,Đúng,3,,16.3
+P20,MN-L05,manual,legit,email,hard,A,Hợp lệ,Đúng,5,,16.8
+P20,MN-L06,manual,legit,email,medium,B,Hợp lệ,Đúng,4,,28.2
+P20,MN-L07,manual,legit,email,medium,A,Hợp lệ,Đúng,4,chất lượng ngôn ngữ,29.0
+P20,MN-L08,manual,legit,sms,easy,A,Hợp lệ,Đúng,5,,6.6
+P20,MN-L09,manual,legit,email,hard,B,Lừa đảo,Sai,4,sai ngữ cảnh,23.2
+P20,MN-L10,manual,legit,email,medium,B,Lừa đảo,Sai,1,đòi OTP/mật khẩu,18.2
+P20,MN-L11,manual,legit,email,hard,B,Lừa đảo,Sai,1,hối thúc; tệp đính kèm; chất lượng ngôn ngữ,30.2
+P20,MN-L12,manual,legit,zalo,medium,A,Hợp lệ,Đúng,3,,17.6
+P20,MN-L13,manual,legit,email,medium,A,Hợp lệ,Đúng,4,,21.7
+P20,MN-L14,manual,legit,sms,easy,B,Hợp lệ,Đúng,4,,8.6
+P20,MN-L15,manual,legit,email,hard,B,Lừa đảo,Sai,2,sai ngữ cảnh,30.4
+P20,MN-P01,manual,phish,email,medium,A,Lừa đảo,Đúng,3,tên miền lạ; URL nhái; đòi OTP/mật khẩu; sai ngữ cảnh,24.7
+P20,MN-P02,manual,phish,sms,hard,A,Lừa đảo,Đúng,2,URL nhái; hối thúc; mồi thưởng,26.0
+P20,MN-P03,manual,phish,email,hard,A,Lừa đảo,Đúng,3,URL nhái; giả thẩm quyền; sai ngữ cảnh,23.7
+P20,MN-P04,manual,phish,zalo,medium,B,Lừa đảo,Đúng,3,URL nhái; đòi chuyển tiền; hối thúc; sai ngữ cảnh; chất lượng ngôn ngữ,15.4
+P20,MN-P05,manual,phish,email,easy,B,Lừa đảo,Đúng,5,URL nhái; đòi OTP/mật khẩu; đòi chuyển tiền; hối thúc; mồi thưởng,20.5
+P20,MN-P06,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; giả thẩm quyền; sai ngữ cảnh; chất lượng ngôn ngữ,24.6
+P20,MN-P07,manual,phish,sms,medium,B,Lừa đảo,Đúng,4,tên miền lạ; URL nhái; sai ngữ cảnh,10.1
+P20,MN-P08,manual,phish,email,hard,A,Hợp lệ,Sai,1,,27.9
+P20,MN-P09,manual,phish,zalo,medium,A,Lừa đảo,Đúng,4,sai ngữ cảnh,12.0
+P20,MN-P10,manual,phish,email,medium,B,Lừa đảo,Đúng,4,URL nhái; đòi OTP/mật khẩu; hối thúc,19.3
+P20,MN-P11,manual,phish,sms,hard,A,Lừa đảo,Đúng,3,URL nhái; hối thúc; chất lượng ngôn ngữ,21.9
+P20,MN-P12,manual,phish,email,medium,B,Hợp lệ,Sai,4,,28.6
+P20,MN-P13,manual,phish,zalo,medium,B,Hợp lệ,Sai,5,chất lượng ngôn ngữ,18.5
+P20,MN-P14,manual,phish,email,hard,A,Lừa đảo,Đúng,3,tên miền lạ; đòi OTP/mật khẩu; sai ngữ cảnh,24.6
+P20,MN-P15,manual,phish,email,medium,B,Lừa đảo,Đúng,4,hối thúc; mồi thưởng,20.6
