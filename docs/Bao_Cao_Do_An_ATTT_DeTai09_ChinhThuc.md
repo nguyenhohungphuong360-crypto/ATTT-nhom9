@@ -1,17 +1,26 @@
-# TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI TP. HỒ CHÍ MINH (UTH)
+# TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI TP.HCM
 ## KHOA CÔNG NGHỆ THÔNG TIN
 ### ĐỒ ÁN MÔN HỌC — AN TOÀN THÔNG TIN
 ### ĐỀ TÀI 9: ĐO HIỆU QUẢ NHẬN DIỆN NỘI DUNG LỪA ĐẢO ĐƯỢC TẠO BỞI TRÍ TUỆ NHÂN TẠO
 
-* **Giảng viên hướng dẫn:** TS. Lê Quốc Tuấn  
-* **Nhóm thực hiện:** (3 sinh viên) ………………………  
-* **Thành viên:** 1) ……………… 2) ……………… 3) ………………  
-* **Học kỳ:** HK1, năm học 2026–2027  
-* **Địa điểm & Thời gian:** TP. Hồ Chí Minh, 2026  
+<p align="center">
+  <img src="images/image1.png" alt="Logo UTH" width="220">
+</p>
+
+* **Giáo viên hướng dẫn:** TS. Lê Quốc Tuấn  
+* **Nhóm sinh viên thực hiện:** Nhóm 9  
+
+| STT | Họ và tên sinh viên | Mã sinh viên |
+| :---: | :--- | :---: |
+| 1 | **Thân Hoàng Khoa** | **082206011685** |
+| 2 | **Nguyễn Hồ Hùng Phương** | **083206006476** |
+| 3 | **Huỳnh Thanh Vũ** | **060207000288** |
+
+*Thành phố Hồ Chí Minh, năm 2026*
 
 ---
 
-### Tóm tắt
+## Tóm tắt
 Nội dung do AI sinh ra khiến thư/tin nhắn lừa đảo trở nên trôi chảy và được cá nhân hoá, làm suy yếu các dấu hiệu nhận biết truyền thống dựa trên ngôn ngữ. Đồ án này xây dựng một bộ dữ liệu 60 thông điệp mô phỏng cân bằng theo hai chiều — tính hợp lệ (hợp lệ/lừa đảo) và nguồn tạo (viết thủ công/AI hỗ trợ) — rồi dùng một ứng dụng khảo sát cục bộ để đo khả năng nhận diện của người tham gia theo thiết kế trước–sau hướng dẫn. Chúng tôi phân tích bằng các chỉ số phân loại (accuracy, precision, recall, FPR) kết hợp lý thuyết phát hiện tín hiệu ($d'$, criterion) để tách bạch khả năng phân biệt khỏi xu hướng quyết định, và so sánh con người với một bộ phát hiện theo quy tắc. Toàn bộ thực nghiệm tuân thủ ranh giới an toàn: tổ chức và tên miền hư cấu, không gửi thư tới địa chỉ thật, không thu thập thông tin định danh.
 
 **Từ khoá:** *phishing, nội dung do AI tạo, kỹ nghệ xã hội, lý thuyết phát hiện tín hiệu, nhận thức an ninh, nhận diện của con người.*
@@ -20,7 +29,8 @@ Thực nghiệm với 20 người tham gia (1200 lượt trả lời) cho độ 
 
 ---
 
-### Mục lục
+## Mục lục
+* **Tóm tắt**
 * **Chương 1. Giới thiệu và xác định vấn đề**
   * 1.1. Bối cảnh
   * 1.2. Câu hỏi nghiên cứu
@@ -144,7 +154,7 @@ Việc đưa cả tin hợp lệ 'khó' (có yếu tố khẩn cấp, nhắc đ�
 Kẻ tấn công dùng LLM để soạn thông điệp lừa đảo chất lượng cao, phát tán qua email/SMS/ứng dụng nhắn tin, nhằm khiến nạn nhân (a) tiết lộ thông tin đăng nhập/OTP/thẻ, (b) chuyển tiền, hoặc (c) mở tệp/đường dẫn độc hại. Tài sản cần bảo vệ là tài khoản, tiền và thiết bị của người dùng. Biện pháp phòng vệ xét trong đồ án là năng lực nhận diện của con người, được bổ trợ bởi hướng dẫn, quy trình xác minh và bộ lọc kỹ thuật.
 
 ### 3.2. Thiết kế bộ dữ liệu 2×2
-Bộ gồm 60 thông điệp, cân bằng theo hai yếu tố nhằm bảo đảm RQ1 có giá trị nội tại — đặc biệt nhánh 'hợp lệ' CŨNG có cả bản viết thủ công và bản AI để người tham gia không học được quy tắc 'văn trơn tru = lừa đảo':
+Bộ gồm 60 thông điệp, cân bằng theo hai yếu tố nhằm bảo đảm RQ1 có giá trị nội tại — đặc biệt nhánh 'hợp lệ' CŨNG có cả bản viết thủ công và bản AI hỗ trợ để người tham gia không học được quy tắc 'văn trơn tru = lừa đảo':
 
 | Phân loại | Viết thủ công | AI hỗ trợ | Tổng |
 | :--- | :---: | :---: | :---: |
@@ -159,7 +169,7 @@ Hai ví dụ dưới đây cho thấy vì sao đáp án phải dựa vào bằng
 
 | Mã / Loại | Nội dung tóm tắt | Dấu hiệu quyết định |
 | :--- | :--- | :--- |
-| **AI-P06** (lừa đảo, AI) | 'Bộ phận CNTT' yêu cầu xác thực lại email trước 18h qua mail-verify.phuongnam-it.test | Miền phụ lạ + đòi đăng nhập + áp lực thời gian |
+| **AI-P06** (lừa đảo, AI) | 'Bộ phận CNTT' yêu cầu xác thực lại email trước 18h qua `mail-verify.phuongnam-it.test` | Miền phụ lạ + đòi đăng nhập + áp lực thời gian |
 | **AI-L07** (hợp lệ, AI) | 'Bộ phận CNTT' thông báo bảo trì cuối tuần, KHÔNG cần làm gì, cảnh báo email đòi 'xác thực lại' | Miền khớp + không yêu cầu hành động |
 
 Cặp đối chứng này (và các cặp P/L tương tự về ngân hàng, điện lực, học bổng) buộc người tham gia phân biệt bằng miền và hành vi, không thể dựa vào 'văn trơn tru'.
@@ -213,13 +223,16 @@ Hệ thống gồm ba khối: (1) ứng dụng khảo sát cục bộ (Flask + S
 ### 4.2. Ứng dụng khảo sát
 * **Luồng:** trang giới thiệu → đồng thuận (sinh mã ẩn danh, gán thứ tự A/B theo đối trọng) → phần 1 (30 câu) → hướng dẫn → phần 2 (30 câu) → debrief.
 * Mỗi câu ghi: lựa chọn (hợp lệ/lừa đảo), độ tự tin 1–5, thời gian quyết định (ms, đo phía máy chủ), và tập dấu hiệu người dùng chọn.
-* Lưu trữ cục bộ SQLite (`app/responses.db`) và xuất bản CSV (`data/khao_sat.csv`).
+* Lưu trữ cục bộ SQLite (`app/responses.db`) và xuất bản CSV (`data/khao_sat.csv`). Chạy LAN để người tham gia dùng điện thoại cùng mạng wifi.
 
 ### 4.3. Pipeline phân tích
-`statistical_analysis.py` đọc CSV, tính các chỉ số theo giai đoạn và theo nhánh, $d'$/criterion theo từng người, khoảng tin cậy bootstrap (5000 lần lấy mẫu) cho các hiệu số, kiểm định Wilcoxon signed-rank cho so sánh trong-nhóm, và xuất 4 biểu đồ báo cáo 300 DPI.
+`statistical_analysis.py` đọc CSV, tính các chỉ số theo giai đoạn và theo nhánh, $d'$/criterion theo từng người, khoảng tin cậy bootstrap (5000 lần lấy mẫu) cho các hiệu số, kiểm định Wilcoxon signed-rank cho so sánh trong-nhóm, và xuất 5 biểu đồ báo cáo 300 DPI.
 
 ### 4.4. Bộ phát hiện theo quy tắc
 `detector.py` phân tích chính văn bản thông điệp (không đọc đáp án): trích tên miền và so với danh sách miền hợp lệ để phát hiện miền nhái/miền người gửi lạ; dò từ khoá cho các nhóm yêu cầu đăng nhập, chuyển tiền, khẩn cấp, thẩm quyền, mồi thưởng, tệp đính kèm; giảm điểm khi có câu an toàn rõ ràng và chỉ dùng miền chính thức. Ngưỡng điểm $\ge 3 \rightarrow$ 'lừa đảo'. Kết quả dùng để so sánh người vs máy.
+
+### 4.5. Khả năng tái tạo và xử lý lỗi
+Seed cố định cho chia bộ A/B, sinh dữ liệu mô phỏng và bootstrap. Hiệu chỉnh log-linear khi tính $d'$/criterion để tránh vô cực; kiểm tra đầu vào (bỏ dòng thiếu lựa chọn); bắt ngoại lệ khi thiếu tệp dữ liệu.
 
 ---
 
@@ -236,7 +249,7 @@ Hệ thống gồm ba khối: (1) ứng dụng khảo sát cục bộ (Flask + S
 | **Thời gian trung vị mỗi tin** | trước 20,6 giây · sau 21,4 giây |
 
 ### 5.1. Baseline và ca kiểm thử dương/âm
-Baseline là hiệu năng ở giai đoạn trước hướng dẫn. Bộ dữ liệu có cả ca dương (tin lừa đảo) và ca âm (tin hợp lệ, gồm cả tin hợp lệ do AI viết) để đo cả bỏ sót lẫn báo động nhầm.
+Baseline là hiệu năng ở giai đoạn trước hướng dẫn. Bộ dữ liệu có cả ca dương (tin lừa đảo) và ca âm (tin hợp lệ, gồm cả tin hợp lệ do AI viết) để đo cả bỏ sót lẫn báo động nhầm — đáp ứng yêu cầu 'ca kiểm thử dương âm' của khung chấm.
 
 | Chỉ số (lớp dương = lừa đảo) | Trước hướng dẫn | Sau hướng dẫn |
 | :--- | :---: | :---: |
@@ -248,6 +261,11 @@ Baseline là hiệu năng ở giai đoạn trước hướng dẫn. Bộ dữ li
 | **$d'$ (phân biệt)** | 1,20 | 0,98 |
 | **criterion $c$** | 0,13 | -0,11 |
 
+<p align="center">
+  <img src="images/image3.png" alt="Hình 1. Độ chính xác theo nhánh và giai đoạn" width="600">
+  <br><em>Hình 1. Độ chính xác theo nhánh (thủ công/AI) và giai đoạn (trước/sau hướng dẫn).</em>
+</p>
+
 **Chi tiết theo nhánh × giai đoạn:**
 | Nhánh × GĐ | Accuracy | Recall | FPR | $d'$ |
 | :--- | :---: | :---: | :---: | :---: |
@@ -257,7 +275,7 @@ Baseline là hiệu năng ở giai đoạn trước hướng dẫn. Bộ dữ li
 | **AI — sau** | 66,0% | 70,0% | 38,6% | 0,81 |
 
 ### 5.2. RQ1 — Tin AI có khó nhận diện hơn tin thủ công không?
-So sánh hai nhánh ở giai đoạn trước hướng dẫn (bộ A), trên cả ba góc: bắt tin lừa đảo, giữ đúng tin hợp lệ, và khả năng phân biệt tổng hợp $d'$.
+So sánh hai nhánh ở giai đoạn trước hướng dẫn (bộ A), trên cả ba góc: bắt tin lừa đảo, giữ đúng tin hợp lệ, và khả năng phân biệt tổng hợp $d'$. Các hiệu số tính theo từng người (ghép cặp), khoảng tin cậy bootstrap 95%, kiểm định Wilcoxon.
 
 | Chỉ số (trước hướng dẫn) | Thủ công | AI hỗ trợ | Hiệu AI − thủ công | $p$ |
 | :--- | :---: | :---: | :---: | :---: |
@@ -282,6 +300,16 @@ Sau hướng dẫn, người tham gia bắt được thêm một ít tin lừa �
 
 Đây chính là tình huống mà thiết kế phân tích $d'/c$ được dựng lên để phát hiện: nếu chỉ nhìn recall, có thể kết luận sai rằng hướng dẫn 'có hiệu quả'. Cần lưu ý thêm giới hạn của thiết kế: do mọi người đều làm bộ A trước và B sau, một phần thay đổi có thể đến từ khác biệt giữa hai bộ chứ không chỉ từ hướng dẫn. Độ chính xác trên nhóm tin khó giảm từ 65,0% xuống 56,7%, trong khi nhóm tin trung bình gần như không đổi (72,7% → 74,3%), gợi ý các tin khó ở bộ B có thể khó hơn thực tế so với nhãn. Muốn tách bạch hai nguồn này cần lặp lại với đối trọng A→B / B→A.
 
+<p align="center">
+  <img src="images/image4.png" alt="Hình 2. d′ và criterion c trước vs sau hướng dẫn" width="650">
+  <br><em>Hình 2. d′ và criterion c trước vs sau hướng dẫn (thanh lỗi = độ lệch chuẩn giữa người tham gia).</em>
+</p>
+
+<p align="center">
+  <img src="images/image5.png" alt="Hình 3. Dịch chuyển điểm hoạt động" width="600">
+  <br><em>Hình 3. Dịch chuyển điểm hoạt động (FPR–Recall) giữa hai giai đoạn.</em>
+</p>
+
 ### 5.4. RQ3 — Dấu hiệu người dùng dựa vào và thông điệp gây nhầm
 | Dấu hiệu được chọn | Số lần |
 | :--- | :---: |
@@ -300,6 +328,11 @@ Người tham gia dựa nhiều nhất vào dấu hiệu hối thúc thời gian
 
 Theo kênh, độ chính xác cao nhất ở SMS (77,1%), tiếp đến Zalo (72,5%) và thấp nhất ở email (68,2%). Email dài, nhiều chi tiết và có nhiều tin hợp lệ dạng hoá đơn/khuyến mãi dễ bị nghi nhầm.
 
+<p align="center">
+  <img src="images/image6.png" alt="Hình 4. Lỗi bỏ sót theo nhóm dấu hiệu" width="650">
+  <br><em>Hình 4. Tỷ lệ bỏ sót theo nhóm dấu hiệu (trên tin lừa đảo mang dấu hiệu đó, trước hướng dẫn) — biểu đồ lỗi theo nhóm dấu hiệu.</em>
+</p>
+
 **Thông điệp gây nhầm lẫn nhiều nhất:**
 | Mã tin | Đáp án / nhánh | Tỷ lệ sai | $n$ |
 | :---: | :--- | :---: | :---: |
@@ -312,9 +345,13 @@ Theo kênh, độ chính xác cao nhất ở SMS (77,1%), tiếp đến Zalo (72
 | **AI-L13** | hợp lệ / AI | 45,0% | 20 |
 | **AI-L05** | hợp lệ / AI | 45,0% | 20 |
 
-Một nửa số tin bị nhầm nhiều nhất là tin HỢP LỆ: thông báo tiền điện (AI-L09, MN-L09) và email khuyến mãi (MN-L11). Chúng mang 'hình dáng' của lừa đảo (đề cập thanh toán, ưu đãi) dù không có yêu cầu nguy hiểm nào. Ở phía lừa đảo, tin dễ lọt nhất là SMS mồi điểm thưởng (AI-P02) và email giả cơ quan thuế kèm tệp .html (AI-P10) — đều viết theo giọng văn hành chính, chuyên nghiệp.
+Một nửa số tin bị nhầm nhiều nhất là tin HỢP LỆ: thông báo tiền điện (AI-L09, MN-L09) và email khuyến mãi (MN-L11). Chúng mang 'hình dáng' của lừa đảo (đề cập thanh toán, ưu đãi) dù không có yêu cầu nguy hiểm nào. Ở phía lừa đảo, tin dễ lọt nhất là SMS mồi điểm thưởng (AI-P02) và email giả cơ quan thuế kèm tệp .html (AI-P10) — đều viết theo giọng văn hành chính, chuyên nghiệp. Dấu hiệu 'tệp đính kèm' có tỷ lệ bỏ sót cao nhất trong biểu đồ lỗi, nhưng chỉ dựa trên một tin nên cần thận trọng khi diễn giải.
 
-**Hiệu chỉnh độ tự tin:**
+<p align="center">
+  <img src="images/image7.png" alt="Hình 5. Hiệu chỉnh độ tự tin" width="600">
+  <br><em>Hình 5. Hiệu chỉnh độ tự tin: tỷ lệ đúng theo mức tự tin 1–5.</em>
+</p>
+
 | Mức tự tin | Tỷ lệ đúng | Số lượt |
 | :---: | :---: | :---: |
 | **1** | 11,5% | 26 |
