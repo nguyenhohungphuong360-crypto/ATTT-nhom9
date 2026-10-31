@@ -13,7 +13,7 @@
 
 | STT | Họ và tên sinh viên | Mã số sinh viên | Vai trò phụ trách |
 | :---: | :--- | :---: | :--- |
-| 1 | **Thân Hoàng Khoa** | **082206011685** Kỹ sư Dữ liệu, Can thiệp nhận thức & Hồ sơ Đạo đức)
+| 1 | **Thân Hoàng Khoa** | **082206011685**|  Kỹ sư Dữ liệu, Can thiệp nhận thức & Hồ sơ Đạo đức)|
 | 2 | **Nguyễn Hồ Hùng Phương** | **083206006476** | Nhóm trưởng / Kiến trúc sư ATTT & Giao diện Web |
 | 3 | **Huỳnh Thanh Vũ** | **060207000288** | Chuyên viên Thống kê thực nghiệm & Phân tích SDT |
 
