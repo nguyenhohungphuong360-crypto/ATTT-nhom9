@@ -24,7 +24,7 @@ d:\ATTT/
 │   ├── 02_Phieu_Dong_Thuan_Va_An_Danh.md   # Phiếu đồng thuận & Kế hoạch ẩn danh hóa
 │   ├── 03_Tuyen_Bo_Su_Dung_AI.md           # Bảng công khai sử dụng AI (AI Disclosure)
 │   ├── 04_Verification_Checklist_OOB.md    # Danh mục kiểm tra 4 bước & Quy trình OOB
-│   ├── 05_Bao_Cao_Do_An_ATTT_DeTai09.md    # Báo cáo đồ án toàn văn 6 chương chuẩn IEEE
+│   ├── BaoCao_DeTai9.docx                  # Báo cáo đồ án toàn văn chính thức
 │   └── 06_Bang_Truy_Vet_Minh_Chung.md      # Ma trận truy vết minh chứng & Đóng góp SV
 ├── data/                                   # Bộ dữ liệu thực nghiệm và kết quả đo lường
 │   ├── dataset_60_messages.json            # 60 thông điệp giả lập đầy đủ metadata
