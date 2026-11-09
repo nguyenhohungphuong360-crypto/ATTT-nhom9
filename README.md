@@ -45,6 +45,7 @@ d:\ATTT/
 │   ├── 05_Bao_Cao_Do_An_ATTT_DeTai09.md    # Báo cáo đồ án toàn văn 8 chương chuẩn IEEE
 │   ├── 06_Bang_Truy_Vet_Minh_Chung.md      # Ma trận truy vết minh chứng & Bảng phân công 3 SV
 │   ├── BaoCao_DeTai9.docx                  # Tệp báo cáo Word chính thức của Nhóm 9
+│   ├── nhóm 9 ATTT.pptx                    # Slide thuyết trình bảo vệ đồ án của Nhóm 9
 │   └── images/                             # Logo trường UTH và các biểu đồ thực nghiệm
 ├── data/                                   # Bộ dữ liệu thực nghiệm và kết quả đo lường
 │   ├── khao_sat.csv                        # Bộ dữ liệu thực tế N=20 người tham gia (1.200 phản hồi)
@@ -177,3 +178,6 @@ Tệp văn bản báo cáo đồ án Word chính thức của nhóm:
 
 Bản báo cáo chi tiết Markdown chuẩn IEEE 8 chương:
 👉 **[`docs/05_Bao_Cao_Do_An_ATTT_DeTai09.md`](file:///d:/ATTT/docs/05_Bao_Cao_Do_An_ATTT_DeTai09.md)**
+
+Slide thuyết trình bảo vệ đồ án PowerPoint:
+👉 **[`docs/nhóm 9 ATTT.pptx`](file:///d:/ATTT/docs/nh%C3%B3m%209%20ATTT.pptx)**
