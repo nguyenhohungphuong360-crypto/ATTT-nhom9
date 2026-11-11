@@ -10,11 +10,11 @@
 * **Giáo viên hướng dẫn:** TS. Lê Quốc Tuấn  
 * **Nhóm sinh viên thực hiện:** Nhóm 9  
 
-| STT | Họ và tên sinh viên | Mã sinh viên |
-| :---: | :--- | :---: |
-| 1 | **Thân Hoàng Khoa** | **082206011685** |
-| 2 | **Nguyễn Hồ Hùng Phương** | **083206006476** |
-| 3 | **Huỳnh Thanh Vũ** | **060207000288** |
+| STT | Họ và tên sinh viên | Mã sinh viên | Vai trò |
+| :---: | :--- | :---: | :--- |
+| 1 | **Nguyễn Hồ Hùng Phương** | **083206006476** | Nhóm trưởng |
+| 2 | **Thân Hoàng Khoa** | **082206011685** | Thành viên |
+| 3 | **Huỳnh Thanh Vũ** | **060207000288** | Thành viên |
 
 *Thành phố Hồ Chí Minh, năm 2026*
 
